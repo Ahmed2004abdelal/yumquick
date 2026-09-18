@@ -44,12 +44,14 @@ class _CustomTextFormState extends State<CustomTextForm> {
     return TextFormField(
       autofocus: widget.autofocus ?? false,
       onSaved: widget.onSaved,
+
       validator: widget.validator,
       obscureText: secure,
       controller: widget.controller,
       decoration: InputDecoration(
+        hintText: widget.hint,
         isDense: true,
-        constraints: BoxConstraints(minHeight: 45.h, maxHeight: 45.h),
+        // constraints: BoxConstraints(minHeight: 45.h, maxHeight: 45.h),
         suffixIcon: widget.isObsecure
             ? IconButton(
                 onPressed: changeObscure,
@@ -63,10 +65,8 @@ class _CustomTextFormState extends State<CustomTextForm> {
                         color: AppColors.orangeBase,
                       ),
               )
-            : const SizedBox.shrink(),
-        contentPadding: EdgeInsetsDirectional.only(start: 10.w),
-        hintText: widget.hint,
-        hintStyle: AppTextStyle.font15GreyRegular,
+            : null,
+        // contentPadding: EdgeInsetsDirectional.only(
         filled: true,
         fillColor: AppColors.yellowTwo,
         border: OutlineInputBorder(
