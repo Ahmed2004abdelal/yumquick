@@ -1,26 +1,32 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:yumquick/core/helper/spacer.dart';
+import 'package:yumquick/core/networking/api_result.dart';
 import 'package:yumquick/core/theme/app_colors.dart';
 import 'package:yumquick/core/theme/app_text_style.dart';
 import 'package:yumquick/core/widgets/custom_button.dart';
+import 'package:yumquick/features/auth/login/data/repo/login_repo.dart';
+import 'package:yumquick/features/auth/login/logic/login_cubit.dart';
+import 'package:yumquick/features/auth/login/logic/login_state.dart';
 
 import '../../../../core/Routing/routes.dart';
 import '../../../../core/widgets/custom_textform.dart';
 
 class LoginScreen extends StatelessWidget {
-  final TextEditingController userIdentifierController =
-      TextEditingController();
-  final TextEditingController passwordController = TextEditingController();
-  final GlobalKey<FormState> _formKey = GlobalKey();
   LoginScreen({super.key});
 
   void forgetPassword(BuildContext context) {
     Navigator.pushNamed(context, Routes.forgotPassword);
   }
 
-  void signWithGoogle() {}
+  Future<void> signWithGoogle(BuildContext context) async {
+    final loginCubit = context.read<LoginCubit>();
+    await loginCubit.googleOauth();
+  }
+
   void goToSignup(BuildContext context) {
     Navigator.pushNamedAndRemoveUntil(context, Routes.signup, (r) => false);
   }
@@ -40,7 +46,7 @@ class LoginScreen extends StatelessWidget {
             verticalSpace(35),
             Expanded(
               child: Form(
-                key: _formKey,
+                key: context.read<LoginCubit>().formKey,
                 child: Container(
                   width: double.infinity,
                   padding: EdgeInsets.fromLTRB(36.w, 34.h, 36.w, 0.h),
@@ -81,7 +87,9 @@ class LoginScreen extends StatelessWidget {
                           }
                           return null;
                         },
-                        controller: userIdentifierController,
+                        controller: context
+                            .read<LoginCubit>()
+                            .userIdentifierController,
                         hint: "example@example.com",
                         isObsecure: false,
                       ),
@@ -98,13 +106,15 @@ class LoginScreen extends StatelessWidget {
                           }
                           return null;
                         },
-                        controller: passwordController,
+                        controller: context
+                            .read<LoginCubit>()
+                            .passwordController,
                         hint: "*************",
                         isObsecure: true,
                       ),
                       verticalSpace(14),
                       Align(
-                        alignment: AlignmentGeometry.centerEnd,
+                        alignment: AlignmentDirectional.centerEnd,
                         child: TextButton(
                           onPressed: () => forgetPassword(context),
                           child: Text(
@@ -119,17 +129,7 @@ class LoginScreen extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            CustomButton(
-                              onPressed: () {
-                                if (_formKey.currentState!.validate()) {
-                                  debugPrint('done');
-                                }
-                              },
-                              text: "Log In",
-                              width: 207.w,
-                              height: 45.h,
-                              textStyle: AppTextStyle.font24WhiteMedium,
-                            ),
+                            LoginBlocConsumer(),
                             verticalSpace(20),
                             Text(
                               "or sign up with",
@@ -137,7 +137,7 @@ class LoginScreen extends StatelessWidget {
                             ),
                             verticalSpace(10),
                             GestureDetector(
-                              onTap: signWithGoogle,
+                              onTap: () async => await signWithGoogle(context),
                               child: Container(
                                 padding: EdgeInsets.all(7.w),
                                 decoration: BoxDecoration(
@@ -188,3 +188,132 @@ class LoginScreen extends StatelessWidget {
     );
   }
 }
+
+class LoginBlocConsumer extends StatelessWidget {
+  const LoginBlocConsumer({super.key});
+
+  void loginPressed(BuildContext context) {
+    if (context.read<LoginCubit>().formKey.currentState!.validate()) {
+      context.read<LoginCubit>().login();
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return BlocConsumer<LoginCubit, LoginState>(
+      listener: (context, state) {
+        state.whenOrNull(
+          loginError: (errorHandler) {
+            ScaffoldMessenger.of(context)
+                .showSnackBar(SnackBar(content: Text(errorHandler)));
+          },
+          loginSuccess: (data) {
+            Navigator.pushNamedAndRemoveUntil(
+              context,
+              Routes.home,
+              (r) => false,
+            );
+          },
+        );
+      },
+      builder: (context, state) {
+        return state.maybeWhen(
+          orElse: () {
+            return CustomButton(
+              onPressed: () {
+                loginPressed(context);
+              },
+              text: "Log In",
+              width: 207.w,
+              height: 45.h,
+              textStyle: AppTextStyle.font24WhiteMedium,
+            );
+          },
+          loginLoading: () {
+            return Container(
+              width: 207.w,
+              height: 45.h,
+              decoration: BoxDecoration(
+                color: AppColors.yellowBase,
+                borderRadius: BorderRadius.circular(100.r),
+              ),
+              child: Center(
+                child: SpinKitFoldingCube(color: Colors.red, size: 20.w),
+              ),
+            );
+          },
+        );
+      },
+    );
+  }
+}
+
+// class LoginBlocListener extends StatelessWidget {
+//   const LoginBlocListener({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return BlocListener<LoginCubit, LoginState>(
+//       listener: (context, state) {
+//         state.whenOrNull(
+//           loginError: (errorHandler) {
+//             ScaffoldMessenger.of(context)
+//                 .showSnackBar(SnackBar(content: Text(errorHandler)));
+//           },
+//           loginSuccess: (data) {
+//             Navigator.pushNamedAndRemoveUntil(
+//               context,
+//               Routes.home,
+//               (r) => false,
+//             );
+//           },
+//         );
+//       },
+//       child: SizedBox.shrink(),
+//     );
+//   }
+// }
+
+// class LoginBuildCubit extends StatelessWidget {
+//   const LoginBuildCubit({super.key});
+
+//   void loginPressed(BuildContext context) {
+//     if (context.read<LoginCubit>().formKey.currentState!.validate()) {
+//       context.read<LoginCubit>().login();
+//     }
+//   }
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return BlocBuilder<LoginCubit, LoginState>(
+//       builder: (context, state) {
+//         return state.maybeWhen(
+//           orElse: () {
+//             return CustomButton(
+//               onPressed: () {
+//                 loginPressed(context);
+//               },
+//               text: "Log In",
+//               width: 207.w,
+//               height: 45.h,
+//               textStyle: AppTextStyle.font24WhiteMedium,
+//             );
+//           },
+//           loginLoading: () {
+//             return Container(
+//               width: 207.w,
+//               height: 45.h,
+//               decoration: BoxDecoration(
+//                 color: AppColors.yellowBase,
+//                 borderRadius: BorderRadius.circular(100.r),
+//               ),
+//               child: Center(
+//                 child: SpinKitFoldingCube(color: Colors.red, size: 20.w),
+//               ),
+//             );
+//           },
+//         );
+//       },
+//     );
+//   }
+// }
