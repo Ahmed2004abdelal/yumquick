@@ -56,13 +56,14 @@ extension SignupStatePatterns<T> on SignupState<T> {
 /// }
 /// ```
 
-@optionalTypeArgs TResult maybeMap<TResult extends Object?>({TResult Function( _SignInitial<T> value)?  signInitial,TResult Function( _SignupLoading<T> value)?  signLoading,TResult Function( _SignupSuccess<T> value)?  signSuccess,TResult Function( _SignupError<T> value)?  signError,required TResult orElse(),}){
+@optionalTypeArgs TResult maybeMap<TResult extends Object?>({TResult Function( _SignInitial<T> value)?  signInitial,TResult Function( _SignupLoading<T> value)?  signLoading,TResult Function( _SignupSuccess<T> value)?  signSuccess,TResult Function( _SignGoogleSuccess<T> value)?  signGoogleSuccess,TResult Function( _SignupError<T> value)?  signError,required TResult orElse(),}){
 final _that = this;
 switch (_that) {
 case _SignInitial() when signInitial != null:
 return signInitial(_that);case _SignupLoading() when signLoading != null:
 return signLoading(_that);case _SignupSuccess() when signSuccess != null:
-return signSuccess(_that);case _SignupError() when signError != null:
+return signSuccess(_that);case _SignGoogleSuccess() when signGoogleSuccess != null:
+return signGoogleSuccess(_that);case _SignupError() when signError != null:
 return signError(_that);case _:
   return orElse();
 
@@ -81,13 +82,14 @@ return signError(_that);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult map<TResult extends Object?>({required TResult Function( _SignInitial<T> value)  signInitial,required TResult Function( _SignupLoading<T> value)  signLoading,required TResult Function( _SignupSuccess<T> value)  signSuccess,required TResult Function( _SignupError<T> value)  signError,}){
+@optionalTypeArgs TResult map<TResult extends Object?>({required TResult Function( _SignInitial<T> value)  signInitial,required TResult Function( _SignupLoading<T> value)  signLoading,required TResult Function( _SignupSuccess<T> value)  signSuccess,required TResult Function( _SignGoogleSuccess<T> value)  signGoogleSuccess,required TResult Function( _SignupError<T> value)  signError,}){
 final _that = this;
 switch (_that) {
 case _SignInitial():
 return signInitial(_that);case _SignupLoading():
 return signLoading(_that);case _SignupSuccess():
-return signSuccess(_that);case _SignupError():
+return signSuccess(_that);case _SignGoogleSuccess():
+return signGoogleSuccess(_that);case _SignupError():
 return signError(_that);case _:
   throw StateError('Unexpected subclass');
 
@@ -105,13 +107,14 @@ return signError(_that);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult? mapOrNull<TResult extends Object?>({TResult? Function( _SignInitial<T> value)?  signInitial,TResult? Function( _SignupLoading<T> value)?  signLoading,TResult? Function( _SignupSuccess<T> value)?  signSuccess,TResult? Function( _SignupError<T> value)?  signError,}){
+@optionalTypeArgs TResult? mapOrNull<TResult extends Object?>({TResult? Function( _SignInitial<T> value)?  signInitial,TResult? Function( _SignupLoading<T> value)?  signLoading,TResult? Function( _SignupSuccess<T> value)?  signSuccess,TResult? Function( _SignGoogleSuccess<T> value)?  signGoogleSuccess,TResult? Function( _SignupError<T> value)?  signError,}){
 final _that = this;
 switch (_that) {
 case _SignInitial() when signInitial != null:
 return signInitial(_that);case _SignupLoading() when signLoading != null:
 return signLoading(_that);case _SignupSuccess() when signSuccess != null:
-return signSuccess(_that);case _SignupError() when signError != null:
+return signSuccess(_that);case _SignGoogleSuccess() when signGoogleSuccess != null:
+return signGoogleSuccess(_that);case _SignupError() when signError != null:
 return signError(_that);case _:
   return null;
 
@@ -129,12 +132,13 @@ return signError(_that);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult maybeWhen<TResult extends Object?>({TResult Function()?  signInitial,TResult Function()?  signLoading,TResult Function( T data)?  signSuccess,TResult Function( String message)?  signError,required TResult orElse(),}) {final _that = this;
+@optionalTypeArgs TResult maybeWhen<TResult extends Object?>({TResult Function()?  signInitial,TResult Function()?  signLoading,TResult Function( T data)?  signSuccess,TResult Function( T data)?  signGoogleSuccess,TResult Function( String message)?  signError,required TResult orElse(),}) {final _that = this;
 switch (_that) {
 case _SignInitial() when signInitial != null:
 return signInitial();case _SignupLoading() when signLoading != null:
 return signLoading();case _SignupSuccess() when signSuccess != null:
-return signSuccess(_that.data);case _SignupError() when signError != null:
+return signSuccess(_that.data);case _SignGoogleSuccess() when signGoogleSuccess != null:
+return signGoogleSuccess(_that.data);case _SignupError() when signError != null:
 return signError(_that.message);case _:
   return orElse();
 
@@ -153,12 +157,13 @@ return signError(_that.message);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult when<TResult extends Object?>({required TResult Function()  signInitial,required TResult Function()  signLoading,required TResult Function( T data)  signSuccess,required TResult Function( String message)  signError,}) {final _that = this;
+@optionalTypeArgs TResult when<TResult extends Object?>({required TResult Function()  signInitial,required TResult Function()  signLoading,required TResult Function( T data)  signSuccess,required TResult Function( T data)  signGoogleSuccess,required TResult Function( String message)  signError,}) {final _that = this;
 switch (_that) {
 case _SignInitial():
 return signInitial();case _SignupLoading():
 return signLoading();case _SignupSuccess():
-return signSuccess(_that.data);case _SignupError():
+return signSuccess(_that.data);case _SignGoogleSuccess():
+return signGoogleSuccess(_that.data);case _SignupError():
 return signError(_that.message);case _:
   throw StateError('Unexpected subclass');
 
@@ -176,12 +181,13 @@ return signError(_that.message);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>({TResult? Function()?  signInitial,TResult? Function()?  signLoading,TResult? Function( T data)?  signSuccess,TResult? Function( String message)?  signError,}) {final _that = this;
+@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>({TResult? Function()?  signInitial,TResult? Function()?  signLoading,TResult? Function( T data)?  signSuccess,TResult? Function( T data)?  signGoogleSuccess,TResult? Function( String message)?  signError,}) {final _that = this;
 switch (_that) {
 case _SignInitial() when signInitial != null:
 return signInitial();case _SignupLoading() when signLoading != null:
 return signLoading();case _SignupSuccess() when signSuccess != null:
-return signSuccess(_that.data);case _SignupError() when signError != null:
+return signSuccess(_that.data);case _SignGoogleSuccess() when signGoogleSuccess != null:
+return signGoogleSuccess(_that.data);case _SignupError() when signError != null:
 return signError(_that.message);case _:
   return null;
 
@@ -314,6 +320,74 @@ class __$SignupSuccessCopyWithImpl<T,$Res>
 /// with the given fields replaced by the non-null parameter values.
 @pragma('vm:prefer-inline') $Res call({Object? data = freezed,}) {
   return _then(_SignupSuccess<T>(
+freezed == data ? _self.data : data // ignore: cast_nullable_to_non_nullable
+as T,
+  ));
+}
+
+
+}
+
+/// @nodoc
+
+
+class _SignGoogleSuccess<T> implements SignupState<T> {
+  const _SignGoogleSuccess(this.data);
+  
+
+ final  T data;
+
+/// Create a copy of SignupState
+/// with the given fields replaced by the non-null parameter values.
+@JsonKey(includeFromJson: false, includeToJson: false)
+@pragma('vm:prefer-inline')
+_$SignGoogleSuccessCopyWith<T, _SignGoogleSuccess<T>> get copyWith => __$SignGoogleSuccessCopyWithImpl<T, _SignGoogleSuccess<T>>(this, _$identity);
+
+
+
+@override
+bool operator ==(Object other) {
+    return identical(this, other) || (other.runtimeType == runtimeType&&other is _SignGoogleSuccess<T>&&const DeepCollectionEquality().equals(other.data, data));
+}
+
+
+@override
+int get hashCode {
+    return Object.hash(runtimeType,const DeepCollectionEquality().hash(data));
+}
+
+@override
+String toString() {
+    return 'SignupState<$T>.signGoogleSuccess(data: $data)';
+}
+
+
+}
+
+/// @nodoc
+abstract mixin class _$SignGoogleSuccessCopyWith<T,$Res> implements $SignupStateCopyWith<T, $Res> {
+  factory _$SignGoogleSuccessCopyWith(_SignGoogleSuccess<T> value, $Res Function(_SignGoogleSuccess<T>) _then) = __$SignGoogleSuccessCopyWithImpl;
+@useResult
+$Res call({
+ T data
+});
+
+
+
+
+}
+/// @nodoc
+class __$SignGoogleSuccessCopyWithImpl<T,$Res>
+    implements _$SignGoogleSuccessCopyWith<T, $Res> {
+  __$SignGoogleSuccessCopyWithImpl(this._self, this._then);
+
+  final _SignGoogleSuccess<T> _self;
+  final $Res Function(_SignGoogleSuccess<T>) _then;
+
+/// Create a copy of SignupState
+/// with the given fields replaced by the non-null parameter values.
+@pragma('vm:prefer-inline') $Res call({Object? data = freezed,}) {
+  return _then(_SignGoogleSuccess<T>(
 freezed == data ? _self.data : data // ignore: cast_nullable_to_non_nullable
 as T,
   ));

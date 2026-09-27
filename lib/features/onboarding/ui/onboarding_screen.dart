@@ -1,24 +1,31 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:yumquick/core/helper/spacer.dart';
-import 'package:yumquick/core/theme/app_colors.dart';
-import 'package:yumquick/core/theme/app_text_style.dart';
-import 'package:yumquick/features/auth/login/ui/login_screen.dart';
-import 'package:yumquick/features/onboarding/data/onboarding_model.dart';
+
+import '../../../core/helper/spacer.dart';
+import '../../../core/theme/app_colors.dart';
+import '../../../core/theme/app_text_style.dart';
+import '../../auth/login/ui/login_screen.dart';
+import '../data/onboarding_model.dart';
 
 import '../../../core/widgets/custom_button.dart';
 
 class OnboardingScreen extends StatefulWidget {
-  OnboardingScreen({super.key});
+  const OnboardingScreen({super.key});
 
   @override
   State<OnboardingScreen> createState() => _OnboardingScreenState();
 }
 
 class _OnboardingScreenState extends State<OnboardingScreen> {
-  PageController _pageController = PageController();
+  final PageController _pageController = PageController();
   int _currentIndex = 0;
+
+  @override
+  void dispose() {
+    _pageController.dispose();
+    super.dispose();
+  }
 
   void changeOnboardingPage(int value) {
     setState(() {
@@ -37,7 +44,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             controller: _pageController,
             onPageChanged: changeOnboardingPage,
             itemBuilder: (context, index) {
-              return Onboarding_page_view(
+              return OnboardingPageView(
                 index: index,
                 pageController: _pageController,
               );
@@ -72,20 +79,20 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   }
 }
 
-class Onboarding_page_view extends StatefulWidget {
+class OnboardingPageView extends StatefulWidget {
   final int index;
   final PageController _pageController;
-  const Onboarding_page_view({
+  const OnboardingPageView({
     super.key,
     required this.index,
     required this._pageController,
   });
 
   @override
-  State<Onboarding_page_view> createState() => _Onboarding_page_viewState();
+  State<OnboardingPageView> createState() => _OnboardingPageViewState();
 }
 
-class _Onboarding_page_viewState extends State<Onboarding_page_view> {
+class _OnboardingPageViewState extends State<OnboardingPageView> {
   void skipOnboarding(BuildContext context) {
     Navigator.of(context).pushAndRemoveUntil(
       MaterialPageRoute(builder: (context) => LoginScreen()),

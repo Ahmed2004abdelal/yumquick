@@ -3,20 +3,24 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:yumquick/core/helper/spacer.dart';
-import 'package:yumquick/core/theme/app_colors.dart';
-import 'package:yumquick/core/theme/app_text_style.dart';
-import 'package:yumquick/core/widgets/custom_button.dart';
-import 'package:yumquick/features/auth/signup/logic/signup_cubit.dart';
-import 'package:yumquick/features/auth/signup/logic/signup_state.dart';
+
+import '../../../../core/helper/spacer.dart';
+import '../../../../core/theme/app_colors.dart';
+import '../../../../core/theme/app_text_style.dart';
+import '../../../../core/widgets/custom_button.dart';
+import '../logic/signup_cubit.dart';
+import '../logic/signup_state.dart';
 
 import '../../../../core/Routing/routes.dart';
 import '../../../../core/widgets/custom_textform.dart';
 
 class SignupScreen extends StatelessWidget {
-  SignupScreen({super.key});
+  const SignupScreen({super.key});
 
-  void signWithGoogle() {}
+  Future<void> signWithGoogle(BuildContext context) async {
+    await context.read<SignupCubit>().googleOauth();
+  }
+
   void goToLogIn(BuildContext context) {
     Navigator.pushNamedAndRemoveUntil(context, Routes.login, (r) => false);
   }
@@ -27,7 +31,6 @@ class SignupScreen extends StatelessWidget {
       backgroundColor: AppColors.yellowBase,
       body: CustomScrollView(
         slivers: [
-          // الهيدر: المسافة + العنوان
           SliverToBoxAdapter(
             child: Column(
               children: [
@@ -38,7 +41,6 @@ class SignupScreen extends StatelessWidget {
             ),
           ),
 
-          // الفورم كامل كـ sliver واحد
           SliverToBoxAdapter(
             child: Form(
               key: context.read<SignupCubit>().formKey,
@@ -194,7 +196,7 @@ class SignupScreen extends StatelessWidget {
                           ),
                           verticalSpace(10),
                           GestureDetector(
-                            onTap: signWithGoogle,
+                            onTap: () async => await signWithGoogle(context),
                             child: Container(
                               padding: EdgeInsets.all(7.w),
                               decoration: BoxDecoration(
@@ -266,6 +268,13 @@ class SignupBlocConsumer extends StatelessWidget {
             Navigator.pushNamedAndRemoveUntil(
               context,
               Routes.login,
+              (r) => false,
+            );
+          },
+          signGoogleSuccess: (data) {
+            Navigator.pushNamedAndRemoveUntil(
+              context,
+              Routes.home,
               (r) => false,
             );
           },

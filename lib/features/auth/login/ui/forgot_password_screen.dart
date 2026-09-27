@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:yumquick/core/helper/spacer.dart';
-import 'package:yumquick/core/theme/app_colors.dart';
-import 'package:yumquick/core/theme/app_text_style.dart';
-import 'package:yumquick/core/widgets/custom_button.dart';
+
+import '../../../../core/helper/spacer.dart';
+import '../../../../core/theme/app_colors.dart';
+import '../../../../core/theme/app_text_style.dart';
+import '../../../../core/widgets/custom_button.dart';
 
 import '../../../../core/widgets/custom_textform.dart';
 

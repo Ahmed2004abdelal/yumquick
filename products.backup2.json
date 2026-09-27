@@ -1,0 +1,4052 @@
+[
+    {
+        "id": 1,
+        "name": "Classic Sushi Platter",
+        "description": "Freshly prepared sushi with quality ingredients",
+        "imageUrl": "https://images.pexels.com/photos/35559958/pexels-photo-35559958.jpeg?cs=srgb&dl=pexels-valeriya-35559958.jpg&fm=jpg",
+        "originalPrice": 18.0,
+        "discountPercent": 0.0,
+        "finalPrice": 18.0,
+        "ratingAvg": 3.6,
+        "isAvailable": true,
+        "categoryId": 6,
+        "variants": [
+            {
+                "id": 1,
+                "name": "Extra Salmon",
+                "extraPrice": 0.95
+            },
+            {
+                "id": 2,
+                "name": "Spicy Mayo",
+                "extraPrice": 1.52
+            },
+            {
+                "id": 3,
+                "name": "Avocado",
+                "extraPrice": 2.66
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 2,
+        "name": "Salmon Sushi Roll",
+        "description": "Freshly prepared sushi with quality ingredients",
+        "imageUrl": "https://images.pexels.com/photos/28442542/pexels-photo-28442542.jpeg?cs=srgb&dl=pexels-nadin-sh-78971847-28442542.jpg&fm=jpg",
+        "originalPrice": 15.25,
+        "discountPercent": 15.0,
+        "finalPrice": 12.96,
+        "ratingAvg": 3.6,
+        "isAvailable": true,
+        "categoryId": 6,
+        "variants": [
+            {
+                "id": 4,
+                "name": "Extra Salmon",
+                "extraPrice": 0.78
+            },
+            {
+                "id": 5,
+                "name": "Spicy Mayo",
+                "extraPrice": 1.75
+            },
+            {
+                "id": 6,
+                "name": "Avocado",
+                "extraPrice": 2.27
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 3,
+        "name": "Spicy Tuna Roll",
+        "description": "Freshly prepared sushi with quality ingredients",
+        "imageUrl": "https://images.pexels.com/photos/30981171/pexels-photo-30981171.jpeg?cs=srgb&dl=pexels-jake-ryan-120059030-30981171.jpg&fm=jpg",
+        "originalPrice": 10.5,
+        "discountPercent": 0.0,
+        "finalPrice": 10.5,
+        "ratingAvg": 4.2,
+        "isAvailable": true,
+        "categoryId": 6,
+        "variants": [
+            {
+                "id": 7,
+                "name": "Extra Salmon",
+                "extraPrice": 0.87
+            },
+            {
+                "id": 8,
+                "name": "Spicy Mayo",
+                "extraPrice": 1.78
+            },
+            {
+                "id": 9,
+                "name": "Avocado",
+                "extraPrice": 2.28
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 4,
+        "name": "Classic Margherita Pizza",
+        "description": "Freshly baked pizza with delicious toppings",
+        "imageUrl": "https://images.pexels.com/photos/31708263/pexels-photo-31708263/free-photo-of-authentic-italian-margherita-pizza-close-up.jpeg",
+        "originalPrice": 19.25,
+        "discountPercent": 0.0,
+        "finalPrice": 19.25,
+        "ratingAvg": 3.7,
+        "isAvailable": true,
+        "categoryId": 7,
+        "variants": [
+            {
+                "id": 10,
+                "name": "Extra Cheese",
+                "extraPrice": 1.07
+            },
+            {
+                "id": 11,
+                "name": "Mushrooms",
+                "extraPrice": 1.79
+            },
+            {
+                "id": 12,
+                "name": "Olives",
+                "extraPrice": 2.28
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 5,
+        "name": "Chicken Supreme Pizza",
+        "description": "Freshly baked pizza with delicious toppings",
+        "imageUrl": "https://images.pexels.com/photos/35940570/pexels-photo-35940570.jpeg?cs=srgb&dl=pexels-yudi-yudi-599936736-35940570.jpg&fm=jpg",
+        "originalPrice": 19.5,
+        "discountPercent": 0.0,
+        "finalPrice": 19.5,
+        "ratingAvg": 3.7,
+        "isAvailable": true,
+        "categoryId": 7,
+        "variants": [
+            {
+                "id": 13,
+                "name": "Extra Cheese",
+                "extraPrice": 1.24
+            },
+            {
+                "id": 14,
+                "name": "Mushrooms",
+                "extraPrice": 1.52
+            },
+            {
+                "id": 15,
+                "name": "Olives",
+                "extraPrice": 2.68
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 6,
+        "name": "Four Cheese Pizza",
+        "description": "Freshly baked pizza with delicious toppings",
+        "imageUrl": "https://images.pexels.com/photos/28272163/pexels-photo-28272163.jpeg?cs=srgb&dl=pexels-fira-ergashevv-1784024088-28272163.jpg&fm=jpg",
+        "originalPrice": 16.25,
+        "discountPercent": 0.0,
+        "finalPrice": 16.25,
+        "ratingAvg": 5.0,
+        "isAvailable": true,
+        "categoryId": 7,
+        "variants": [
+            {
+                "id": 16,
+                "name": "Extra Cheese",
+                "extraPrice": 1.02
+            },
+            {
+                "id": 17,
+                "name": "Mushrooms",
+                "extraPrice": 1.79
+            },
+            {
+                "id": 18,
+                "name": "Olives",
+                "extraPrice": 2.53
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 7,
+        "name": "Grilled Chicken",
+        "description": "Tender chicken prepared with flavorful seasoning",
+        "imageUrl": "https://images.pexels.com/photos/8250430/pexels-photo-8250430.jpeg?cs=srgb&dl=pexels-filirovska-8250430.jpg&fm=jpg",
+        "originalPrice": 12.5,
+        "discountPercent": 0.0,
+        "finalPrice": 12.5,
+        "ratingAvg": 4.5,
+        "isAvailable": true,
+        "categoryId": 8,
+        "variants": [
+            {
+                "id": 19,
+                "name": "Extra Sauce",
+                "extraPrice": 1.04
+            },
+            {
+                "id": 20,
+                "name": "Cheese",
+                "extraPrice": 1.82
+            },
+            {
+                "id": 21,
+                "name": "Spicy Seasoning",
+                "extraPrice": 2.44
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 8,
+        "name": "Crispy Chicken",
+        "description": "Tender chicken prepared with flavorful seasoning",
+        "imageUrl": "https://images.pexels.com/photos/33254639/pexels-photo-33254639/free-photo-of-close-up-of-crispy-fried-chicken-on-plate.jpeg",
+        "originalPrice": 11.5,
+        "discountPercent": 0.0,
+        "finalPrice": 11.5,
+        "ratingAvg": 4.1,
+        "isAvailable": true,
+        "categoryId": 8,
+        "variants": [
+            {
+                "id": 22,
+                "name": "Extra Sauce",
+                "extraPrice": 1.03
+            },
+            {
+                "id": 23,
+                "name": "Cheese",
+                "extraPrice": 1.81
+            },
+            {
+                "id": 24,
+                "name": "Spicy Seasoning",
+                "extraPrice": 2.5
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 9,
+        "name": "Creamy Chicken",
+        "description": "Tender chicken prepared with flavorful seasoning",
+        "imageUrl": "https://images.pexels.com/photos/33515064/pexels-photo-33515064.jpeg?cs=srgb&dl=pexels-sonniewing-33515064.jpg&fm=jpg",
+        "originalPrice": 11.25,
+        "discountPercent": 10.0,
+        "finalPrice": 10.12,
+        "ratingAvg": 4.2,
+        "isAvailable": true,
+        "categoryId": 8,
+        "variants": [
+            {
+                "id": 25,
+                "name": "Extra Sauce",
+                "extraPrice": 0.98
+            },
+            {
+                "id": 26,
+                "name": "Cheese",
+                "extraPrice": 1.96
+            },
+            {
+                "id": 27,
+                "name": "Spicy Seasoning",
+                "extraPrice": 2.43
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 10,
+        "name": "Chicken Curry",
+        "description": "Rich and aromatic curry with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/35629938/pexels-photo-35629938/free-photo-of-delicious-homemade-indian-chicken-curry.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 13.0,
+        "discountPercent": 0.0,
+        "finalPrice": 13.0,
+        "ratingAvg": 3.8,
+        "isAvailable": true,
+        "categoryId": 9,
+        "variants": [
+            {
+                "id": 28,
+                "name": "Extra Sauce",
+                "extraPrice": 1.1
+            },
+            {
+                "id": 29,
+                "name": "Extra Cheese",
+                "extraPrice": 1.62
+            },
+            {
+                "id": 30,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.54
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 11,
+        "name": "Vegetable Curry",
+        "description": "Rich and aromatic curry with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/19969210/pexels-photo-19969210.jpeg?cs=srgb&dl=pexels-markus-winkler-1430818-19969210.jpg&fm=jpg",
+        "originalPrice": 15.25,
+        "discountPercent": 10.0,
+        "finalPrice": 13.72,
+        "ratingAvg": 3.9,
+        "isAvailable": true,
+        "categoryId": 9,
+        "variants": [
+            {
+                "id": 31,
+                "name": "Extra Sauce",
+                "extraPrice": 1.11
+            },
+            {
+                "id": 32,
+                "name": "Extra Cheese",
+                "extraPrice": 1.64
+            },
+            {
+                "id": 33,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.74
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 12,
+        "name": "Thai Red Curry",
+        "description": "Rich and aromatic curry with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/31653135/pexels-photo-31653135.jpeg?cs=srgb&dl=pexels-gu-ko-2150570603-31653135.jpg&fm=jpg",
+        "originalPrice": 12.0,
+        "discountPercent": 10.0,
+        "finalPrice": 10.8,
+        "ratingAvg": 3.7,
+        "isAvailable": true,
+        "categoryId": 9,
+        "variants": [
+            {
+                "id": 34,
+                "name": "Extra Sauce",
+                "extraPrice": 0.83
+            },
+            {
+                "id": 35,
+                "name": "Extra Cheese",
+                "extraPrice": 1.67
+            },
+            {
+                "id": 36,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.72
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 13,
+        "name": "Classic Beef Burger",
+        "description": "Juicy burger served with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/15076700/pexels-photo-15076700/free-photo-of-burger.jpeg",
+        "originalPrice": 12.25,
+        "discountPercent": 20.0,
+        "finalPrice": 9.8,
+        "ratingAvg": 4.8,
+        "isAvailable": true,
+        "categoryId": 10,
+        "variants": [
+            {
+                "id": 37,
+                "name": "Extra Cheese",
+                "extraPrice": 0.79
+            },
+            {
+                "id": 38,
+                "name": "Caramelized Onions",
+                "extraPrice": 1.78
+            },
+            {
+                "id": 39,
+                "name": "Extra Patty",
+                "extraPrice": 2.64
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 14,
+        "name": "Crispy Chicken Burger",
+        "description": "Juicy burger served with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/34407494/pexels-photo-34407494/free-photo-of-delicious-crispy-chicken-burger-on-plate.jpeg",
+        "originalPrice": 15.5,
+        "discountPercent": 10.0,
+        "finalPrice": 13.95,
+        "ratingAvg": 4.0,
+        "isAvailable": true,
+        "categoryId": 10,
+        "variants": [
+            {
+                "id": 40,
+                "name": "Extra Cheese",
+                "extraPrice": 1.1
+            },
+            {
+                "id": 41,
+                "name": "Caramelized Onions",
+                "extraPrice": 1.8
+            },
+            {
+                "id": 42,
+                "name": "Extra Patty",
+                "extraPrice": 2.54
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 15,
+        "name": "Double Cheese Burger",
+        "description": "Juicy burger served with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/14709732/pexels-photo-14709732.jpeg?cs=srgb&dl=pexels-mounir-salah-2974452-14709732.jpg&fm=jpg",
+        "originalPrice": 12.75,
+        "discountPercent": 0.0,
+        "finalPrice": 12.75,
+        "ratingAvg": 3.9,
+        "isAvailable": true,
+        "categoryId": 10,
+        "variants": [
+            {
+                "id": 43,
+                "name": "Extra Cheese",
+                "extraPrice": 1.22
+            },
+            {
+                "id": 44,
+                "name": "Caramelized Onions",
+                "extraPrice": 1.74
+            },
+            {
+                "id": 45,
+                "name": "Extra Patty",
+                "extraPrice": 2.58
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 16,
+        "name": "Cheese Platter",
+        "description": "Delicious cheese selection prepared fresh",
+        "imageUrl": "https://images.pexels.com/photos/36845205/pexels-photo-36845205.jpeg?cs=srgb&dl=pexels-nadin-sh-78971847-36845205.jpg&fm=jpg",
+        "originalPrice": 14.5,
+        "discountPercent": 20.0,
+        "finalPrice": 11.6,
+        "ratingAvg": 4.9,
+        "isAvailable": true,
+        "categoryId": 11,
+        "variants": [
+            {
+                "id": 46,
+                "name": "Extra Sauce",
+                "extraPrice": 0.9
+            },
+            {
+                "id": 47,
+                "name": "Extra Cheese",
+                "extraPrice": 1.79
+            },
+            {
+                "id": 48,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.59
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 17,
+        "name": "Grilled Cheese",
+        "description": "Delicious cheese selection prepared fresh",
+        "imageUrl": "https://images.pexels.com/photos/14941252/pexels-photo-14941252.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 8.25,
+        "discountPercent": 20.0,
+        "finalPrice": 6.6,
+        "ratingAvg": 5.0,
+        "isAvailable": true,
+        "categoryId": 11,
+        "variants": [
+            {
+                "id": 49,
+                "name": "Extra Sauce",
+                "extraPrice": 0.94
+            },
+            {
+                "id": 50,
+                "name": "Extra Cheese",
+                "extraPrice": 1.83
+            },
+            {
+                "id": 51,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.26
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 18,
+        "name": "Creamy Cheese Bites",
+        "description": "Delicious cheese selection prepared fresh",
+        "imageUrl": "https://images.pexels.com/photos/34692572/pexels-photo-34692572/free-photo-of-delicious-crispy-cheese-balls-on-wooden-table.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 8.25,
+        "discountPercent": 0.0,
+        "finalPrice": 8.25,
+        "ratingAvg": 4.2,
+        "isAvailable": true,
+        "categoryId": 11,
+        "variants": [
+            {
+                "id": 52,
+                "name": "Extra Sauce",
+                "extraPrice": 1.06
+            },
+            {
+                "id": 53,
+                "name": "Extra Cheese",
+                "extraPrice": 1.75
+            },
+            {
+                "id": 54,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.36
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 19,
+        "name": "Garlic Prawns",
+        "description": "Fresh prawns cooked with aromatic herbs and spices",
+        "imageUrl": "https://images.pexels.com/photos/15662143/pexels-photo-15662143.jpeg?cs=srgb&dl=pexels-the-castlebar-3902897-15662143.jpg&fm=jpg",
+        "originalPrice": 19.5,
+        "discountPercent": 20.0,
+        "finalPrice": 15.6,
+        "ratingAvg": 4.9,
+        "isAvailable": true,
+        "categoryId": 12,
+        "variants": [
+            {
+                "id": 55,
+                "name": "Extra Sauce",
+                "extraPrice": 0.87
+            },
+            {
+                "id": 56,
+                "name": "Extra Cheese",
+                "extraPrice": 1.7
+            },
+            {
+                "id": 57,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.69
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 20,
+        "name": "Grilled Fresh Prawns",
+        "description": "Fresh prawns cooked with aromatic herbs and spices",
+        "imageUrl": "https://images.pexels.com/photos/8250276/pexels-photo-8250276.jpeg",
+        "originalPrice": 17.0,
+        "discountPercent": 10.0,
+        "finalPrice": 15.3,
+        "ratingAvg": 3.7,
+        "isAvailable": true,
+        "categoryId": 12,
+        "variants": [
+            {
+                "id": 58,
+                "name": "Extra Sauce",
+                "extraPrice": 0.95
+            },
+            {
+                "id": 59,
+                "name": "Extra Cheese",
+                "extraPrice": 1.64
+            },
+            {
+                "id": 60,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.32
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 21,
+        "name": "Spicy Prawn Plate",
+        "description": "Fresh prawns cooked with aromatic herbs and spices",
+        "imageUrl": "https://images.pexels.com/photos/17198860/pexels-photo-17198860/free-photo-of-delicious-spicy-shrimps.jpeg",
+        "originalPrice": 21.25,
+        "discountPercent": 15.0,
+        "finalPrice": 18.06,
+        "ratingAvg": 4.3,
+        "isAvailable": true,
+        "categoryId": 12,
+        "variants": [
+            {
+                "id": 61,
+                "name": "Extra Sauce",
+                "extraPrice": 0.89
+            },
+            {
+                "id": 62,
+                "name": "Extra Cheese",
+                "extraPrice": 1.71
+            },
+            {
+                "id": 63,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.43
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 22,
+        "name": "Classic Ceviche",
+        "description": "Fresh seafood marinated with citrus and herbs",
+        "imageUrl": "https://images.pexels.com/photos/29168412/pexels-photo-29168412.jpeg?cs=srgb&dl=pexels-nano-erdozain-120534369-29168412.jpg&fm=jpg",
+        "originalPrice": 22.75,
+        "discountPercent": 0.0,
+        "finalPrice": 22.75,
+        "ratingAvg": 3.9,
+        "isAvailable": true,
+        "categoryId": 13,
+        "variants": [
+            {
+                "id": 64,
+                "name": "Extra Sauce",
+                "extraPrice": 0.83
+            },
+            {
+                "id": 65,
+                "name": "Extra Cheese",
+                "extraPrice": 1.59
+            },
+            {
+                "id": 66,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.37
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 23,
+        "name": "Salmon Ceviche",
+        "description": "Fresh seafood marinated with citrus and herbs",
+        "imageUrl": "https://images.pexels.com/photos/39320162/pexels-photo-39320162.jpeg?cs=srgb&dl=pexels-cesar-o-neill-26650613-39320162.jpg&fm=jpg",
+        "originalPrice": 16.25,
+        "discountPercent": 10.0,
+        "finalPrice": 14.62,
+        "ratingAvg": 3.7,
+        "isAvailable": true,
+        "categoryId": 13,
+        "variants": [
+            {
+                "id": 67,
+                "name": "Extra Sauce",
+                "extraPrice": 1.17
+            },
+            {
+                "id": 68,
+                "name": "Extra Cheese",
+                "extraPrice": 1.59
+            },
+            {
+                "id": 69,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.39
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 24,
+        "name": "Shrimp Ceviche",
+        "description": "Fresh seafood marinated with citrus and herbs",
+        "imageUrl": "https://images.pexels.com/photos/32793286/pexels-photo-32793286.jpeg?cs=srgb&dl=pexels-nano-erdozain-120534369-32793286.jpg&fm=jpg",
+        "originalPrice": 15.5,
+        "discountPercent": 15.0,
+        "finalPrice": 13.17,
+        "ratingAvg": 3.9,
+        "isAvailable": true,
+        "categoryId": 13,
+        "variants": [
+            {
+                "id": 70,
+                "name": "Extra Sauce",
+                "extraPrice": 0.93
+            },
+            {
+                "id": 71,
+                "name": "Extra Cheese",
+                "extraPrice": 1.78
+            },
+            {
+                "id": 72,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.73
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 25,
+        "name": "Classic Pad Thai",
+        "description": "Thai-style noodles with fresh vegetables and sauce",
+        "imageUrl": "https://images.pexels.com/photos/32083373/pexels-photo-32083373.jpeg?cs=srgb&dl=pexels-valeriya-32083373.jpg&fm=jpg",
+        "originalPrice": 15.75,
+        "discountPercent": 15.0,
+        "finalPrice": 13.39,
+        "ratingAvg": 4.9,
+        "isAvailable": true,
+        "categoryId": 14,
+        "variants": [
+            {
+                "id": 73,
+                "name": "Extra Sauce",
+                "extraPrice": 1.23
+            },
+            {
+                "id": 74,
+                "name": "Extra Cheese",
+                "extraPrice": 1.83
+            },
+            {
+                "id": 75,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.62
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 26,
+        "name": "Chicken Pad Thai",
+        "description": "Thai-style noodles with fresh vegetables and sauce",
+        "imageUrl": "https://images.pexels.com/photos/34723307/pexels-photo-34723307.jpeg?cs=srgb&dl=pexels-undo-kim-2153633398-34723307.jpg&fm=jpg",
+        "originalPrice": 14.25,
+        "discountPercent": 20.0,
+        "finalPrice": 11.4,
+        "ratingAvg": 3.6,
+        "isAvailable": true,
+        "categoryId": 14,
+        "variants": [
+            {
+                "id": 76,
+                "name": "Extra Sauce",
+                "extraPrice": 1.15
+            },
+            {
+                "id": 77,
+                "name": "Extra Cheese",
+                "extraPrice": 1.7
+            },
+            {
+                "id": 78,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.45
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 27,
+        "name": "Shrimp Pad Thai",
+        "description": "Thai-style noodles with fresh vegetables and sauce",
+        "imageUrl": "https://images.pexels.com/photos/34723308/pexels-photo-34723308/free-photo-of-delicious-thai-shrimp-pad-thai-with-toppings.jpeg?auto=compress&w=1260&h=750&dpr=1",
+        "originalPrice": 11.75,
+        "discountPercent": 20.0,
+        "finalPrice": 9.4,
+        "ratingAvg": 3.9,
+        "isAvailable": true,
+        "categoryId": 14,
+        "variants": [
+            {
+                "id": 79,
+                "name": "Extra Sauce",
+                "extraPrice": 0.95
+            },
+            {
+                "id": 80,
+                "name": "Extra Cheese",
+                "extraPrice": 1.6
+            },
+            {
+                "id": 81,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.74
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 28,
+        "name": "Tomato Bruschetta",
+        "description": "Crispy toasted bread topped with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/11218686/pexels-photo-11218686.jpeg?cs=srgb&dl=pexels-matreding-11218686.jpg&fm=jpg",
+        "originalPrice": 8.25,
+        "discountPercent": 0.0,
+        "finalPrice": 8.25,
+        "ratingAvg": 4.3,
+        "isAvailable": true,
+        "categoryId": 15,
+        "variants": [
+            {
+                "id": 82,
+                "name": "Extra Sauce",
+                "extraPrice": 0.92
+            },
+            {
+                "id": 83,
+                "name": "Extra Cheese",
+                "extraPrice": 1.53
+            },
+            {
+                "id": 84,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.25
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 29,
+        "name": "Garlic Bruschetta",
+        "description": "Crispy toasted bread topped with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/7432995/pexels-photo-7432995.jpeg?cs=srgb&dl=pexels-lulizler-7432995.jpg&fm=jpg",
+        "originalPrice": 6.75,
+        "discountPercent": 0.0,
+        "finalPrice": 6.75,
+        "ratingAvg": 4.8,
+        "isAvailable": true,
+        "categoryId": 15,
+        "variants": [
+            {
+                "id": 85,
+                "name": "Extra Sauce",
+                "extraPrice": 1.22
+            },
+            {
+                "id": 86,
+                "name": "Extra Cheese",
+                "extraPrice": 1.81
+            },
+            {
+                "id": 87,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.29
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 30,
+        "name": "Mozzarella Bruschetta",
+        "description": "Crispy toasted bread topped with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/25650517/pexels-photo-25650517.jpeg?cs=srgb&dl=pexels-nadin-sh-78971847-25650517.jpg&fm=jpg",
+        "originalPrice": 7.0,
+        "discountPercent": 10.0,
+        "finalPrice": 6.3,
+        "ratingAvg": 4.3,
+        "isAvailable": true,
+        "categoryId": 15,
+        "variants": [
+            {
+                "id": 88,
+                "name": "Extra Sauce",
+                "extraPrice": 0.82
+            },
+            {
+                "id": 89,
+                "name": "Extra Cheese",
+                "extraPrice": 1.63
+            },
+            {
+                "id": 90,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.42
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 31,
+        "name": "Vegetable Spring Rolls",
+        "description": "Crispy rolls filled with flavorful ingredients",
+        "imageUrl": "https://images.pexels.com/photos/11783313/pexels-photo-11783313.jpeg",
+        "originalPrice": 7.75,
+        "discountPercent": 0.0,
+        "finalPrice": 7.75,
+        "ratingAvg": 4.0,
+        "isAvailable": true,
+        "categoryId": 16,
+        "variants": [
+            {
+                "id": 91,
+                "name": "Extra Sauce",
+                "extraPrice": 0.81
+            },
+            {
+                "id": 92,
+                "name": "Extra Cheese",
+                "extraPrice": 1.74
+            },
+            {
+                "id": 93,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.74
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 32,
+        "name": "Chicken Spring Rolls",
+        "description": "Crispy rolls filled with flavorful ingredients",
+        "imageUrl": "https://images.pexels.com/photos/840216/pexels-photo-840216.jpeg",
+        "originalPrice": 8.5,
+        "discountPercent": 10.0,
+        "finalPrice": 7.65,
+        "ratingAvg": 4.0,
+        "isAvailable": true,
+        "categoryId": 16,
+        "variants": [
+            {
+                "id": 94,
+                "name": "Extra Sauce",
+                "extraPrice": 0.79
+            },
+            {
+                "id": 95,
+                "name": "Extra Cheese",
+                "extraPrice": 1.55
+            },
+            {
+                "id": 96,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.42
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 33,
+        "name": "Crispy Spring Rolls",
+        "description": "Crispy rolls filled with flavorful ingredients",
+        "imageUrl": "https://images.pexels.com/photos/37106473/pexels-photo-37106473.jpeg?cs=srgb&dl=pexels-tamba09-37106473.jpg&fm=jpg",
+        "originalPrice": 7.25,
+        "discountPercent": 20.0,
+        "finalPrice": 5.8,
+        "ratingAvg": 5.0,
+        "isAvailable": true,
+        "categoryId": 16,
+        "variants": [
+            {
+                "id": 97,
+                "name": "Extra Sauce",
+                "extraPrice": 0.83
+            },
+            {
+                "id": 98,
+                "name": "Extra Cheese",
+                "extraPrice": 1.51
+            },
+            {
+                "id": 99,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.73
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 34,
+        "name": "Chicken Crepe",
+        "description": "Freshly made crepe with a delicious filling",
+        "imageUrl": "https://images.pexels.com/photos/15389372/pexels-photo-15389372.jpeg?cs=srgb&dl=pexels-valeriya-15389372.jpg&fm=jpg",
+        "originalPrice": 7.0,
+        "discountPercent": 0.0,
+        "finalPrice": 7.0,
+        "ratingAvg": 3.8,
+        "isAvailable": true,
+        "categoryId": 17,
+        "variants": [
+            {
+                "id": 100,
+                "name": "Extra Sauce",
+                "extraPrice": 1.1
+            },
+            {
+                "id": 101,
+                "name": "Extra Cheese",
+                "extraPrice": 1.96
+            },
+            {
+                "id": 102,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.63
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 35,
+        "name": "Cheese Crepe",
+        "description": "Freshly made crepe with a delicious filling",
+        "imageUrl": "https://images.pexels.com/photos/20582728/pexels-photo-20582728.jpeg?cs=srgb&dl=pexels-nadin-sh-78971847-20582728.jpg&fm=jpg",
+        "originalPrice": 6.25,
+        "discountPercent": 20.0,
+        "finalPrice": 5.0,
+        "ratingAvg": 4.8,
+        "isAvailable": true,
+        "categoryId": 17,
+        "variants": [
+            {
+                "id": 103,
+                "name": "Extra Sauce",
+                "extraPrice": 1.18
+            },
+            {
+                "id": 104,
+                "name": "Extra Cheese",
+                "extraPrice": 1.85
+            },
+            {
+                "id": 105,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.38
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 36,
+        "name": "Chocolate Crepe",
+        "description": "Freshly made crepe with a delicious filling",
+        "imageUrl": "https://images.pexels.com/photos/39083062/pexels-photo-39083062.jpeg",
+        "originalPrice": 6.5,
+        "discountPercent": 0.0,
+        "finalPrice": 6.5,
+        "ratingAvg": 4.1,
+        "isAvailable": true,
+        "categoryId": 17,
+        "variants": [
+            {
+                "id": 106,
+                "name": "Extra Sauce",
+                "extraPrice": 0.93
+            },
+            {
+                "id": 107,
+                "name": "Extra Cheese",
+                "extraPrice": 1.61
+            },
+            {
+                "id": 108,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.52
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 37,
+        "name": "BBQ Chicken Wings",
+        "description": "Crispy chicken wings with a flavorful sauce",
+        "imageUrl": "https://images.pexels.com/photos/30146241/pexels-photo-30146241/free-photo-of-delicious-bbq-chicken-wings-on-rustic-table.jpeg",
+        "originalPrice": 11.0,
+        "discountPercent": 20.0,
+        "finalPrice": 8.8,
+        "ratingAvg": 4.9,
+        "isAvailable": true,
+        "categoryId": 18,
+        "variants": [
+            {
+                "id": 109,
+                "name": "Extra Sauce",
+                "extraPrice": 0.86
+            },
+            {
+                "id": 110,
+                "name": "Extra Cheese",
+                "extraPrice": 1.91
+            },
+            {
+                "id": 111,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.74
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 38,
+        "name": "Buffalo Wings",
+        "description": "Crispy chicken wings with a flavorful sauce",
+        "imageUrl": "https://images.pexels.com/photos/36782573/pexels-photo-36782573/free-photo-of-spicy-buffalo-wings-with-creamy-dip-on-plate.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 13.0,
+        "discountPercent": 0.0,
+        "finalPrice": 13.0,
+        "ratingAvg": 4.1,
+        "isAvailable": true,
+        "categoryId": 18,
+        "variants": [
+            {
+                "id": 112,
+                "name": "Extra Sauce",
+                "extraPrice": 1.16
+            },
+            {
+                "id": 113,
+                "name": "Extra Cheese",
+                "extraPrice": 1.87
+            },
+            {
+                "id": 114,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.36
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 39,
+        "name": "Honey Garlic Wings",
+        "description": "Crispy chicken wings with a flavorful sauce",
+        "imageUrl": "https://images.pexels.com/photos/12916900/pexels-photo-12916900.jpeg",
+        "originalPrice": 11.0,
+        "discountPercent": 10.0,
+        "finalPrice": 9.9,
+        "ratingAvg": 5.0,
+        "isAvailable": true,
+        "categoryId": 18,
+        "variants": [
+            {
+                "id": 115,
+                "name": "Extra Sauce",
+                "extraPrice": 1.12
+            },
+            {
+                "id": 116,
+                "name": "Extra Cheese",
+                "extraPrice": 1.99
+            },
+            {
+                "id": 117,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.65
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 40,
+        "name": "Chicken Skewers",
+        "description": "Grilled skewers prepared with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/38138068/pexels-photo-38138068/free-photo-of-delicious-grilled-chicken-skewers-on-bbq.jpeg",
+        "originalPrice": 13.25,
+        "discountPercent": 0.0,
+        "finalPrice": 13.25,
+        "ratingAvg": 4.7,
+        "isAvailable": true,
+        "categoryId": 19,
+        "variants": [
+            {
+                "id": 118,
+                "name": "Extra Sauce",
+                "extraPrice": 1.1
+            },
+            {
+                "id": 119,
+                "name": "Extra Cheese",
+                "extraPrice": 1.98
+            },
+            {
+                "id": 120,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.47
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 41,
+        "name": "Beef Skewers",
+        "description": "Grilled skewers prepared with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/37080266/pexels-photo-37080266/free-photo-of-grilled-beef-skewers-on-charcoal-grill.jpeg?h=1000&w=1500&fit=crop",
+        "originalPrice": 16.5,
+        "discountPercent": 10.0,
+        "finalPrice": 14.85,
+        "ratingAvg": 4.7,
+        "isAvailable": true,
+        "categoryId": 19,
+        "variants": [
+            {
+                "id": 121,
+                "name": "Extra Sauce",
+                "extraPrice": 1.23
+            },
+            {
+                "id": 122,
+                "name": "Extra Cheese",
+                "extraPrice": 1.68
+            },
+            {
+                "id": 123,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.36
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 42,
+        "name": "Vegetable Skewers",
+        "description": "Grilled skewers prepared with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/6790424/pexels-photo-6790424.jpeg?cs=srgb&dl=pexels-camila-bonamigo-alvarez-3690948-6790424.jpg&fm=jpg",
+        "originalPrice": 11.5,
+        "discountPercent": 0.0,
+        "finalPrice": 11.5,
+        "ratingAvg": 4.8,
+        "isAvailable": true,
+        "categoryId": 19,
+        "variants": [
+            {
+                "id": 124,
+                "name": "Extra Sauce",
+                "extraPrice": 0.92
+            },
+            {
+                "id": 125,
+                "name": "Extra Cheese",
+                "extraPrice": 1.74
+            },
+            {
+                "id": 126,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.74
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 43,
+        "name": "Grilled Salmon",
+        "description": "Fresh salmon grilled with herbs and seasoning",
+        "imageUrl": "https://images.pexels.com/photos/842142/pexels-photo-842142.jpeg",
+        "originalPrice": 23.75,
+        "discountPercent": 0.0,
+        "finalPrice": 23.75,
+        "ratingAvg": 4.8,
+        "isAvailable": true,
+        "categoryId": 20,
+        "variants": [
+            {
+                "id": 127,
+                "name": "Extra Sauce",
+                "extraPrice": 0.99
+            },
+            {
+                "id": 128,
+                "name": "Extra Cheese",
+                "extraPrice": 1.83
+            },
+            {
+                "id": 129,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.65
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 44,
+        "name": "Creamy Salmon",
+        "description": "Fresh salmon grilled with herbs and seasoning",
+        "imageUrl": "https://images.pexels.com/photos/5638532/pexels-photo-5638532.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 18.0,
+        "discountPercent": 20.0,
+        "finalPrice": 14.4,
+        "ratingAvg": 4.4,
+        "isAvailable": true,
+        "categoryId": 20,
+        "variants": [
+            {
+                "id": 130,
+                "name": "Extra Sauce",
+                "extraPrice": 0.81
+            },
+            {
+                "id": 131,
+                "name": "Extra Cheese",
+                "extraPrice": 1.69
+            },
+            {
+                "id": 132,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.61
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 45,
+        "name": "Herb Salmon",
+        "description": "Fresh salmon grilled with herbs and seasoning",
+        "imageUrl": "https://images.pexels.com/photos/18585656/pexels-photo-18585656.jpeg?cs=srgb&dl=pexels-annevandervalk-18585656.jpg&fm=jpg",
+        "originalPrice": 19.25,
+        "discountPercent": 0.0,
+        "finalPrice": 19.25,
+        "ratingAvg": 4.6,
+        "isAvailable": true,
+        "categoryId": 20,
+        "variants": [
+            {
+                "id": 133,
+                "name": "Extra Sauce",
+                "extraPrice": 0.97
+            },
+            {
+                "id": 134,
+                "name": "Extra Cheese",
+                "extraPrice": 1.82
+            },
+            {
+                "id": 135,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.29
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 46,
+        "name": "Chicken Tacos",
+        "description": "Flavorful Mexican-style dish with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/36498698/pexels-photo-36498698.jpeg?cs=srgb&dl=pexels-davegarcia-36498698.jpg&fm=jpg",
+        "originalPrice": 12.75,
+        "discountPercent": 20.0,
+        "finalPrice": 10.2,
+        "ratingAvg": 4.8,
+        "isAvailable": true,
+        "categoryId": 21,
+        "variants": [
+            {
+                "id": 136,
+                "name": "Extra Sauce",
+                "extraPrice": 0.95
+            },
+            {
+                "id": 137,
+                "name": "Extra Cheese",
+                "extraPrice": 1.7
+            },
+            {
+                "id": 138,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.72
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 47,
+        "name": "Beef Burrito",
+        "description": "Flavorful Mexican-style dish with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/27365296/pexels-photo-27365296/free-photo-of-mexican-restaurant.jpeg",
+        "originalPrice": 11.25,
+        "discountPercent": 0.0,
+        "finalPrice": 11.25,
+        "ratingAvg": 3.9,
+        "isAvailable": true,
+        "categoryId": 21,
+        "variants": [
+            {
+                "id": 139,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 140,
+                "name": "Extra Cheese",
+                "extraPrice": 1.51
+            },
+            {
+                "id": 141,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.55
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 48,
+        "name": "Loaded Nachos",
+        "description": "Flavorful Mexican-style dish with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/35628197/pexels-photo-35628197.jpeg?cs=srgb&dl=pexels-cesar-o-neill-26650613-35628197.jpg&fm=jpg",
+        "originalPrice": 9.75,
+        "discountPercent": 20.0,
+        "finalPrice": 7.8,
+        "ratingAvg": 4.0,
+        "isAvailable": true,
+        "categoryId": 21,
+        "variants": [
+            {
+                "id": 142,
+                "name": "Extra Sauce",
+                "extraPrice": 0.82
+            },
+            {
+                "id": 143,
+                "name": "Extra Cheese",
+                "extraPrice": 1.91
+            },
+            {
+                "id": 144,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.74
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 49,
+        "name": "Baked Pasta",
+        "description": "Oven-baked dish prepared with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/38103947/pexels-photo-38103947/free-photo-of-baked-cheesy-pasta-with-fresh-parsley.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 13.5,
+        "discountPercent": 10.0,
+        "finalPrice": 12.15,
+        "ratingAvg": 4.7,
+        "isAvailable": true,
+        "categoryId": 22,
+        "variants": [
+            {
+                "id": 145,
+                "name": "Extra Sauce",
+                "extraPrice": 0.83
+            },
+            {
+                "id": 146,
+                "name": "Extra Cheese",
+                "extraPrice": 1.77
+            },
+            {
+                "id": 147,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.26
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 50,
+        "name": "Baked Chicken",
+        "description": "Oven-baked dish prepared with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/27643014/pexels-photo-27643014.jpeg?cs=srgb&dl=pexels-nano-erdozain-120534369-27643014.jpg&fm=jpg",
+        "originalPrice": 14.5,
+        "discountPercent": 20.0,
+        "finalPrice": 11.6,
+        "ratingAvg": 4.7,
+        "isAvailable": true,
+        "categoryId": 22,
+        "variants": [
+            {
+                "id": 148,
+                "name": "Extra Sauce",
+                "extraPrice": 1.07
+            },
+            {
+                "id": 149,
+                "name": "Extra Cheese",
+                "extraPrice": 1.76
+            },
+            {
+                "id": 150,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.72
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 51,
+        "name": "Baked Vegetables",
+        "description": "Oven-baked dish prepared with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/27809264/pexels-photo-27809264/free-photo-of-a-pan-filled-with-sliced-vegetables-on-a-cloth.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 12.0,
+        "discountPercent": 0.0,
+        "finalPrice": 12.0,
+        "ratingAvg": 4.8,
+        "isAvailable": true,
+        "categoryId": 22,
+        "variants": [
+            {
+                "id": 151,
+                "name": "Extra Sauce",
+                "extraPrice": 1.16
+            },
+            {
+                "id": 152,
+                "name": "Extra Cheese",
+                "extraPrice": 1.61
+            },
+            {
+                "id": 153,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.38
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 52,
+        "name": "Loaded Potato Bites",
+        "description": "A delicious appetizer perfect for sharing",
+        "imageUrl": "https://images.pexels.com/photos/39034198/pexels-photo-39034198/free-photo-of-cheesy-potato-bites-with-dip-on-wooden-board.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 6.25,
+        "discountPercent": 0.0,
+        "finalPrice": 6.25,
+        "ratingAvg": 3.8,
+        "isAvailable": true,
+        "categoryId": 23,
+        "variants": [
+            {
+                "id": 154,
+                "name": "Extra Sauce",
+                "extraPrice": 1.13
+            },
+            {
+                "id": 155,
+                "name": "Extra Cheese",
+                "extraPrice": 1.66
+            },
+            {
+                "id": 156,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.52
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 53,
+        "name": "Cheese Balls",
+        "description": "A delicious appetizer perfect for sharing",
+        "imageUrl": "https://images.pexels.com/photos/34692571/pexels-photo-34692571/free-photo-of-delicious-crispy-cheese-balls-on-a-platter.jpeg",
+        "originalPrice": 8.25,
+        "discountPercent": 0.0,
+        "finalPrice": 8.25,
+        "ratingAvg": 3.9,
+        "isAvailable": true,
+        "categoryId": 23,
+        "variants": [
+            {
+                "id": 157,
+                "name": "Extra Sauce",
+                "extraPrice": 1.21
+            },
+            {
+                "id": 158,
+                "name": "Extra Cheese",
+                "extraPrice": 1.68
+            },
+            {
+                "id": 159,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.48
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 54,
+        "name": "Crispy Vegetable Bites",
+        "description": "A delicious appetizer perfect for sharing",
+        "imageUrl": "https://images.pexels.com/photos/19362397/pexels-photo-19362397/free-photo-of-broccoli-served-in-a-restaurant.jpeg",
+        "originalPrice": 7.25,
+        "discountPercent": 15.0,
+        "finalPrice": 6.16,
+        "ratingAvg": 4.7,
+        "isAvailable": true,
+        "categoryId": 23,
+        "variants": [
+            {
+                "id": 160,
+                "name": "Extra Sauce",
+                "extraPrice": 0.96
+            },
+            {
+                "id": 161,
+                "name": "Extra Cheese",
+                "extraPrice": 1.96
+            },
+            {
+                "id": 162,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.5
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 55,
+        "name": "Classic Bean Burger",
+        "description": "Plant-based burger made with seasoned beans",
+        "imageUrl": "https://images.pexels.com/photos/20722055/pexels-photo-20722055/free-photo-of-cheeseburger-with-vegetables.jpeg",
+        "originalPrice": 12.25,
+        "discountPercent": 15.0,
+        "finalPrice": 10.41,
+        "ratingAvg": 4.0,
+        "isAvailable": true,
+        "categoryId": 24,
+        "variants": [
+            {
+                "id": 163,
+                "name": "Extra Sauce",
+                "extraPrice": 1.01
+            },
+            {
+                "id": 164,
+                "name": "Extra Cheese",
+                "extraPrice": 1.94
+            },
+            {
+                "id": 165,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.64
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 56,
+        "name": "Spicy Bean Burger",
+        "description": "Plant-based burger made with seasoned beans",
+        "imageUrl": "https://images.pexels.com/photos/37881956/pexels-photo-37881956.jpeg?cs=srgb&dl=pexels-sylwester-ficek-154797634-37881956.jpg&fm=jpg",
+        "originalPrice": 12.75,
+        "discountPercent": 0.0,
+        "finalPrice": 12.75,
+        "ratingAvg": 4.0,
+        "isAvailable": true,
+        "categoryId": 24,
+        "variants": [
+            {
+                "id": 166,
+                "name": "Extra Sauce",
+                "extraPrice": 0.84
+            },
+            {
+                "id": 167,
+                "name": "Extra Cheese",
+                "extraPrice": 1.74
+            },
+            {
+                "id": 168,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.61
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 57,
+        "name": "Cheese Bean Burger",
+        "description": "Plant-based burger made with seasoned beans",
+        "imageUrl": "https://images.pexels.com/photos/28636771/pexels-photo-28636771.jpeg?cs=srgb&dl=pexels-animesh-paul-150064-28636771.jpg&fm=jpg",
+        "originalPrice": 12.25,
+        "discountPercent": 10.0,
+        "finalPrice": 11.03,
+        "ratingAvg": 3.9,
+        "isAvailable": true,
+        "categoryId": 24,
+        "variants": [
+            {
+                "id": 169,
+                "name": "Extra Sauce",
+                "extraPrice": 1.09
+            },
+            {
+                "id": 170,
+                "name": "Extra Cheese",
+                "extraPrice": 1.77
+            },
+            {
+                "id": 171,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.49
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 58,
+        "name": "Classic Vegan Lasagna",
+        "description": "Layered vegan lasagna with vegetables and rich sauce",
+        "imageUrl": "https://images.pexels.com/photos/37679127/pexels-photo-37679127/free-photo-of-delicious-homemade-vegetarian-lasagna-dish.jpeg",
+        "originalPrice": 17.5,
+        "discountPercent": 15.0,
+        "finalPrice": 14.88,
+        "ratingAvg": 3.6,
+        "isAvailable": true,
+        "categoryId": 25,
+        "variants": [
+            {
+                "id": 172,
+                "name": "Extra Sauce",
+                "extraPrice": 0.78
+            },
+            {
+                "id": 173,
+                "name": "Extra Cheese",
+                "extraPrice": 1.6
+            },
+            {
+                "id": 174,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.27
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 59,
+        "name": "Vegetable Lasagna",
+        "description": "Layered vegan lasagna with vegetables and rich sauce",
+        "imageUrl": "https://images.pexels.com/photos/5949886/pexels-photo-5949886.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 12.75,
+        "discountPercent": 10.0,
+        "finalPrice": 11.47,
+        "ratingAvg": 4.6,
+        "isAvailable": true,
+        "categoryId": 25,
+        "variants": [
+            {
+                "id": 175,
+                "name": "Extra Sauce",
+                "extraPrice": 1.03
+            },
+            {
+                "id": 176,
+                "name": "Extra Cheese",
+                "extraPrice": 1.88
+            },
+            {
+                "id": 177,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.71
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 60,
+        "name": "Spinach Lasagna",
+        "description": "Layered vegan lasagna with vegetables and rich sauce",
+        "imageUrl": "https://images.pexels.com/photos/31581242/pexels-photo-31581242.jpeg?cs=srgb&dl=pexels-zoltan-istella-2151262287-31581242.jpg&fm=jpg",
+        "originalPrice": 15.0,
+        "discountPercent": 15.0,
+        "finalPrice": 12.75,
+        "ratingAvg": 4.5,
+        "isAvailable": true,
+        "categoryId": 25,
+        "variants": [
+            {
+                "id": 178,
+                "name": "Extra Sauce",
+                "extraPrice": 1.24
+            },
+            {
+                "id": 179,
+                "name": "Extra Cheese",
+                "extraPrice": 1.8
+            },
+            {
+                "id": 180,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.35
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 61,
+        "name": "Classic Margherita Pizza",
+        "description": "Freshly baked pizza with delicious toppings",
+        "imageUrl": "https://images.pexels.com/photos/31708263/pexels-photo-31708263/free-photo-of-authentic-italian-margherita-pizza-close-up.jpeg",
+        "originalPrice": 16.0,
+        "discountPercent": 15.0,
+        "finalPrice": 13.6,
+        "ratingAvg": 4.4,
+        "isAvailable": false,
+        "categoryId": 26,
+        "variants": [
+            {
+                "id": 181,
+                "name": "Extra Cheese",
+                "extraPrice": 1.02
+            },
+            {
+                "id": 182,
+                "name": "Mushrooms",
+                "extraPrice": 1.74
+            },
+            {
+                "id": 183,
+                "name": "Olives",
+                "extraPrice": 2.72
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 62,
+        "name": "Chicken Supreme Pizza",
+        "description": "Freshly baked pizza with delicious toppings",
+        "imageUrl": "https://images.pexels.com/photos/35940570/pexels-photo-35940570.jpeg?cs=srgb&dl=pexels-yudi-yudi-599936736-35940570.jpg&fm=jpg",
+        "originalPrice": 20.75,
+        "discountPercent": 10.0,
+        "finalPrice": 18.68,
+        "ratingAvg": 4.1,
+        "isAvailable": true,
+        "categoryId": 26,
+        "variants": [
+            {
+                "id": 184,
+                "name": "Extra Cheese",
+                "extraPrice": 1.21
+            },
+            {
+                "id": 185,
+                "name": "Mushrooms",
+                "extraPrice": 1.95
+            },
+            {
+                "id": 186,
+                "name": "Olives",
+                "extraPrice": 2.35
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 63,
+        "name": "Four Cheese Pizza",
+        "description": "Freshly baked pizza with delicious toppings",
+        "imageUrl": "https://images.pexels.com/photos/28272163/pexels-photo-28272163.jpeg?cs=srgb&dl=pexels-fira-ergashevv-1784024088-28272163.jpg&fm=jpg",
+        "originalPrice": 18.0,
+        "discountPercent": 10.0,
+        "finalPrice": 16.2,
+        "ratingAvg": 3.9,
+        "isAvailable": true,
+        "categoryId": 26,
+        "variants": [
+            {
+                "id": 187,
+                "name": "Extra Cheese",
+                "extraPrice": 0.81
+            },
+            {
+                "id": 188,
+                "name": "Mushrooms",
+                "extraPrice": 1.72
+            },
+            {
+                "id": 189,
+                "name": "Olives",
+                "extraPrice": 2.29
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 64,
+        "name": "Creamy Mushroom Bowl",
+        "description": "Fresh mushrooms prepared with herbs and vegetables",
+        "imageUrl": "https://images.pexels.com/photos/4103375/pexels-photo-4103375.jpeg",
+        "originalPrice": 10.75,
+        "discountPercent": 0.0,
+        "finalPrice": 10.75,
+        "ratingAvg": 3.9,
+        "isAvailable": true,
+        "categoryId": 27,
+        "variants": [
+            {
+                "id": 190,
+                "name": "Extra Sauce",
+                "extraPrice": 0.86
+            },
+            {
+                "id": 191,
+                "name": "Extra Cheese",
+                "extraPrice": 1.65
+            },
+            {
+                "id": 192,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.31
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 65,
+        "name": "Grilled Mushrooms",
+        "description": "Fresh mushrooms prepared with herbs and vegetables",
+        "imageUrl": "https://images.pexels.com/photos/7840856/pexels-photo-7840856.jpeg?cs=srgb&dl=pexels-maksimdarling-7840856.jpg&fm=jpg",
+        "originalPrice": 14.5,
+        "discountPercent": 20.0,
+        "finalPrice": 11.6,
+        "ratingAvg": 4.5,
+        "isAvailable": true,
+        "categoryId": 27,
+        "variants": [
+            {
+                "id": 193,
+                "name": "Extra Sauce",
+                "extraPrice": 1.07
+            },
+            {
+                "id": 194,
+                "name": "Extra Cheese",
+                "extraPrice": 1.68
+            },
+            {
+                "id": 195,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.38
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 66,
+        "name": "Mushroom Pasta",
+        "description": "Fresh mushrooms prepared with herbs and vegetables",
+        "imageUrl": "https://images.pexels.com/photos/19805083/pexels-photo-19805083.jpeg?cs=srgb&dl=pexels-farklimavi-19805083.jpg&fm=jpg",
+        "originalPrice": 10.0,
+        "discountPercent": 10.0,
+        "finalPrice": 9.0,
+        "ratingAvg": 4.5,
+        "isAvailable": true,
+        "categoryId": 27,
+        "variants": [
+            {
+                "id": 196,
+                "name": "Extra Sauce",
+                "extraPrice": 0.86
+            },
+            {
+                "id": 197,
+                "name": "Extra Cheese",
+                "extraPrice": 1.98
+            },
+            {
+                "id": 198,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.45
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 67,
+        "name": "Mushroom Risotto",
+        "description": "Creamy risotto cooked with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/14537683/pexels-photo-14537683.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 12.5,
+        "discountPercent": 20.0,
+        "finalPrice": 10.0,
+        "ratingAvg": 4.6,
+        "isAvailable": true,
+        "categoryId": 28,
+        "variants": [
+            {
+                "id": 199,
+                "name": "Extra Sauce",
+                "extraPrice": 1.17
+            },
+            {
+                "id": 200,
+                "name": "Extra Cheese",
+                "extraPrice": 1.58
+            },
+            {
+                "id": 201,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.47
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 68,
+        "name": "Vegetable Risotto",
+        "description": "Creamy risotto cooked with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/11757556/pexels-photo-11757556.jpeg",
+        "originalPrice": 12.5,
+        "discountPercent": 10.0,
+        "finalPrice": 11.25,
+        "ratingAvg": 4.2,
+        "isAvailable": true,
+        "categoryId": 28,
+        "variants": [
+            {
+                "id": 202,
+                "name": "Extra Sauce",
+                "extraPrice": 0.96
+            },
+            {
+                "id": 203,
+                "name": "Extra Cheese",
+                "extraPrice": 1.68
+            },
+            {
+                "id": 204,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.3
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 69,
+        "name": "Creamy Herb Risotto",
+        "description": "Creamy risotto cooked with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/34110276/pexels-photo-34110276.jpeg?cs=srgb&dl=pexels-arti-tic-1675363189-34110276.jpg&fm=jpg",
+        "originalPrice": 11.5,
+        "discountPercent": 10.0,
+        "finalPrice": 10.35,
+        "ratingAvg": 4.8,
+        "isAvailable": true,
+        "categoryId": 28,
+        "variants": [
+            {
+                "id": 205,
+                "name": "Extra Sauce",
+                "extraPrice": 1.03
+            },
+            {
+                "id": 206,
+                "name": "Extra Cheese",
+                "extraPrice": 1.72
+            },
+            {
+                "id": 207,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.26
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 70,
+        "name": "Garlic Broccoli",
+        "description": "Fresh broccoli prepared with flavorful seasoning",
+        "imageUrl": "https://images.pexels.com/photos/33691820/pexels-photo-33691820.jpeg?cs=srgb&dl=pexels-sejio402-33691820.jpg&fm=jpg",
+        "originalPrice": 6.25,
+        "discountPercent": 15.0,
+        "finalPrice": 5.31,
+        "ratingAvg": 4.3,
+        "isAvailable": true,
+        "categoryId": 29,
+        "variants": [
+            {
+                "id": 208,
+                "name": "Extra Sauce",
+                "extraPrice": 0.9
+            },
+            {
+                "id": 209,
+                "name": "Extra Cheese",
+                "extraPrice": 1.98
+            },
+            {
+                "id": 210,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.31
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 71,
+        "name": "Broccoli Bowl",
+        "description": "Fresh broccoli prepared with flavorful seasoning",
+        "imageUrl": "https://images.pexels.com/photos/14448988/pexels-photo-14448988.jpeg",
+        "originalPrice": 8.75,
+        "discountPercent": 0.0,
+        "finalPrice": 8.75,
+        "ratingAvg": 4.7,
+        "isAvailable": true,
+        "categoryId": 29,
+        "variants": [
+            {
+                "id": 211,
+                "name": "Extra Sauce",
+                "extraPrice": 1.24
+            },
+            {
+                "id": 212,
+                "name": "Extra Cheese",
+                "extraPrice": 1.55
+            },
+            {
+                "id": 213,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.38
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 72,
+        "name": "Creamy Broccoli",
+        "description": "Fresh broccoli prepared with flavorful seasoning",
+        "imageUrl": "https://images.pexels.com/photos/20852223/pexels-photo-20852223/free-photo-of-spoon-over-soup-with-broccoli.jpeg",
+        "originalPrice": 5.25,
+        "discountPercent": 0.0,
+        "finalPrice": 5.25,
+        "ratingAvg": 4.7,
+        "isAvailable": true,
+        "categoryId": 29,
+        "variants": [
+            {
+                "id": 214,
+                "name": "Extra Sauce",
+                "extraPrice": 0.89
+            },
+            {
+                "id": 215,
+                "name": "Extra Cheese",
+                "extraPrice": 1.56
+            },
+            {
+                "id": 216,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.46
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 73,
+        "name": "Classic Hummus",
+        "description": "Creamy chickpea hummus with fresh toppings",
+        "imageUrl": "https://images.pexels.com/photos/30312761/pexels-photo-30312761.jpeg?cs=srgb&dl=pexels-ruken-30312761.jpg&fm=jpg",
+        "originalPrice": 7.75,
+        "discountPercent": 10.0,
+        "finalPrice": 6.98,
+        "ratingAvg": 4.6,
+        "isAvailable": true,
+        "categoryId": 30,
+        "variants": [
+            {
+                "id": 217,
+                "name": "Extra Sauce",
+                "extraPrice": 0.95
+            },
+            {
+                "id": 218,
+                "name": "Extra Cheese",
+                "extraPrice": 1.77
+            },
+            {
+                "id": 219,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.51
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 74,
+        "name": "Spicy Hummus",
+        "description": "Creamy chickpea hummus with fresh toppings",
+        "imageUrl": "https://images.pexels.com/photos/19408482/pexels-photo-19408482/free-photo-of-a-bowl-of-hummus-on-a-wooden-cutting-board.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 6.0,
+        "discountPercent": 10.0,
+        "finalPrice": 5.4,
+        "ratingAvg": 3.9,
+        "isAvailable": true,
+        "categoryId": 30,
+        "variants": [
+            {
+                "id": 220,
+                "name": "Extra Sauce",
+                "extraPrice": 0.79
+            },
+            {
+                "id": 221,
+                "name": "Extra Cheese",
+                "extraPrice": 1.53
+            },
+            {
+                "id": 222,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.59
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 75,
+        "name": "Avocado Hummus",
+        "description": "Creamy chickpea hummus with fresh toppings",
+        "imageUrl": "https://images.pexels.com/photos/7721049/pexels-photo-7721049.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 5.75,
+        "discountPercent": 0.0,
+        "finalPrice": 5.75,
+        "ratingAvg": 4.1,
+        "isAvailable": true,
+        "categoryId": 30,
+        "variants": [
+            {
+                "id": 223,
+                "name": "Extra Sauce",
+                "extraPrice": 0.88
+            },
+            {
+                "id": 224,
+                "name": "Extra Cheese",
+                "extraPrice": 1.51
+            },
+            {
+                "id": 225,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.29
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 76,
+        "name": "Quinoa Veggie Bowl",
+        "description": "Healthy quinoa bowl with fresh vegetables",
+        "imageUrl": "https://images.pexels.com/photos/9258710/pexels-photo-9258710.jpeg?cs=srgb&dl=pexels-gonzalo-mendiola-95842233-9258710.jpg&fm=jpg",
+        "originalPrice": 10.75,
+        "discountPercent": 15.0,
+        "finalPrice": 9.14,
+        "ratingAvg": 3.9,
+        "isAvailable": true,
+        "categoryId": 31,
+        "variants": [
+            {
+                "id": 226,
+                "name": "Extra Sauce",
+                "extraPrice": 1.18
+            },
+            {
+                "id": 227,
+                "name": "Extra Cheese",
+                "extraPrice": 1.53
+            },
+            {
+                "id": 228,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.68
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 77,
+        "name": "Mediterranean Quinoa",
+        "description": "Healthy quinoa bowl with fresh vegetables",
+        "imageUrl": "https://images.pexels.com/photos/12786340/pexels-photo-12786340.jpeg?cs=srgb&dl=pexels-mavimiro-12786340.jpg&fm=jpg",
+        "originalPrice": 12.25,
+        "discountPercent": 10.0,
+        "finalPrice": 11.03,
+        "ratingAvg": 4.0,
+        "isAvailable": true,
+        "categoryId": 31,
+        "variants": [
+            {
+                "id": 229,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 230,
+                "name": "Extra Cheese",
+                "extraPrice": 1.71
+            },
+            {
+                "id": 231,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.71
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 78,
+        "name": "Quinoa Salad Bowl",
+        "description": "Healthy quinoa bowl with fresh vegetables",
+        "imageUrl": "https://images.pexels.com/photos/29283885/pexels-photo-29283885/free-photo-of-delicious-quinoa-salad-with-fresh-greens.jpeg",
+        "originalPrice": 13.25,
+        "discountPercent": 0.0,
+        "finalPrice": 13.25,
+        "ratingAvg": 4.6,
+        "isAvailable": true,
+        "categoryId": 31,
+        "variants": [
+            {
+                "id": 232,
+                "name": "Extra Sauce",
+                "extraPrice": 1.01
+            },
+            {
+                "id": 233,
+                "name": "Extra Cheese",
+                "extraPrice": 1.62
+            },
+            {
+                "id": 234,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.3
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 79,
+        "name": "Garden Salad",
+        "description": "Fresh salad made with crisp vegetables",
+        "imageUrl": "https://images.pexels.com/photos/30350305/pexels-photo-30350305/free-photo-of-colorful-fresh-garden-salad-in-white-bowl.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 8.0,
+        "discountPercent": 0.0,
+        "finalPrice": 8.0,
+        "ratingAvg": 5.0,
+        "isAvailable": true,
+        "categoryId": 32,
+        "variants": [
+            {
+                "id": 235,
+                "name": "Extra Sauce",
+                "extraPrice": 0.84
+            },
+            {
+                "id": 236,
+                "name": "Extra Cheese",
+                "extraPrice": 1.97
+            },
+            {
+                "id": 237,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.56
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 80,
+        "name": "Greek Salad",
+        "description": "Fresh salad made with crisp vegetables",
+        "imageUrl": "https://images.pexels.com/photos/38164817/pexels-photo-38164817/free-photo-of-fresh-greek-salad-with-feta-and-vegetables.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 10.25,
+        "discountPercent": 0.0,
+        "finalPrice": 10.25,
+        "ratingAvg": 3.8,
+        "isAvailable": true,
+        "categoryId": 32,
+        "variants": [
+            {
+                "id": 238,
+                "name": "Extra Sauce",
+                "extraPrice": 0.89
+            },
+            {
+                "id": 239,
+                "name": "Extra Cheese",
+                "extraPrice": 1.75
+            },
+            {
+                "id": 240,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.34
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 81,
+        "name": "Avocado Salad",
+        "description": "Fresh salad made with crisp vegetables",
+        "imageUrl": "https://images.pexels.com/photos/31199411/pexels-photo-31199411/free-photo-of-fresh-avocado-and-arugula-salad-on-rustic-table.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 9.0,
+        "discountPercent": 0.0,
+        "finalPrice": 9.0,
+        "ratingAvg": 4.1,
+        "isAvailable": true,
+        "categoryId": 32,
+        "variants": [
+            {
+                "id": 241,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 242,
+                "name": "Extra Cheese",
+                "extraPrice": 1.52
+            },
+            {
+                "id": 243,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.26
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 82,
+        "name": "Chicken Crepe",
+        "description": "Freshly made crepe with a delicious filling",
+        "imageUrl": "https://images.pexels.com/photos/15389372/pexels-photo-15389372.jpeg?cs=srgb&dl=pexels-valeriya-15389372.jpg&fm=jpg",
+        "originalPrice": 7.0,
+        "discountPercent": 0.0,
+        "finalPrice": 7.0,
+        "ratingAvg": 4.9,
+        "isAvailable": true,
+        "categoryId": 33,
+        "variants": [
+            {
+                "id": 244,
+                "name": "Extra Sauce",
+                "extraPrice": 1.01
+            },
+            {
+                "id": 245,
+                "name": "Extra Cheese",
+                "extraPrice": 1.62
+            },
+            {
+                "id": 246,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.47
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 83,
+        "name": "Cheese Crepe",
+        "description": "Freshly made crepe with a delicious filling",
+        "imageUrl": "https://images.pexels.com/photos/20582728/pexels-photo-20582728.jpeg?cs=srgb&dl=pexels-nadin-sh-78971847-20582728.jpg&fm=jpg",
+        "originalPrice": 7.75,
+        "discountPercent": 20.0,
+        "finalPrice": 6.2,
+        "ratingAvg": 4.2,
+        "isAvailable": true,
+        "categoryId": 33,
+        "variants": [
+            {
+                "id": 247,
+                "name": "Extra Sauce",
+                "extraPrice": 0.97
+            },
+            {
+                "id": 248,
+                "name": "Extra Cheese",
+                "extraPrice": 1.75
+            },
+            {
+                "id": 249,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.67
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 84,
+        "name": "Chocolate Crepe",
+        "description": "Freshly made crepe with a delicious filling",
+        "imageUrl": "https://images.pexels.com/photos/39083062/pexels-photo-39083062.jpeg",
+        "originalPrice": 6.5,
+        "discountPercent": 15.0,
+        "finalPrice": 5.52,
+        "ratingAvg": 4.6,
+        "isAvailable": true,
+        "categoryId": 33,
+        "variants": [
+            {
+                "id": 250,
+                "name": "Extra Sauce",
+                "extraPrice": 0.9
+            },
+            {
+                "id": 251,
+                "name": "Extra Cheese",
+                "extraPrice": 1.61
+            },
+            {
+                "id": 252,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.36
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 85,
+        "name": "Vanilla Macarons",
+        "description": "Delicate French macarons with a creamy filling",
+        "imageUrl": "https://images.pexels.com/photos/5423255/pexels-photo-5423255.jpeg",
+        "originalPrice": 5.75,
+        "discountPercent": 20.0,
+        "finalPrice": 4.6,
+        "ratingAvg": 4.8,
+        "isAvailable": true,
+        "categoryId": 34,
+        "variants": [
+            {
+                "id": 253,
+                "name": "Extra Sauce",
+                "extraPrice": 1.11
+            },
+            {
+                "id": 254,
+                "name": "Extra Cheese",
+                "extraPrice": 1.57
+            },
+            {
+                "id": 255,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.74
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 86,
+        "name": "Chocolate Macarons",
+        "description": "Delicate French macarons with a creamy filling",
+        "imageUrl": "https://images.pexels.com/photos/28144834/pexels-photo-28144834/free-photo-of-chocolate-macaron.jpeg",
+        "originalPrice": 9.0,
+        "discountPercent": 0.0,
+        "finalPrice": 9.0,
+        "ratingAvg": 4.3,
+        "isAvailable": true,
+        "categoryId": 34,
+        "variants": [
+            {
+                "id": 256,
+                "name": "Extra Sauce",
+                "extraPrice": 0.76
+            },
+            {
+                "id": 257,
+                "name": "Extra Cheese",
+                "extraPrice": 1.81
+            },
+            {
+                "id": 258,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.69
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 87,
+        "name": "Pistachio Macarons",
+        "description": "Delicate French macarons with a creamy filling",
+        "imageUrl": "https://images.pexels.com/photos/36496724/pexels-photo-36496724/free-photo-of-delicious-green-and-white-macaron-display.jpeg",
+        "originalPrice": 6.75,
+        "discountPercent": 0.0,
+        "finalPrice": 6.75,
+        "ratingAvg": 4.6,
+        "isAvailable": true,
+        "categoryId": 34,
+        "variants": [
+            {
+                "id": 259,
+                "name": "Extra Sauce",
+                "extraPrice": 0.79
+            },
+            {
+                "id": 260,
+                "name": "Extra Cheese",
+                "extraPrice": 1.92
+            },
+            {
+                "id": 261,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.69
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 88,
+        "name": "Vanilla Cupcake",
+        "description": "Soft cupcake topped with creamy frosting",
+        "imageUrl": "https://images.pexels.com/photos/12171163/pexels-photo-12171163.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 5.0,
+        "discountPercent": 10.0,
+        "finalPrice": 4.5,
+        "ratingAvg": 4.7,
+        "isAvailable": true,
+        "categoryId": 35,
+        "variants": [
+            {
+                "id": 262,
+                "name": "Extra Sauce",
+                "extraPrice": 1.05
+            },
+            {
+                "id": 263,
+                "name": "Extra Cheese",
+                "extraPrice": 1.85
+            },
+            {
+                "id": 264,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.27
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 89,
+        "name": "Chocolate Cupcake",
+        "description": "Soft cupcake topped with creamy frosting",
+        "imageUrl": "https://images.pexels.com/photos/36219651/pexels-photo-36219651/free-photo-of-delicious-chocolate-cupcake-with-frosting.jpeg",
+        "originalPrice": 3.5,
+        "discountPercent": 10.0,
+        "finalPrice": 3.15,
+        "ratingAvg": 4.5,
+        "isAvailable": true,
+        "categoryId": 35,
+        "variants": [
+            {
+                "id": 265,
+                "name": "Extra Sauce",
+                "extraPrice": 0.97
+            },
+            {
+                "id": 266,
+                "name": "Extra Cheese",
+                "extraPrice": 1.63
+            },
+            {
+                "id": 267,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.73
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 90,
+        "name": "Red Velvet Cupcake",
+        "description": "Soft cupcake topped with creamy frosting",
+        "imageUrl": "https://images.pexels.com/photos/34501472/pexels-photo-34501472/free-photo-of-delicious-red-velvet-cupcakes-with-cream-frosting.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 6.0,
+        "discountPercent": 15.0,
+        "finalPrice": 5.1,
+        "ratingAvg": 4.2,
+        "isAvailable": true,
+        "categoryId": 35,
+        "variants": [
+            {
+                "id": 268,
+                "name": "Extra Sauce",
+                "extraPrice": 0.91
+            },
+            {
+                "id": 269,
+                "name": "Extra Cheese",
+                "extraPrice": 1.52
+            },
+            {
+                "id": 270,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.69
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 91,
+        "name": "Vanilla Ice Cream",
+        "description": "Creamy ice cream made with delicious flavors",
+        "imageUrl": "https://images.pexels.com/photos/38987559/pexels-photo-38987559.jpeg?cs=srgb&dl=pexels-jahratreza-38987559.jpg&fm=jpg",
+        "originalPrice": 4.75,
+        "discountPercent": 0.0,
+        "finalPrice": 4.75,
+        "ratingAvg": 5.0,
+        "isAvailable": true,
+        "categoryId": 36,
+        "variants": [
+            {
+                "id": 271,
+                "name": "Extra Sauce",
+                "extraPrice": 0.75
+            },
+            {
+                "id": 272,
+                "name": "Extra Cheese",
+                "extraPrice": 1.69
+            },
+            {
+                "id": 273,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.49
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 92,
+        "name": "Chocolate Ice Cream",
+        "description": "Creamy ice cream made with delicious flavors",
+        "imageUrl": "https://images.pexels.com/photos/38275683/pexels-photo-38275683/free-photo-of-delicious-chocolate-ice-cream-in-rustic-dish.jpeg",
+        "originalPrice": 6.0,
+        "discountPercent": 0.0,
+        "finalPrice": 6.0,
+        "ratingAvg": 4.3,
+        "isAvailable": true,
+        "categoryId": 36,
+        "variants": [
+            {
+                "id": 274,
+                "name": "Extra Sauce",
+                "extraPrice": 0.87
+            },
+            {
+                "id": 275,
+                "name": "Extra Cheese",
+                "extraPrice": 1.89
+            },
+            {
+                "id": 276,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.3
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 93,
+        "name": "Strawberry Ice Cream",
+        "description": "Creamy ice cream made with delicious flavors",
+        "imageUrl": "https://images.pexels.com/photos/22484693/pexels-photo-22484693/free-photo-of-strawberry-ice-cream-in-a-bowl.jpeg?auto=compress&w=1260&h=750&dpr=1",
+        "originalPrice": 7.25,
+        "discountPercent": 0.0,
+        "finalPrice": 7.25,
+        "ratingAvg": 4.8,
+        "isAvailable": true,
+        "categoryId": 36,
+        "variants": [
+            {
+                "id": 277,
+                "name": "Extra Sauce",
+                "extraPrice": 0.95
+            },
+            {
+                "id": 278,
+                "name": "Extra Cheese",
+                "extraPrice": 1.52
+            },
+            {
+                "id": 279,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.26
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 94,
+        "name": "Classic Flan",
+        "description": "Smooth creamy flan topped with caramel",
+        "imageUrl": "https://images.pexels.com/photos/34474027/pexels-photo-34474027/free-photo-of-close-up-of-a-classic-caramel-flan-dessert-slice.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 6.25,
+        "discountPercent": 0.0,
+        "finalPrice": 6.25,
+        "ratingAvg": 4.4,
+        "isAvailable": true,
+        "categoryId": 37,
+        "variants": [
+            {
+                "id": 280,
+                "name": "Extra Sauce",
+                "extraPrice": 0.79
+            },
+            {
+                "id": 281,
+                "name": "Extra Cheese",
+                "extraPrice": 1.98
+            },
+            {
+                "id": 282,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.68
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 95,
+        "name": "Caramel Flan",
+        "description": "Smooth creamy flan topped with caramel",
+        "imageUrl": "https://images.pexels.com/photos/18089587/pexels-photo-18089587/free-photo-of-spanish-flan-dessert.jpeg",
+        "originalPrice": 5.5,
+        "discountPercent": 20.0,
+        "finalPrice": 4.4,
+        "ratingAvg": 4.3,
+        "isAvailable": true,
+        "categoryId": 37,
+        "variants": [
+            {
+                "id": 283,
+                "name": "Extra Sauce",
+                "extraPrice": 1.14
+            },
+            {
+                "id": 284,
+                "name": "Extra Cheese",
+                "extraPrice": 1.8
+            },
+            {
+                "id": 285,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.63
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 96,
+        "name": "Vanilla Flan",
+        "description": "Smooth creamy flan topped with caramel",
+        "imageUrl": "https://images.pexels.com/photos/18261826/pexels-photo-18261826.jpeg?cs=srgb&dl=pexels-gabriel-passos-71368745-18261826.jpg&fm=jpg",
+        "originalPrice": 8.0,
+        "discountPercent": 10.0,
+        "finalPrice": 7.2,
+        "ratingAvg": 4.6,
+        "isAvailable": true,
+        "categoryId": 37,
+        "variants": [
+            {
+                "id": 286,
+                "name": "Extra Sauce",
+                "extraPrice": 0.82
+            },
+            {
+                "id": 287,
+                "name": "Extra Cheese",
+                "extraPrice": 1.86
+            },
+            {
+                "id": 288,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.57
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 97,
+        "name": "Classic Cheesecake",
+        "description": "Creamy cheesecake with a delicious topping",
+        "imageUrl": "https://images.pexels.com/photos/29851864/pexels-photo-29851864/free-photo-of-elegant-cheesecake-with-cream-topping-on-black-stand.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 8.25,
+        "discountPercent": 20.0,
+        "finalPrice": 6.6,
+        "ratingAvg": 4.6,
+        "isAvailable": true,
+        "categoryId": 38,
+        "variants": [
+            {
+                "id": 289,
+                "name": "Extra Sauce",
+                "extraPrice": 1.2
+            },
+            {
+                "id": 290,
+                "name": "Extra Cheese",
+                "extraPrice": 1.81
+            },
+            {
+                "id": 291,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.62
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 98,
+        "name": "Strawberry Cheesecake",
+        "description": "Creamy cheesecake with a delicious topping",
+        "imageUrl": "https://images.pexels.com/photos/30793999/pexels-photo-30793999/free-photo-of-delicious-strawberry-cheesecake-slice-on-plate.jpeg?h=1000&w=1500&fit=crop",
+        "originalPrice": 12.75,
+        "discountPercent": 0.0,
+        "finalPrice": 12.75,
+        "ratingAvg": 4.4,
+        "isAvailable": true,
+        "categoryId": 38,
+        "variants": [
+            {
+                "id": 292,
+                "name": "Extra Sauce",
+                "extraPrice": 1.2
+            },
+            {
+                "id": 293,
+                "name": "Extra Cheese",
+                "extraPrice": 1.88
+            },
+            {
+                "id": 294,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.53
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 99,
+        "name": "Chocolate Cheesecake",
+        "description": "Creamy cheesecake with a delicious topping",
+        "imageUrl": "https://images.pexels.com/photos/38134578/pexels-photo-38134578.jpeg?cs=srgb&dl=pexels-visen-group-2161585898-38134578.jpg&fm=jpg",
+        "originalPrice": 13.0,
+        "discountPercent": 0.0,
+        "finalPrice": 13.0,
+        "ratingAvg": 3.7,
+        "isAvailable": true,
+        "categoryId": 38,
+        "variants": [
+            {
+                "id": 295,
+                "name": "Extra Sauce",
+                "extraPrice": 1.16
+            },
+            {
+                "id": 296,
+                "name": "Extra Cheese",
+                "extraPrice": 1.79
+            },
+            {
+                "id": 297,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.7
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 100,
+        "name": "Dark Chocolate",
+        "description": "Premium chocolate treat made for chocolate lovers",
+        "imageUrl": "https://images.pexels.com/photos/6167328/pexels-photo-6167328.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 6.75,
+        "discountPercent": 20.0,
+        "finalPrice": 5.4,
+        "ratingAvg": 4.3,
+        "isAvailable": false,
+        "categoryId": 39,
+        "variants": [
+            {
+                "id": 298,
+                "name": "Extra Sauce",
+                "extraPrice": 1.07
+            },
+            {
+                "id": 299,
+                "name": "Extra Cheese",
+                "extraPrice": 1.54
+            },
+            {
+                "id": 300,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.27
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 101,
+        "name": "Milk Chocolate",
+        "description": "Premium chocolate treat made for chocolate lovers",
+        "imageUrl": "https://images.pexels.com/photos/10823180/pexels-photo-10823180.jpeg",
+        "originalPrice": 6.5,
+        "discountPercent": 0.0,
+        "finalPrice": 6.5,
+        "ratingAvg": 4.6,
+        "isAvailable": true,
+        "categoryId": 39,
+        "variants": [
+            {
+                "id": 301,
+                "name": "Extra Sauce",
+                "extraPrice": 0.94
+            },
+            {
+                "id": 302,
+                "name": "Extra Cheese",
+                "extraPrice": 1.73
+            },
+            {
+                "id": 303,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.28
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 102,
+        "name": "Chocolate Truffles",
+        "description": "Premium chocolate treat made for chocolate lovers",
+        "imageUrl": "https://images.pexels.com/photos/27850068/pexels-photo-27850068/free-photo-of-a-bowl-of-chocolate-truffles-with-dates.jpeg",
+        "originalPrice": 4.0,
+        "discountPercent": 15.0,
+        "finalPrice": 3.4,
+        "ratingAvg": 4.5,
+        "isAvailable": true,
+        "categoryId": 39,
+        "variants": [
+            {
+                "id": 304,
+                "name": "Extra Sauce",
+                "extraPrice": 1.09
+            },
+            {
+                "id": 305,
+                "name": "Extra Cheese",
+                "extraPrice": 1.74
+            },
+            {
+                "id": 306,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.25
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 103,
+        "name": "Chocolate Cake",
+        "description": "Soft freshly baked cake with creamy frosting",
+        "imageUrl": "https://images.pexels.com/photos/37080948/pexels-photo-37080948.jpeg?cs=srgb&dl=pexels-christopher-welsch-leveroni-2150186467-37080948.jpg&fm=jpg",
+        "originalPrice": 11.75,
+        "discountPercent": 20.0,
+        "finalPrice": 9.4,
+        "ratingAvg": 3.7,
+        "isAvailable": true,
+        "categoryId": 40,
+        "variants": [
+            {
+                "id": 307,
+                "name": "Extra Sauce",
+                "extraPrice": 1.22
+            },
+            {
+                "id": 308,
+                "name": "Extra Cheese",
+                "extraPrice": 1.95
+            },
+            {
+                "id": 309,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.3
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 104,
+        "name": "Vanilla Cake",
+        "description": "Soft freshly baked cake with creamy frosting",
+        "imageUrl": "https://images.pexels.com/photos/4110001/pexels-photo-4110001.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 10.25,
+        "discountPercent": 20.0,
+        "finalPrice": 8.2,
+        "ratingAvg": 4.6,
+        "isAvailable": true,
+        "categoryId": 40,
+        "variants": [
+            {
+                "id": 310,
+                "name": "Extra Sauce",
+                "extraPrice": 1.12
+            },
+            {
+                "id": 311,
+                "name": "Extra Cheese",
+                "extraPrice": 1.63
+            },
+            {
+                "id": 312,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.29
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 105,
+        "name": "Red Velvet Cake",
+        "description": "Soft freshly baked cake with creamy frosting",
+        "imageUrl": "https://images.pexels.com/photos/34269386/pexels-photo-34269386/free-photo-of-delicious-red-velvet-cake-with-coffee.jpeg",
+        "originalPrice": 8.5,
+        "discountPercent": 20.0,
+        "finalPrice": 6.8,
+        "ratingAvg": 3.8,
+        "isAvailable": true,
+        "categoryId": 40,
+        "variants": [
+            {
+                "id": 313,
+                "name": "Extra Sauce",
+                "extraPrice": 1.13
+            },
+            {
+                "id": 314,
+                "name": "Extra Cheese",
+                "extraPrice": 1.62
+            },
+            {
+                "id": 315,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.57
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 106,
+        "name": "Classic Brownie",
+        "description": "Rich and fudgy chocolate brownie",
+        "imageUrl": "https://images.pexels.com/photos/4597835/pexels-photo-4597835.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 5.5,
+        "discountPercent": 10.0,
+        "finalPrice": 4.95,
+        "ratingAvg": 4.6,
+        "isAvailable": true,
+        "categoryId": 41,
+        "variants": [
+            {
+                "id": 316,
+                "name": "Extra Sauce",
+                "extraPrice": 0.79
+            },
+            {
+                "id": 317,
+                "name": "Extra Cheese",
+                "extraPrice": 1.96
+            },
+            {
+                "id": 318,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.39
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 107,
+        "name": "Walnut Brownie",
+        "description": "Rich and fudgy chocolate brownie",
+        "imageUrl": "https://images.pexels.com/photos/33813613/pexels-photo-33813613.jpeg?cs=srgb&dl=pexels-ashwin-kumar-2155130165-33813613.jpg&fm=jpg",
+        "originalPrice": 4.25,
+        "discountPercent": 20.0,
+        "finalPrice": 3.4,
+        "ratingAvg": 4.9,
+        "isAvailable": true,
+        "categoryId": 41,
+        "variants": [
+            {
+                "id": 319,
+                "name": "Extra Sauce",
+                "extraPrice": 1.07
+            },
+            {
+                "id": 320,
+                "name": "Extra Cheese",
+                "extraPrice": 1.54
+            },
+            {
+                "id": 321,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.32
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 108,
+        "name": "Chocolate Fudge Brownie",
+        "description": "Rich and fudgy chocolate brownie",
+        "imageUrl": "https://images.pexels.com/photos/30353750/pexels-photo-30353750.jpeg?cs=srgb&dl=pexels-giovanna-kamimura-399616174-30353750.jpg&fm=jpg",
+        "originalPrice": 4.75,
+        "discountPercent": 20.0,
+        "finalPrice": 3.8,
+        "ratingAvg": 4.0,
+        "isAvailable": true,
+        "categoryId": 41,
+        "variants": [
+            {
+                "id": 322,
+                "name": "Extra Sauce",
+                "extraPrice": 1.1
+            },
+            {
+                "id": 323,
+                "name": "Extra Cheese",
+                "extraPrice": 1.81
+            },
+            {
+                "id": 324,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.32
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 109,
+        "name": "Espresso",
+        "description": "Freshly brewed coffee prepared to order",
+        "imageUrl": "https://images.pexels.com/photos/36192953/pexels-photo-36192953/free-photo-of-close-up-of-espresso-coffee-with-rich-crema.jpeg",
+        "originalPrice": 4.5,
+        "discountPercent": 10.0,
+        "finalPrice": 4.05,
+        "ratingAvg": 5.0,
+        "isAvailable": true,
+        "categoryId": 42,
+        "variants": [
+            {
+                "id": 325,
+                "name": "Extra Shot",
+                "extraPrice": 0.88
+            },
+            {
+                "id": 326,
+                "name": "Vanilla Syrup",
+                "extraPrice": 1.84
+            },
+            {
+                "id": 327,
+                "name": "Caramel Syrup",
+                "extraPrice": 2.6
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 110,
+        "name": "Cappuccino",
+        "description": "Freshly brewed coffee prepared to order",
+        "imageUrl": "https://images.pexels.com/photos/6747870/pexels-photo-6747870.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 5.0,
+        "discountPercent": 10.0,
+        "finalPrice": 4.5,
+        "ratingAvg": 4.6,
+        "isAvailable": true,
+        "categoryId": 42,
+        "variants": [
+            {
+                "id": 328,
+                "name": "Extra Shot",
+                "extraPrice": 1.1
+            },
+            {
+                "id": 329,
+                "name": "Vanilla Syrup",
+                "extraPrice": 1.64
+            },
+            {
+                "id": 330,
+                "name": "Caramel Syrup",
+                "extraPrice": 2.48
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 111,
+        "name": "Iced Coffee",
+        "description": "Freshly brewed coffee prepared to order",
+        "imageUrl": "https://images.pexels.com/photos/35229818/pexels-photo-35229818.jpeg",
+        "originalPrice": 5.25,
+        "discountPercent": 15.0,
+        "finalPrice": 4.46,
+        "ratingAvg": 4.0,
+        "isAvailable": true,
+        "categoryId": 42,
+        "variants": [
+            {
+                "id": 331,
+                "name": "Extra Shot",
+                "extraPrice": 0.85
+            },
+            {
+                "id": 332,
+                "name": "Vanilla Syrup",
+                "extraPrice": 1.99
+            },
+            {
+                "id": 333,
+                "name": "Caramel Syrup",
+                "extraPrice": 2.72
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 112,
+        "name": "Berry Cocktail",
+        "description": "Refreshing mixed fruit drink with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/9171554/pexels-photo-9171554.jpeg?cs=srgb&dl=pexels-santiago-moreno-1092258-9171554.jpg&fm=jpg",
+        "originalPrice": 9.0,
+        "discountPercent": 10.0,
+        "finalPrice": 8.1,
+        "ratingAvg": 3.6,
+        "isAvailable": true,
+        "categoryId": 43,
+        "variants": [
+            {
+                "id": 334,
+                "name": "Extra Sauce",
+                "extraPrice": 0.79
+            },
+            {
+                "id": 335,
+                "name": "Extra Cheese",
+                "extraPrice": 1.75
+            },
+            {
+                "id": 336,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.75
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 113,
+        "name": "Tropical Cocktail",
+        "description": "Refreshing mixed fruit drink with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/32793262/pexels-photo-32793262.jpeg?cs=srgb&dl=pexels-nano-erdozain-120534369-32793262.jpg&fm=jpg",
+        "originalPrice": 15.0,
+        "discountPercent": 10.0,
+        "finalPrice": 13.5,
+        "ratingAvg": 4.8,
+        "isAvailable": true,
+        "categoryId": 43,
+        "variants": [
+            {
+                "id": 337,
+                "name": "Extra Sauce",
+                "extraPrice": 0.85
+            },
+            {
+                "id": 338,
+                "name": "Extra Cheese",
+                "extraPrice": 1.97
+            },
+            {
+                "id": 339,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.36
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 114,
+        "name": "Citrus Cocktail",
+        "description": "Refreshing mixed fruit drink with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/35219410/pexels-photo-35219410.jpeg?cs=srgb&dl=pexels-tomfisk-35219410.jpg&fm=jpg",
+        "originalPrice": 12.5,
+        "discountPercent": 0.0,
+        "finalPrice": 12.5,
+        "ratingAvg": 4.8,
+        "isAvailable": true,
+        "categoryId": 43,
+        "variants": [
+            {
+                "id": 340,
+                "name": "Extra Sauce",
+                "extraPrice": 1.12
+            },
+            {
+                "id": 341,
+                "name": "Extra Cheese",
+                "extraPrice": 1.63
+            },
+            {
+                "id": 342,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.43
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 115,
+        "name": "Fresh Orange Juice",
+        "description": "Freshly prepared fruit juice",
+        "imageUrl": "https://images.pexels.com/photos/30900665/pexels-photo-30900665/free-photo-of-refreshing-glass-of-orange-juice-with-slice.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 4.75,
+        "discountPercent": 20.0,
+        "finalPrice": 3.8,
+        "ratingAvg": 5.0,
+        "isAvailable": true,
+        "categoryId": 44,
+        "variants": [
+            {
+                "id": 343,
+                "name": "Extra Sauce",
+                "extraPrice": 1.0
+            },
+            {
+                "id": 344,
+                "name": "Extra Cheese",
+                "extraPrice": 1.94
+            },
+            {
+                "id": 345,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.6
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 116,
+        "name": "Mango Juice",
+        "description": "Freshly prepared fruit juice",
+        "imageUrl": "https://images.pexels.com/photos/30620868/pexels-photo-30620868.jpeg?cs=srgb&dl=pexels-nandamends-30620868.jpg&fm=jpg",
+        "originalPrice": 3.75,
+        "discountPercent": 10.0,
+        "finalPrice": 3.38,
+        "ratingAvg": 4.6,
+        "isAvailable": true,
+        "categoryId": 44,
+        "variants": [
+            {
+                "id": 346,
+                "name": "Extra Sauce",
+                "extraPrice": 0.95
+            },
+            {
+                "id": 347,
+                "name": "Extra Cheese",
+                "extraPrice": 1.58
+            },
+            {
+                "id": 348,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.72
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 117,
+        "name": "Strawberry Juice",
+        "description": "Freshly prepared fruit juice",
+        "imageUrl": "https://images.pexels.com/photos/36673074/pexels-photo-36673074.jpeg?cs=srgb&dl=pexels-erickfoto-36673074.jpg&fm=jpg",
+        "originalPrice": 5.0,
+        "discountPercent": 10.0,
+        "finalPrice": 4.5,
+        "ratingAvg": 4.1,
+        "isAvailable": true,
+        "categoryId": 44,
+        "variants": [
+            {
+                "id": 349,
+                "name": "Extra Sauce",
+                "extraPrice": 0.9
+            },
+            {
+                "id": 350,
+                "name": "Extra Cheese",
+                "extraPrice": 1.57
+            },
+            {
+                "id": 351,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.42
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 118,
+        "name": "Vanilla Milkshake",
+        "description": "Creamy milkshake blended with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/28525198/pexels-photo-28525198.jpeg?cs=srgb&dl=pexels-alejandro-aznar-155337093-28525198.jpg&fm=jpg",
+        "originalPrice": 6.0,
+        "discountPercent": 10.0,
+        "finalPrice": 5.4,
+        "ratingAvg": 3.7,
+        "isAvailable": false,
+        "categoryId": 45,
+        "variants": [
+            {
+                "id": 352,
+                "name": "Whipped Cream",
+                "extraPrice": 0.75
+            },
+            {
+                "id": 353,
+                "name": "Chocolate Sauce",
+                "extraPrice": 1.88
+            },
+            {
+                "id": 354,
+                "name": "Extra Ice Cream",
+                "extraPrice": 2.67
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 119,
+        "name": "Chocolate Milkshake",
+        "description": "Creamy milkshake blended with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/34926740/pexels-photo-34926740/free-photo-of-delicious-chocolate-milkshake-with-whipped-cream.jpeg",
+        "originalPrice": 5.25,
+        "discountPercent": 0.0,
+        "finalPrice": 5.25,
+        "ratingAvg": 4.9,
+        "isAvailable": true,
+        "categoryId": 45,
+        "variants": [
+            {
+                "id": 355,
+                "name": "Whipped Cream",
+                "extraPrice": 1.11
+            },
+            {
+                "id": 356,
+                "name": "Chocolate Sauce",
+                "extraPrice": 1.95
+            },
+            {
+                "id": 357,
+                "name": "Extra Ice Cream",
+                "extraPrice": 2.39
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 120,
+        "name": "Strawberry Milkshake",
+        "description": "Creamy milkshake blended with fresh ingredients",
+        "imageUrl": "https://images.pexels.com/photos/39344590/pexels-photo-39344590.jpeg?cs=srgb&dl=pexels-apriadi-39344590.jpg&fm=jpg",
+        "originalPrice": 6.0,
+        "discountPercent": 10.0,
+        "finalPrice": 5.4,
+        "ratingAvg": 4.2,
+        "isAvailable": true,
+        "categoryId": 45,
+        "variants": [
+            {
+                "id": 358,
+                "name": "Whipped Cream",
+                "extraPrice": 0.95
+            },
+            {
+                "id": 359,
+                "name": "Chocolate Sauce",
+                "extraPrice": 1.93
+            },
+            {
+                "id": 360,
+                "name": "Extra Ice Cream",
+                "extraPrice": 2.29
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 121,
+        "name": "Red Wine",
+        "description": "A carefully selected wine served chilled or at room temperature",
+        "imageUrl": "https://images.pexels.com/photos/8660221/pexels-photo-8660221.jpeg?cs=srgb&dl=pexels-kuremo-8660221.jpg&fm=jpg",
+        "originalPrice": 25.0,
+        "discountPercent": 10.0,
+        "finalPrice": 22.5,
+        "ratingAvg": 4.1,
+        "isAvailable": true,
+        "categoryId": 46,
+        "variants": [
+            {
+                "id": 361,
+                "name": "Extra Sauce",
+                "extraPrice": 1.18
+            },
+            {
+                "id": 362,
+                "name": "Extra Cheese",
+                "extraPrice": 1.64
+            },
+            {
+                "id": 363,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.28
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 122,
+        "name": "White Wine",
+        "description": "A carefully selected wine served chilled or at room temperature",
+        "imageUrl": "https://images.pexels.com/photos/7134904/pexels-photo-7134904.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 21.25,
+        "discountPercent": 20.0,
+        "finalPrice": 17.0,
+        "ratingAvg": 4.5,
+        "isAvailable": true,
+        "categoryId": 46,
+        "variants": [
+            {
+                "id": 364,
+                "name": "Extra Sauce",
+                "extraPrice": 1.22
+            },
+            {
+                "id": 365,
+                "name": "Extra Cheese",
+                "extraPrice": 1.62
+            },
+            {
+                "id": 366,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.38
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 123,
+        "name": "Rosé Wine",
+        "description": "A carefully selected wine served chilled or at room temperature",
+        "imageUrl": "https://images.pexels.com/photos/20226300/pexels-photo-20226300/free-photo-of-glass-of-rose-wine.jpeg",
+        "originalPrice": 19.25,
+        "discountPercent": 0.0,
+        "finalPrice": 19.25,
+        "ratingAvg": 3.7,
+        "isAvailable": true,
+        "categoryId": 46,
+        "variants": [
+            {
+                "id": 367,
+                "name": "Extra Sauce",
+                "extraPrice": 1.14
+            },
+            {
+                "id": 368,
+                "name": "Extra Cheese",
+                "extraPrice": 1.89
+            },
+            {
+                "id": 369,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.46
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 124,
+        "name": "Classic Piña Colada",
+        "description": "Refreshing tropical pineapple and coconut drink",
+        "imageUrl": "https://images.pexels.com/photos/33776434/pexels-photo-33776434.jpeg?cs=srgb&dl=pexels-speakmediauganda-33776434.jpg&fm=jpg",
+        "originalPrice": 8.25,
+        "discountPercent": 20.0,
+        "finalPrice": 6.6,
+        "ratingAvg": 4.0,
+        "isAvailable": true,
+        "categoryId": 47,
+        "variants": [
+            {
+                "id": 370,
+                "name": "Extra Sauce",
+                "extraPrice": 0.95
+            },
+            {
+                "id": 371,
+                "name": "Extra Cheese",
+                "extraPrice": 1.94
+            },
+            {
+                "id": 372,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.53
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 125,
+        "name": "Mango Piña Colada",
+        "description": "Refreshing tropical pineapple and coconut drink",
+        "imageUrl": "https://images.pexels.com/photos/12954679/pexels-photo-12954679.jpeg?cs=srgb&dl=pexels-marceloverfe-12954679.jpg&fm=jpg",
+        "originalPrice": 9.25,
+        "discountPercent": 0.0,
+        "finalPrice": 9.25,
+        "ratingAvg": 4.4,
+        "isAvailable": false,
+        "categoryId": 47,
+        "variants": [
+            {
+                "id": 373,
+                "name": "Extra Sauce",
+                "extraPrice": 0.77
+            },
+            {
+                "id": 374,
+                "name": "Extra Cheese",
+                "extraPrice": 1.87
+            },
+            {
+                "id": 375,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.48
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 126,
+        "name": "Strawberry Piña Colada",
+        "description": "Refreshing tropical pineapple and coconut drink",
+        "imageUrl": "https://images.pexels.com/photos/31578583/pexels-photo-31578583/free-photo-of-refreshing-strawberry-cocktail-with-ice-cubes.jpeg",
+        "originalPrice": 12.5,
+        "discountPercent": 20.0,
+        "finalPrice": 10.0,
+        "ratingAvg": 4.7,
+        "isAvailable": true,
+        "categoryId": 47,
+        "variants": [
+            {
+                "id": 376,
+                "name": "Extra Sauce",
+                "extraPrice": 1.18
+            },
+            {
+                "id": 377,
+                "name": "Extra Cheese",
+                "extraPrice": 1.74
+            },
+            {
+                "id": 378,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.71
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 127,
+        "name": "Classic Mojito",
+        "description": "Refreshing drink with lime, mint and fruit flavors",
+        "imageUrl": "https://images.pexels.com/photos/4051265/pexels-photo-4051265.jpeg?cs=srgb&dl=pexels-alleksana-4051265.jpg&fm=jpg",
+        "originalPrice": 10.75,
+        "discountPercent": 0.0,
+        "finalPrice": 10.75,
+        "ratingAvg": 4.2,
+        "isAvailable": true,
+        "categoryId": 48,
+        "variants": [
+            {
+                "id": 379,
+                "name": "Extra Sauce",
+                "extraPrice": 0.99
+            },
+            {
+                "id": 380,
+                "name": "Extra Cheese",
+                "extraPrice": 1.67
+            },
+            {
+                "id": 381,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.4
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 128,
+        "name": "Strawberry Mojito",
+        "description": "Refreshing drink with lime, mint and fruit flavors",
+        "imageUrl": "https://images.pexels.com/photos/30412118/pexels-photo-30412118.jpeg?cs=srgb&dl=pexels-andra-hamzah-1635624918-30412118.jpg&fm=jpg",
+        "originalPrice": 11.75,
+        "discountPercent": 20.0,
+        "finalPrice": 9.4,
+        "ratingAvg": 4.9,
+        "isAvailable": true,
+        "categoryId": 48,
+        "variants": [
+            {
+                "id": 382,
+                "name": "Extra Sauce",
+                "extraPrice": 0.88
+            },
+            {
+                "id": 383,
+                "name": "Extra Cheese",
+                "extraPrice": 1.83
+            },
+            {
+                "id": 384,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.4
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 129,
+        "name": "Passion Fruit Mojito",
+        "description": "Refreshing drink with lime, mint and fruit flavors",
+        "imageUrl": "https://images.pexels.com/photos/8375043/pexels-photo-8375043.jpeg?cs=srgb&dl=pexels-jdgromov-8375043.jpg&fm=jpg",
+        "originalPrice": 10.75,
+        "discountPercent": 10.0,
+        "finalPrice": 9.68,
+        "ratingAvg": 5.0,
+        "isAvailable": true,
+        "categoryId": 48,
+        "variants": [
+            {
+                "id": 385,
+                "name": "Extra Sauce",
+                "extraPrice": 0.81
+            },
+            {
+                "id": 386,
+                "name": "Extra Cheese",
+                "extraPrice": 1.82
+            },
+            {
+                "id": 387,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.29
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 130,
+        "name": "Golden Craft Beer",
+        "description": "Locally inspired craft beer with a rich flavor",
+        "imageUrl": "https://images.pexels.com/photos/29290426/pexels-photo-29290426/free-photo-of-pint-of-golden-craft-beer-on-outdoor-patio.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 8.5,
+        "discountPercent": 10.0,
+        "finalPrice": 7.65,
+        "ratingAvg": 4.2,
+        "isAvailable": true,
+        "categoryId": 49,
+        "variants": [
+            {
+                "id": 388,
+                "name": "Extra Sauce",
+                "extraPrice": 1.03
+            },
+            {
+                "id": 389,
+                "name": "Extra Cheese",
+                "extraPrice": 1.73
+            },
+            {
+                "id": 390,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.42
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 131,
+        "name": "Amber Craft Beer",
+        "description": "Locally inspired craft beer with a rich flavor",
+        "imageUrl": "https://images.pexels.com/photos/52994/beer-ale-bitter-fermented-52994.jpeg?cs=srgb&dl=pexels-pixabay-52994.jpg&fm=jpg",
+        "originalPrice": 9.75,
+        "discountPercent": 10.0,
+        "finalPrice": 8.78,
+        "ratingAvg": 4.0,
+        "isAvailable": true,
+        "categoryId": 49,
+        "variants": [
+            {
+                "id": 391,
+                "name": "Extra Sauce",
+                "extraPrice": 0.82
+            },
+            {
+                "id": 392,
+                "name": "Extra Cheese",
+                "extraPrice": 1.6
+            },
+            {
+                "id": 393,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.3
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 132,
+        "name": "Dark Craft Beer",
+        "description": "Locally inspired craft beer with a rich flavor",
+        "imageUrl": "https://images.pexels.com/photos/5659492/pexels-photo-5659492.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 7.75,
+        "discountPercent": 0.0,
+        "finalPrice": 7.75,
+        "ratingAvg": 4.6,
+        "isAvailable": true,
+        "categoryId": 49,
+        "variants": [
+            {
+                "id": 394,
+                "name": "Extra Sauce",
+                "extraPrice": 0.91
+            },
+            {
+                "id": 395,
+                "name": "Extra Cheese",
+                "extraPrice": 1.68
+            },
+            {
+                "id": 396,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.65
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 133,
+        "name": "Lemon Ice Tea",
+        "description": "Refreshing chilled tea with natural fruit flavor",
+        "imageUrl": "https://images.pexels.com/photos/792613/pexels-photo-792613.jpeg",
+        "originalPrice": 3.5,
+        "discountPercent": 0.0,
+        "finalPrice": 3.5,
+        "ratingAvg": 4.9,
+        "isAvailable": true,
+        "categoryId": 50,
+        "variants": [
+            {
+                "id": 397,
+                "name": "Extra Sauce",
+                "extraPrice": 1.12
+            },
+            {
+                "id": 398,
+                "name": "Extra Cheese",
+                "extraPrice": 1.71
+            },
+            {
+                "id": 399,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.46
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 134,
+        "name": "Peach Ice Tea",
+        "description": "Refreshing chilled tea with natural fruit flavor",
+        "imageUrl": "https://images.pexels.com/photos/33573170/pexels-photo-33573170/free-photo-of-refreshing-peach-iced-tea-with-straw-and-lemon.jpeg?cs=tinysrgb&dpr=1&w=500",
+        "originalPrice": 4.0,
+        "discountPercent": 10.0,
+        "finalPrice": 3.6,
+        "ratingAvg": 3.8,
+        "isAvailable": true,
+        "categoryId": 50,
+        "variants": [
+            {
+                "id": 400,
+                "name": "Extra Sauce",
+                "extraPrice": 0.89
+            },
+            {
+                "id": 401,
+                "name": "Extra Cheese",
+                "extraPrice": 1.88
+            },
+            {
+                "id": 402,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.5
+            }
+        ],
+        "currency": "USD"
+    },
+    {
+        "id": 135,
+        "name": "Berry Ice Tea",
+        "description": "Refreshing chilled tea with natural fruit flavor",
+        "imageUrl": "https://images.pexels.com/photos/30415956/pexels-photo-30415956.jpeg?cs=srgb&dl=pexels-fox-58267-30415956.jpg&fm=jpg",
+        "originalPrice": 4.25,
+        "discountPercent": 10.0,
+        "finalPrice": 3.83,
+        "ratingAvg": 4.8,
+        "isAvailable": true,
+        "categoryId": 50,
+        "variants": [
+            {
+                "id": 403,
+                "name": "Extra Sauce",
+                "extraPrice": 0.81
+            },
+            {
+                "id": 404,
+                "name": "Extra Cheese",
+                "extraPrice": 1.75
+            },
+            {
+                "id": 405,
+                "name": "Fresh Herbs",
+                "extraPrice": 2.56
+            }
+        ],
+        "currency": "USD"
+    }
+]

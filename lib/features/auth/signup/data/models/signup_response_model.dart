@@ -10,4 +10,6 @@ class SignupResponseModel {
 
   factory SignupResponseModel.fromJson(Map<String, dynamic> json) =>
       _$SignupResponseModelFromJson(json);
+
+  Map<String, dynamic> toJson() => _$SignupResponseModelToJson(this);
 }

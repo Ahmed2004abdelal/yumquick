@@ -1,0 +1,3917 @@
+[
+    {
+        "id": 1,
+        "name": "Classic Sushi Platter",
+        "description": "Freshly prepared sushi with quality ingredients",
+        "imageUrl": "https://images.unsplash.com/photo-1625938145312-c18f06f53be0?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "originalPrice": 42,
+        "discountPercent": 10.0,
+        "finalPrice": 37.8,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 6,
+        "variants": [
+            {
+                "id": 1,
+                "name": "Extra Salmon",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 2,
+                "name": "Spicy Mayo",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 3,
+                "name": "Avocado",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Salmon Sushi Roll",
+        "description": "Freshly prepared sushi with quality ingredients",
+        "imageUrl": "https://images.unsplash.com/photo-1617196034738-26c5f7c977ce?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "originalPrice": 49,
+        "discountPercent": 15.0,
+        "finalPrice": 41.65,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 6,
+        "variants": [
+            {
+                "id": 4,
+                "name": "Extra Salmon",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 5,
+                "name": "Spicy Mayo",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 6,
+                "name": "Avocado",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Spicy Tuna Roll",
+        "description": "Freshly prepared sushi with quality ingredients",
+        "imageUrl": "https://images.unsplash.com/photo-1648146298859-cfb19fa93d58?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "originalPrice": 56,
+        "discountPercent": 20.0,
+        "finalPrice": 44.8,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 6,
+        "variants": [
+            {
+                "id": 7,
+                "name": "Extra Salmon",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 8,
+                "name": "Spicy Mayo",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 9,
+                "name": "Avocado",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Classic Margherita Pizza",
+        "description": "Freshly baked pizza with delicious toppings",
+        "imageUrl": "https://images.unsplash.com/photo-1774806188930-1b8579aed7ca?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "originalPrice": 63,
+        "discountPercent": 0.0,
+        "finalPrice": 63.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 7,
+        "variants": [
+            {
+                "id": 10,
+                "name": "Extra Cheese",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 11,
+                "name": "Mushrooms",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 12,
+                "name": "Olives",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Chicken Supreme Pizza",
+        "description": "Freshly baked pizza with delicious toppings",
+        "imageUrl": "https://i.pinimg.com/1200x/6b/36/f3/6b36f332f6c321e0a8f2f51f96961d00.jpg",
+        "originalPrice": 70,
+        "discountPercent": 10.0,
+        "finalPrice": 63.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 7,
+        "variants": [
+            {
+                "id": 13,
+                "name": "Extra Cheese",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 14,
+                "name": "Mushrooms",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 15,
+                "name": "Olives",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Four Cheese Pizza",
+        "description": "Freshly baked pizza with delicious toppings",
+        "imageUrl": "https://i.pinimg.com/736x/49/70/15/497015ef821da93929551895db1f6d64.jpg",
+        "originalPrice": 77,
+        "discountPercent": 15.0,
+        "finalPrice": 65.45,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 7,
+        "variants": [
+            {
+                "id": 16,
+                "name": "Extra Cheese",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 17,
+                "name": "Mushrooms",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 18,
+                "name": "Olives",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Grilled Chicken",
+        "description": "Tender chicken prepared with flavorful seasoning",
+        "imageUrl": "https://i.pinimg.com/1200x/75/61/85/756185733748af1a10ffdd61d9b18e7a.jpg",
+        "originalPrice": 84,
+        "discountPercent": 20.0,
+        "finalPrice": 67.2,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 8,
+        "variants": [
+            {
+                "id": 19,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 20,
+                "name": "Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 21,
+                "name": "Spicy Seasoning",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Crispy Chicken",
+        "description": "Tender chicken prepared with flavorful seasoning",
+        "imageUrl": "https://loremflickr.com/600/600/crispy,chicken",
+        "originalPrice": 91,
+        "discountPercent": 0.0,
+        "finalPrice": 91.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 8,
+        "variants": [
+            {
+                "id": 22,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 23,
+                "name": "Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 24,
+                "name": "Spicy Seasoning",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Creamy Chicken",
+        "description": "Tender chicken prepared with flavorful seasoning",
+        "imageUrl": "https://loremflickr.com/600/600/creamy,chicken",
+        "originalPrice": 98,
+        "discountPercent": 10.0,
+        "finalPrice": 88.2,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 8,
+        "variants": [
+            {
+                "id": 25,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 26,
+                "name": "Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 27,
+                "name": "Spicy Seasoning",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Chicken Curry",
+        "description": "Rich and aromatic curry with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/chicken,curry",
+        "originalPrice": 105,
+        "discountPercent": 15.0,
+        "finalPrice": 89.25,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 9,
+        "variants": [
+            {
+                "id": 28,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 29,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 30,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Vegetable Curry",
+        "description": "Rich and aromatic curry with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/vegetable,curry",
+        "originalPrice": 112,
+        "discountPercent": 20.0,
+        "finalPrice": 89.6,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 9,
+        "variants": [
+            {
+                "id": 31,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 32,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 33,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Thai Red Curry",
+        "description": "Rich and aromatic curry with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/thai,red,curry",
+        "originalPrice": 119,
+        "discountPercent": 0.0,
+        "finalPrice": 119.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 9,
+        "variants": [
+            {
+                "id": 34,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 35,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 36,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Classic Beef Burger",
+        "description": "Juicy burger served with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/classic,beef,burger",
+        "originalPrice": 126,
+        "discountPercent": 10.0,
+        "finalPrice": 113.4,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 10,
+        "variants": [
+            {
+                "id": 37,
+                "name": "Extra Cheese",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 38,
+                "name": "Caramelized Onions",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 39,
+                "name": "Extra Patty",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Crispy Chicken Burger",
+        "description": "Juicy burger served with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/crispy,chicken,burger",
+        "originalPrice": 133,
+        "discountPercent": 15.0,
+        "finalPrice": 113.05,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 10,
+        "variants": [
+            {
+                "id": 40,
+                "name": "Extra Cheese",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 41,
+                "name": "Caramelized Onions",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 42,
+                "name": "Extra Patty",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Double Cheese Burger",
+        "description": "Juicy burger served with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/double,cheese,burger",
+        "originalPrice": 140,
+        "discountPercent": 20.0,
+        "finalPrice": 112.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 10,
+        "variants": [
+            {
+                "id": 43,
+                "name": "Extra Cheese",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 44,
+                "name": "Caramelized Onions",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 45,
+                "name": "Extra Patty",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Cheese Platter",
+        "description": "Delicious cheese selection prepared fresh",
+        "imageUrl": "https://loremflickr.com/600/600/cheese,platter",
+        "originalPrice": 147,
+        "discountPercent": 0.0,
+        "finalPrice": 147.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 11,
+        "variants": [
+            {
+                "id": 46,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 47,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 48,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Grilled Cheese",
+        "description": "Delicious cheese selection prepared fresh",
+        "imageUrl": "https://loremflickr.com/600/600/grilled,cheese",
+        "originalPrice": 38,
+        "discountPercent": 10.0,
+        "finalPrice": 34.2,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 11,
+        "variants": [
+            {
+                "id": 49,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 50,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 51,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Creamy Cheese Bites",
+        "description": "Delicious cheese selection prepared fresh",
+        "imageUrl": "https://loremflickr.com/600/600/creamy,cheese,bites",
+        "originalPrice": 45,
+        "discountPercent": 15.0,
+        "finalPrice": 38.25,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 11,
+        "variants": [
+            {
+                "id": 52,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 53,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 54,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Garlic Prawns",
+        "description": "Fresh prawns cooked with aromatic herbs and spices",
+        "imageUrl": "https://loremflickr.com/600/600/garlic,prawns",
+        "originalPrice": 52,
+        "discountPercent": 20.0,
+        "finalPrice": 41.6,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 12,
+        "variants": [
+            {
+                "id": 55,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 56,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 57,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Grilled Fresh Prawns",
+        "description": "Fresh prawns cooked with aromatic herbs and spices",
+        "imageUrl": "https://loremflickr.com/600/600/grilled,fresh,prawns",
+        "originalPrice": 59,
+        "discountPercent": 0.0,
+        "finalPrice": 59.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 12,
+        "variants": [
+            {
+                "id": 58,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 59,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 60,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Spicy Prawn Plate",
+        "description": "Fresh prawns cooked with aromatic herbs and spices",
+        "imageUrl": "https://loremflickr.com/600/600/spicy,prawn,plate",
+        "originalPrice": 66,
+        "discountPercent": 10.0,
+        "finalPrice": 59.4,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 12,
+        "variants": [
+            {
+                "id": 61,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 62,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 63,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Classic Ceviche",
+        "description": "Fresh seafood marinated with citrus and herbs",
+        "imageUrl": "https://loremflickr.com/600/600/classic,ceviche",
+        "originalPrice": 73,
+        "discountPercent": 15.0,
+        "finalPrice": 62.05,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 13,
+        "variants": [
+            {
+                "id": 64,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 65,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 66,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Salmon Ceviche",
+        "description": "Fresh seafood marinated with citrus and herbs",
+        "imageUrl": "https://loremflickr.com/600/600/salmon,ceviche",
+        "originalPrice": 80,
+        "discountPercent": 20.0,
+        "finalPrice": 64.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 13,
+        "variants": [
+            {
+                "id": 67,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 68,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 69,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Shrimp Ceviche",
+        "description": "Fresh seafood marinated with citrus and herbs",
+        "imageUrl": "https://loremflickr.com/600/600/shrimp,ceviche",
+        "originalPrice": 87,
+        "discountPercent": 0.0,
+        "finalPrice": 87.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 13,
+        "variants": [
+            {
+                "id": 70,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 71,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 72,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Classic Pad Thai",
+        "description": "Thai-style noodles with fresh vegetables and sauce",
+        "imageUrl": "https://loremflickr.com/600/600/classic,pad,thai",
+        "originalPrice": 94,
+        "discountPercent": 10.0,
+        "finalPrice": 84.6,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 14,
+        "variants": [
+            {
+                "id": 73,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 74,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 75,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Chicken Pad Thai",
+        "description": "Thai-style noodles with fresh vegetables and sauce",
+        "imageUrl": "https://loremflickr.com/600/600/chicken,pad,thai",
+        "originalPrice": 101,
+        "discountPercent": 15.0,
+        "finalPrice": 85.85,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 14,
+        "variants": [
+            {
+                "id": 76,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 77,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 78,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Shrimp Pad Thai",
+        "description": "Thai-style noodles with fresh vegetables and sauce",
+        "imageUrl": "https://loremflickr.com/600/600/shrimp,pad,thai",
+        "originalPrice": 108,
+        "discountPercent": 20.0,
+        "finalPrice": 86.4,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 14,
+        "variants": [
+            {
+                "id": 79,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 80,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 81,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Tomato Bruschetta",
+        "description": "Crispy toasted bread topped with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/tomato,bruschetta",
+        "originalPrice": 115,
+        "discountPercent": 0.0,
+        "finalPrice": 115.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 15,
+        "variants": [
+            {
+                "id": 82,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 83,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 84,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Garlic Bruschetta",
+        "description": "Crispy toasted bread topped with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/garlic,bruschetta",
+        "originalPrice": 122,
+        "discountPercent": 10.0,
+        "finalPrice": 109.8,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 15,
+        "variants": [
+            {
+                "id": 85,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 86,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 87,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Mozzarella Bruschetta",
+        "description": "Crispy toasted bread topped with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/mozzarella,bruschetta",
+        "originalPrice": 129,
+        "discountPercent": 15.0,
+        "finalPrice": 109.65,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 15,
+        "variants": [
+            {
+                "id": 88,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 89,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 90,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Vegetable Spring Rolls",
+        "description": "Crispy rolls filled with flavorful ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/vegetable,spring,rolls",
+        "originalPrice": 136,
+        "discountPercent": 20.0,
+        "finalPrice": 108.8,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 16,
+        "variants": [
+            {
+                "id": 91,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 92,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 93,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Chicken Spring Rolls",
+        "description": "Crispy rolls filled with flavorful ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/chicken,spring,rolls",
+        "originalPrice": 143,
+        "discountPercent": 0.0,
+        "finalPrice": 143.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 16,
+        "variants": [
+            {
+                "id": 94,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 95,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 96,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Crispy Spring Rolls",
+        "description": "Crispy rolls filled with flavorful ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/crispy,spring,rolls",
+        "originalPrice": 150,
+        "discountPercent": 10.0,
+        "finalPrice": 135.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 16,
+        "variants": [
+            {
+                "id": 97,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 98,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 99,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Chicken Crepe",
+        "description": "Freshly made crepe with a delicious filling",
+        "imageUrl": "https://loremflickr.com/600/600/chicken,crepe",
+        "originalPrice": 41,
+        "discountPercent": 15.0,
+        "finalPrice": 34.85,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 17,
+        "variants": [
+            {
+                "id": 100,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 101,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 102,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Cheese Crepe",
+        "description": "Freshly made crepe with a delicious filling",
+        "imageUrl": "https://loremflickr.com/600/600/cheese,crepe",
+        "originalPrice": 48,
+        "discountPercent": 20.0,
+        "finalPrice": 38.4,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 17,
+        "variants": [
+            {
+                "id": 103,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 104,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 105,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Chocolate Crepe",
+        "description": "Freshly made crepe with a delicious filling",
+        "imageUrl": "https://loremflickr.com/600/600/chocolate,crepe",
+        "originalPrice": 55,
+        "discountPercent": 0.0,
+        "finalPrice": 55.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 17,
+        "variants": [
+            {
+                "id": 106,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 107,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 108,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "name": "BBQ Chicken Wings",
+        "description": "Crispy chicken wings with a flavorful sauce",
+        "imageUrl": "https://loremflickr.com/600/600/bbq,chicken,wings",
+        "originalPrice": 62,
+        "discountPercent": 10.0,
+        "finalPrice": 55.8,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 18,
+        "variants": [
+            {
+                "id": 109,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 110,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 111,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Buffalo Wings",
+        "description": "Crispy chicken wings with a flavorful sauce",
+        "imageUrl": "https://loremflickr.com/600/600/buffalo,wings",
+        "originalPrice": 69,
+        "discountPercent": 15.0,
+        "finalPrice": 58.65,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 18,
+        "variants": [
+            {
+                "id": 112,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 113,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 114,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Honey Garlic Wings",
+        "description": "Crispy chicken wings with a flavorful sauce",
+        "imageUrl": "https://loremflickr.com/600/600/honey,garlic,wings",
+        "originalPrice": 76,
+        "discountPercent": 20.0,
+        "finalPrice": 60.8,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 18,
+        "variants": [
+            {
+                "id": 115,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 116,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 117,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Chicken Skewers",
+        "description": "Grilled skewers prepared with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/chicken,skewers",
+        "originalPrice": 83,
+        "discountPercent": 0.0,
+        "finalPrice": 83.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 19,
+        "variants": [
+            {
+                "id": 118,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 119,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 120,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "name": "Beef Skewers",
+        "description": "Grilled skewers prepared with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/beef,skewers",
+        "originalPrice": 90,
+        "discountPercent": 10.0,
+        "finalPrice": 81.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 19,
+        "variants": [
+            {
+                "id": 121,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 122,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 123,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Vegetable Skewers",
+        "description": "Grilled skewers prepared with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/vegetable,skewers",
+        "originalPrice": 97,
+        "discountPercent": 15.0,
+        "finalPrice": 82.45,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 19,
+        "variants": [
+            {
+                "id": 124,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 125,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 126,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Grilled Salmon",
+        "description": "Fresh salmon grilled with herbs and seasoning",
+        "imageUrl": "https://loremflickr.com/600/600/grilled,salmon",
+        "originalPrice": 104,
+        "discountPercent": 20.0,
+        "finalPrice": 83.2,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 20,
+        "variants": [
+            {
+                "id": 127,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 128,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 129,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "name": "Creamy Salmon",
+        "description": "Fresh salmon grilled with herbs and seasoning",
+        "imageUrl": "https://loremflickr.com/600/600/creamy,salmon",
+        "originalPrice": 111,
+        "discountPercent": 0.0,
+        "finalPrice": 111.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 20,
+        "variants": [
+            {
+                "id": 130,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 131,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 132,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Herb Salmon",
+        "description": "Fresh salmon grilled with herbs and seasoning",
+        "imageUrl": "https://loremflickr.com/600/600/herb,salmon",
+        "originalPrice": 118,
+        "discountPercent": 10.0,
+        "finalPrice": 106.2,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 20,
+        "variants": [
+            {
+                "id": 133,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 134,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 135,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "name": "Chicken Tacos",
+        "description": "Flavorful Mexican-style dish with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/chicken,tacos",
+        "originalPrice": 125,
+        "discountPercent": 15.0,
+        "finalPrice": 106.25,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 21,
+        "variants": [
+            {
+                "id": 136,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 137,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 138,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "name": "Beef Burrito",
+        "description": "Flavorful Mexican-style dish with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/beef,burrito",
+        "originalPrice": 132,
+        "discountPercent": 20.0,
+        "finalPrice": 105.6,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 21,
+        "variants": [
+            {
+                "id": 139,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 140,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 141,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Loaded Nachos",
+        "description": "Flavorful Mexican-style dish with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/loaded,nachos",
+        "originalPrice": 139,
+        "discountPercent": 0.0,
+        "finalPrice": 139.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 21,
+        "variants": [
+            {
+                "id": 142,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 143,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 144,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "name": "Baked Pasta",
+        "description": "Oven-baked dish prepared with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/baked,pasta",
+        "originalPrice": 146,
+        "discountPercent": 10.0,
+        "finalPrice": 131.4,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 22,
+        "variants": [
+            {
+                "id": 145,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 146,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 147,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Baked Chicken",
+        "description": "Oven-baked dish prepared with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/baked,chicken",
+        "originalPrice": 37,
+        "discountPercent": 15.0,
+        "finalPrice": 31.45,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 22,
+        "variants": [
+            {
+                "id": 148,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 149,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 150,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "name": "Baked Vegetables",
+        "description": "Oven-baked dish prepared with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/baked,vegetables",
+        "originalPrice": 44,
+        "discountPercent": 20.0,
+        "finalPrice": 35.2,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 22,
+        "variants": [
+            {
+                "id": 151,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 152,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 153,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Loaded Potato Bites",
+        "description": "A delicious appetizer perfect for sharing",
+        "imageUrl": "https://loremflickr.com/600/600/loaded,potato,bites",
+        "originalPrice": 51,
+        "discountPercent": 0.0,
+        "finalPrice": 51.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 23,
+        "variants": [
+            {
+                "id": 154,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 155,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 156,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Cheese Balls",
+        "description": "A delicious appetizer perfect for sharing",
+        "imageUrl": "https://loremflickr.com/600/600/cheese,balls",
+        "originalPrice": 58,
+        "discountPercent": 10.0,
+        "finalPrice": 52.2,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 23,
+        "variants": [
+            {
+                "id": 157,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 158,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 159,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Crispy Vegetable Bites",
+        "description": "A delicious appetizer perfect for sharing",
+        "imageUrl": "https://loremflickr.com/600/600/crispy,vegetable,bites",
+        "originalPrice": 65,
+        "discountPercent": 15.0,
+        "finalPrice": 55.25,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 23,
+        "variants": [
+            {
+                "id": 160,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 161,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 162,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "name": "Classic Bean Burger",
+        "description": "Plant-based burger made with seasoned beans",
+        "imageUrl": "https://loremflickr.com/600/600/classic,bean,burger",
+        "originalPrice": 72,
+        "discountPercent": 20.0,
+        "finalPrice": 57.6,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 24,
+        "variants": [
+            {
+                "id": 163,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 164,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 165,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Spicy Bean Burger",
+        "description": "Plant-based burger made with seasoned beans",
+        "imageUrl": "https://loremflickr.com/600/600/spicy,bean,burger",
+        "originalPrice": 79,
+        "discountPercent": 0.0,
+        "finalPrice": 79.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 24,
+        "variants": [
+            {
+                "id": 166,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 167,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 168,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "name": "Cheese Bean Burger",
+        "description": "Plant-based burger made with seasoned beans",
+        "imageUrl": "https://loremflickr.com/600/600/cheese,bean,burger",
+        "originalPrice": 86,
+        "discountPercent": 10.0,
+        "finalPrice": 77.4,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 24,
+        "variants": [
+            {
+                "id": 169,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 170,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 171,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Classic Vegan Lasagna",
+        "description": "Layered vegan lasagna with vegetables and rich sauce",
+        "imageUrl": "https://loremflickr.com/600/600/classic,vegan,lasagna",
+        "originalPrice": 93,
+        "discountPercent": 15.0,
+        "finalPrice": 79.05,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 25,
+        "variants": [
+            {
+                "id": 172,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 173,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 174,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Vegetable Lasagna",
+        "description": "Layered vegan lasagna with vegetables and rich sauce",
+        "imageUrl": "https://loremflickr.com/600/600/vegetable,lasagna",
+        "originalPrice": 100,
+        "discountPercent": 20.0,
+        "finalPrice": 80.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 25,
+        "variants": [
+            {
+                "id": 175,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 176,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 177,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Spinach Lasagna",
+        "description": "Layered vegan lasagna with vegetables and rich sauce",
+        "imageUrl": "https://loremflickr.com/600/600/spinach,lasagna",
+        "originalPrice": 107,
+        "discountPercent": 0.0,
+        "finalPrice": 107.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 25,
+        "variants": [
+            {
+                "id": 178,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 179,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 180,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Classic Margherita Pizza",
+        "description": "Freshly baked pizza with delicious toppings",
+        "imageUrl": "https://loremflickr.com/600/600/classic,margherita,pizza",
+        "originalPrice": 114,
+        "discountPercent": 10.0,
+        "finalPrice": 102.6,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 26,
+        "variants": [
+            {
+                "id": 181,
+                "name": "Extra Cheese",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 182,
+                "name": "Mushrooms",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 183,
+                "name": "Olives",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "name": "Chicken Supreme Pizza",
+        "description": "Freshly baked pizza with delicious toppings",
+        "imageUrl": "https://loremflickr.com/600/600/chicken,supreme,pizza",
+        "originalPrice": 121,
+        "discountPercent": 15.0,
+        "finalPrice": 102.85,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 26,
+        "variants": [
+            {
+                "id": 184,
+                "name": "Extra Cheese",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 185,
+                "name": "Mushrooms",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 186,
+                "name": "Olives",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Four Cheese Pizza",
+        "description": "Freshly baked pizza with delicious toppings",
+        "imageUrl": "https://loremflickr.com/600/600/four,cheese,pizza",
+        "originalPrice": 128,
+        "discountPercent": 20.0,
+        "finalPrice": 102.4,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 26,
+        "variants": [
+            {
+                "id": 187,
+                "name": "Extra Cheese",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 188,
+                "name": "Mushrooms",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 189,
+                "name": "Olives",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Creamy Mushroom Bowl",
+        "description": "Fresh mushrooms prepared with herbs and vegetables",
+        "imageUrl": "https://loremflickr.com/600/600/creamy,mushroom,bowl",
+        "originalPrice": 135,
+        "discountPercent": 0.0,
+        "finalPrice": 135.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 27,
+        "variants": [
+            {
+                "id": 190,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 191,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 192,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Grilled Mushrooms",
+        "description": "Fresh mushrooms prepared with herbs and vegetables",
+        "imageUrl": "https://loremflickr.com/600/600/grilled,mushrooms",
+        "originalPrice": 142,
+        "discountPercent": 10.0,
+        "finalPrice": 127.8,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 27,
+        "variants": [
+            {
+                "id": 193,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 194,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 195,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "name": "Mushroom Pasta",
+        "description": "Fresh mushrooms prepared with herbs and vegetables",
+        "imageUrl": "https://loremflickr.com/600/600/mushroom,pasta",
+        "originalPrice": 149,
+        "discountPercent": 15.0,
+        "finalPrice": 126.65,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 27,
+        "variants": [
+            {
+                "id": 196,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 197,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 198,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Mushroom Risotto",
+        "description": "Creamy risotto cooked with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/mushroom,risotto",
+        "originalPrice": 40,
+        "discountPercent": 20.0,
+        "finalPrice": 32.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 28,
+        "variants": [
+            {
+                "id": 199,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 200,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 201,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Vegetable Risotto",
+        "description": "Creamy risotto cooked with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/vegetable,risotto",
+        "originalPrice": 47,
+        "discountPercent": 0.0,
+        "finalPrice": 47.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 28,
+        "variants": [
+            {
+                "id": 202,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 203,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 204,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "name": "Creamy Herb Risotto",
+        "description": "Creamy risotto cooked with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/creamy,herb,risotto",
+        "originalPrice": 54,
+        "discountPercent": 10.0,
+        "finalPrice": 48.6,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 28,
+        "variants": [
+            {
+                "id": 205,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 206,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 207,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "name": "Garlic Broccoli",
+        "description": "Fresh broccoli prepared with flavorful seasoning",
+        "imageUrl": "https://loremflickr.com/600/600/garlic,broccoli",
+        "originalPrice": 61,
+        "discountPercent": 15.0,
+        "finalPrice": 51.85,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 29,
+        "variants": [
+            {
+                "id": 208,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 209,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 210,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "name": "Broccoli Bowl",
+        "description": "Fresh broccoli prepared with flavorful seasoning",
+        "imageUrl": "https://loremflickr.com/600/600/broccoli,bowl",
+        "originalPrice": 68,
+        "discountPercent": 20.0,
+        "finalPrice": 54.4,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 29,
+        "variants": [
+            {
+                "id": 211,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 212,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 213,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "name": "Creamy Broccoli",
+        "description": "Fresh broccoli prepared with flavorful seasoning",
+        "imageUrl": "https://loremflickr.com/600/600/creamy,broccoli",
+        "originalPrice": 75,
+        "discountPercent": 0.0,
+        "finalPrice": 75.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 29,
+        "variants": [
+            {
+                "id": 214,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 215,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 216,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "name": "Classic Hummus",
+        "description": "Creamy chickpea hummus with fresh toppings",
+        "imageUrl": "https://loremflickr.com/600/600/classic,hummus",
+        "originalPrice": 82,
+        "discountPercent": 10.0,
+        "finalPrice": 73.8,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 30,
+        "variants": [
+            {
+                "id": 217,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 218,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 219,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "name": "Spicy Hummus",
+        "description": "Creamy chickpea hummus with fresh toppings",
+        "imageUrl": "https://loremflickr.com/600/600/spicy,hummus",
+        "originalPrice": 89,
+        "discountPercent": 15.0,
+        "finalPrice": 75.65,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 30,
+        "variants": [
+            {
+                "id": 220,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 221,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 222,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "name": "Avocado Hummus",
+        "description": "Creamy chickpea hummus with fresh toppings",
+        "imageUrl": "https://loremflickr.com/600/600/avocado,hummus",
+        "originalPrice": 96,
+        "discountPercent": 20.0,
+        "finalPrice": 76.8,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 30,
+        "variants": [
+            {
+                "id": 223,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 224,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 225,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "name": "Quinoa Veggie Bowl",
+        "description": "Healthy quinoa bowl with fresh vegetables",
+        "imageUrl": "https://loremflickr.com/600/600/quinoa,veggie,bowl",
+        "originalPrice": 103,
+        "discountPercent": 0.0,
+        "finalPrice": 103.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 31,
+        "variants": [
+            {
+                "id": 226,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 227,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 228,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "name": "Mediterranean Quinoa",
+        "description": "Healthy quinoa bowl with fresh vegetables",
+        "imageUrl": "https://loremflickr.com/600/600/mediterranean,quinoa",
+        "originalPrice": 110,
+        "discountPercent": 10.0,
+        "finalPrice": 99.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 31,
+        "variants": [
+            {
+                "id": 229,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 230,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 231,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "name": "Quinoa Salad Bowl",
+        "description": "Healthy quinoa bowl with fresh vegetables",
+        "imageUrl": "https://loremflickr.com/600/600/quinoa,salad,bowl",
+        "originalPrice": 117,
+        "discountPercent": 15.0,
+        "finalPrice": 99.45,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 31,
+        "variants": [
+            {
+                "id": 232,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 233,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 234,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "name": "Garden Salad",
+        "description": "Fresh salad made with crisp vegetables",
+        "imageUrl": "https://loremflickr.com/600/600/garden,salad",
+        "originalPrice": 124,
+        "discountPercent": 20.0,
+        "finalPrice": 99.2,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 32,
+        "variants": [
+            {
+                "id": 235,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 236,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 237,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "name": "Greek Salad",
+        "description": "Fresh salad made with crisp vegetables",
+        "imageUrl": "https://loremflickr.com/600/600/greek,salad",
+        "originalPrice": 131,
+        "discountPercent": 0.0,
+        "finalPrice": 131.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 32,
+        "variants": [
+            {
+                "id": 238,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 239,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 240,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "name": "Avocado Salad",
+        "description": "Fresh salad made with crisp vegetables",
+        "imageUrl": "https://loremflickr.com/600/600/avocado,salad",
+        "originalPrice": 138,
+        "discountPercent": 10.0,
+        "finalPrice": 124.2,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 32,
+        "variants": [
+            {
+                "id": 241,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 242,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 243,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "name": "Chicken Crepe",
+        "description": "Freshly made crepe with a delicious filling",
+        "imageUrl": "https://loremflickr.com/600/600/chicken,crepe",
+        "originalPrice": 145,
+        "discountPercent": 15.0,
+        "finalPrice": 123.25,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 33,
+        "variants": [
+            {
+                "id": 244,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 245,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 246,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "name": "Cheese Crepe",
+        "description": "Freshly made crepe with a delicious filling",
+        "imageUrl": "https://loremflickr.com/600/600/cheese,crepe",
+        "originalPrice": 36,
+        "discountPercent": 20.0,
+        "finalPrice": 28.8,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 33,
+        "variants": [
+            {
+                "id": 247,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 248,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 249,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "name": "Chocolate Crepe",
+        "description": "Freshly made crepe with a delicious filling",
+        "imageUrl": "https://loremflickr.com/600/600/chocolate,crepe",
+        "originalPrice": 43,
+        "discountPercent": 0.0,
+        "finalPrice": 43.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 33,
+        "variants": [
+            {
+                "id": 250,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 251,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 252,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "name": "Vanilla Macarons",
+        "description": "Delicate French macarons with a creamy filling",
+        "imageUrl": "https://loremflickr.com/600/600/vanilla,macarons",
+        "originalPrice": 50,
+        "discountPercent": 10.0,
+        "finalPrice": 45.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 34,
+        "variants": [
+            {
+                "id": 253,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 254,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 255,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "name": "Chocolate Macarons",
+        "description": "Delicate French macarons with a creamy filling",
+        "imageUrl": "https://loremflickr.com/600/600/chocolate,macarons",
+        "originalPrice": 57,
+        "discountPercent": 15.0,
+        "finalPrice": 48.45,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 34,
+        "variants": [
+            {
+                "id": 256,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 257,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 258,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "name": "Pistachio Macarons",
+        "description": "Delicate French macarons with a creamy filling",
+        "imageUrl": "https://loremflickr.com/600/600/pistachio,macarons",
+        "originalPrice": 64,
+        "discountPercent": 20.0,
+        "finalPrice": 51.2,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 34,
+        "variants": [
+            {
+                "id": 259,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 260,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 261,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "name": "Vanilla Cupcake",
+        "description": "Soft cupcake topped with creamy frosting",
+        "imageUrl": "https://loremflickr.com/600/600/vanilla,cupcake",
+        "originalPrice": 71,
+        "discountPercent": 0.0,
+        "finalPrice": 71.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 35,
+        "variants": [
+            {
+                "id": 262,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 263,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 264,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "name": "Chocolate Cupcake",
+        "description": "Soft cupcake topped with creamy frosting",
+        "imageUrl": "https://loremflickr.com/600/600/chocolate,cupcake",
+        "originalPrice": 78,
+        "discountPercent": 10.0,
+        "finalPrice": 70.2,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 35,
+        "variants": [
+            {
+                "id": 265,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 266,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 267,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "name": "Red Velvet Cupcake",
+        "description": "Soft cupcake topped with creamy frosting",
+        "imageUrl": "https://loremflickr.com/600/600/red,velvet,cupcake",
+        "originalPrice": 85,
+        "discountPercent": 15.0,
+        "finalPrice": 72.25,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 35,
+        "variants": [
+            {
+                "id": 268,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 269,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 270,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "name": "Vanilla Ice Cream",
+        "description": "Creamy ice cream made with delicious flavors",
+        "imageUrl": "https://loremflickr.com/600/600/vanilla,ice,cream",
+        "originalPrice": 92,
+        "discountPercent": 20.0,
+        "finalPrice": 73.6,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 36,
+        "variants": [
+            {
+                "id": 271,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 272,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 273,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "name": "Chocolate Ice Cream",
+        "description": "Creamy ice cream made with delicious flavors",
+        "imageUrl": "https://loremflickr.com/600/600/chocolate,ice,cream",
+        "originalPrice": 99,
+        "discountPercent": 0.0,
+        "finalPrice": 99.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 36,
+        "variants": [
+            {
+                "id": 274,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 275,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 276,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "name": "Strawberry Ice Cream",
+        "description": "Creamy ice cream made with delicious flavors",
+        "imageUrl": "https://loremflickr.com/600/600/strawberry,ice,cream",
+        "originalPrice": 106,
+        "discountPercent": 10.0,
+        "finalPrice": 95.4,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 36,
+        "variants": [
+            {
+                "id": 277,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 278,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 279,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "name": "Classic Flan",
+        "description": "Smooth creamy flan topped with caramel",
+        "imageUrl": "https://loremflickr.com/600/600/classic,flan",
+        "originalPrice": 113,
+        "discountPercent": 15.0,
+        "finalPrice": 96.05,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 37,
+        "variants": [
+            {
+                "id": 280,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 281,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 282,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "name": "Caramel Flan",
+        "description": "Smooth creamy flan topped with caramel",
+        "imageUrl": "https://loremflickr.com/600/600/caramel,flan",
+        "originalPrice": 120,
+        "discountPercent": 20.0,
+        "finalPrice": 96.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 37,
+        "variants": [
+            {
+                "id": 283,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 284,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 285,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "name": "Vanilla Flan",
+        "description": "Smooth creamy flan topped with caramel",
+        "imageUrl": "https://loremflickr.com/600/600/vanilla,flan",
+        "originalPrice": 127,
+        "discountPercent": 0.0,
+        "finalPrice": 127.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 37,
+        "variants": [
+            {
+                "id": 286,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 287,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 288,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "name": "Classic Cheesecake",
+        "description": "Creamy cheesecake with a delicious topping",
+        "imageUrl": "https://loremflickr.com/600/600/classic,cheesecake",
+        "originalPrice": 134,
+        "discountPercent": 10.0,
+        "finalPrice": 120.6,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 38,
+        "variants": [
+            {
+                "id": 289,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 290,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 291,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "name": "Strawberry Cheesecake",
+        "description": "Creamy cheesecake with a delicious topping",
+        "imageUrl": "https://loremflickr.com/600/600/strawberry,cheesecake",
+        "originalPrice": 141,
+        "discountPercent": 15.0,
+        "finalPrice": 119.85,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 38,
+        "variants": [
+            {
+                "id": 292,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 293,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 294,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "name": "Chocolate Cheesecake",
+        "description": "Creamy cheesecake with a delicious topping",
+        "imageUrl": "https://loremflickr.com/600/600/chocolate,cheesecake",
+        "originalPrice": 148,
+        "discountPercent": 20.0,
+        "finalPrice": 118.4,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 38,
+        "variants": [
+            {
+                "id": 295,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 296,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 297,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "name": "Dark Chocolate",
+        "description": "Premium chocolate treat made for chocolate lovers",
+        "imageUrl": "https://loremflickr.com/600/600/dark,chocolate",
+        "originalPrice": 39,
+        "discountPercent": 0.0,
+        "finalPrice": 39.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 39,
+        "variants": [
+            {
+                "id": 298,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 299,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 300,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "name": "Milk Chocolate",
+        "description": "Premium chocolate treat made for chocolate lovers",
+        "imageUrl": "https://loremflickr.com/600/600/milk,chocolate",
+        "originalPrice": 46,
+        "discountPercent": 10.0,
+        "finalPrice": 41.4,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 39,
+        "variants": [
+            {
+                "id": 301,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 302,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 303,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "name": "Chocolate Truffles",
+        "description": "Premium chocolate treat made for chocolate lovers",
+        "imageUrl": "https://loremflickr.com/600/600/chocolate,truffles",
+        "originalPrice": 53,
+        "discountPercent": 15.0,
+        "finalPrice": 45.05,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 39,
+        "variants": [
+            {
+                "id": 304,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 305,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 306,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "name": "Chocolate Cake",
+        "description": "Soft freshly baked cake with creamy frosting",
+        "imageUrl": "https://loremflickr.com/600/600/chocolate,cake",
+        "originalPrice": 60,
+        "discountPercent": 20.0,
+        "finalPrice": 48.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 40,
+        "variants": [
+            {
+                "id": 307,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 308,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 309,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "name": "Vanilla Cake",
+        "description": "Soft freshly baked cake with creamy frosting",
+        "imageUrl": "https://loremflickr.com/600/600/vanilla,cake",
+        "originalPrice": 67,
+        "discountPercent": 0.0,
+        "finalPrice": 67.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 40,
+        "variants": [
+            {
+                "id": 310,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 311,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 312,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "name": "Red Velvet Cake",
+        "description": "Soft freshly baked cake with creamy frosting",
+        "imageUrl": "https://loremflickr.com/600/600/red,velvet,cake",
+        "originalPrice": 74,
+        "discountPercent": 10.0,
+        "finalPrice": 66.6,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 40,
+        "variants": [
+            {
+                "id": 313,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 314,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 315,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 106,
+        "name": "Classic Brownie",
+        "description": "Rich and fudgy chocolate brownie",
+        "imageUrl": "https://loremflickr.com/600/600/classic,brownie",
+        "originalPrice": 81,
+        "discountPercent": 15.0,
+        "finalPrice": 68.85,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 41,
+        "variants": [
+            {
+                "id": 316,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 317,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 318,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 107,
+        "name": "Walnut Brownie",
+        "description": "Rich and fudgy chocolate brownie",
+        "imageUrl": "https://loremflickr.com/600/600/walnut,brownie",
+        "originalPrice": 88,
+        "discountPercent": 20.0,
+        "finalPrice": 70.4,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 41,
+        "variants": [
+            {
+                "id": 319,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 320,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 321,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 108,
+        "name": "Chocolate Fudge Brownie",
+        "description": "Rich and fudgy chocolate brownie",
+        "imageUrl": "https://loremflickr.com/600/600/chocolate,fudge,brownie",
+        "originalPrice": 95,
+        "discountPercent": 0.0,
+        "finalPrice": 95.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 41,
+        "variants": [
+            {
+                "id": 322,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 323,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 324,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 109,
+        "name": "Espresso",
+        "description": "Freshly brewed coffee prepared to order",
+        "imageUrl": "https://loremflickr.com/600/600/espresso",
+        "originalPrice": 102,
+        "discountPercent": 10.0,
+        "finalPrice": 91.8,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 42,
+        "variants": [
+            {
+                "id": 325,
+                "name": "Extra Shot",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 326,
+                "name": "Vanilla Syrup",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 327,
+                "name": "Caramel Syrup",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 110,
+        "name": "Cappuccino",
+        "description": "Freshly brewed coffee prepared to order",
+        "imageUrl": "https://loremflickr.com/600/600/cappuccino",
+        "originalPrice": 109,
+        "discountPercent": 15.0,
+        "finalPrice": 92.65,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 42,
+        "variants": [
+            {
+                "id": 328,
+                "name": "Extra Shot",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 329,
+                "name": "Vanilla Syrup",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 330,
+                "name": "Caramel Syrup",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 111,
+        "name": "Iced Coffee",
+        "description": "Freshly brewed coffee prepared to order",
+        "imageUrl": "https://loremflickr.com/600/600/iced,coffee",
+        "originalPrice": 116,
+        "discountPercent": 20.0,
+        "finalPrice": 92.8,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 42,
+        "variants": [
+            {
+                "id": 331,
+                "name": "Extra Shot",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 332,
+                "name": "Vanilla Syrup",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 333,
+                "name": "Caramel Syrup",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 112,
+        "name": "Berry Cocktail",
+        "description": "Refreshing mixed fruit drink with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/berry,cocktail",
+        "originalPrice": 123,
+        "discountPercent": 0.0,
+        "finalPrice": 123.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 43,
+        "variants": [
+            {
+                "id": 334,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 335,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 336,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 113,
+        "name": "Tropical Cocktail",
+        "description": "Refreshing mixed fruit drink with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/tropical,cocktail",
+        "originalPrice": 130,
+        "discountPercent": 10.0,
+        "finalPrice": 117.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 43,
+        "variants": [
+            {
+                "id": 337,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 338,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 339,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 114,
+        "name": "Citrus Cocktail",
+        "description": "Refreshing mixed fruit drink with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/citrus,cocktail",
+        "originalPrice": 137,
+        "discountPercent": 15.0,
+        "finalPrice": 116.45,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 43,
+        "variants": [
+            {
+                "id": 340,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 341,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 342,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 115,
+        "name": "Fresh Orange Juice",
+        "description": "Freshly prepared fruit juice",
+        "imageUrl": "https://loremflickr.com/600/600/fresh,orange,juice",
+        "originalPrice": 144,
+        "discountPercent": 20.0,
+        "finalPrice": 115.2,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 44,
+        "variants": [
+            {
+                "id": 343,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 344,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 345,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 116,
+        "name": "Mango Juice",
+        "description": "Freshly prepared fruit juice",
+        "imageUrl": "https://loremflickr.com/600/600/mango,juice",
+        "originalPrice": 35,
+        "discountPercent": 0.0,
+        "finalPrice": 35.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 44,
+        "variants": [
+            {
+                "id": 346,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 347,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 348,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 117,
+        "name": "Strawberry Juice",
+        "description": "Freshly prepared fruit juice",
+        "imageUrl": "https://loremflickr.com/600/600/strawberry,juice",
+        "originalPrice": 42,
+        "discountPercent": 10.0,
+        "finalPrice": 37.8,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 44,
+        "variants": [
+            {
+                "id": 349,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 350,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 351,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 118,
+        "name": "Vanilla Milkshake",
+        "description": "Creamy milkshake blended with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/vanilla,milkshake",
+        "originalPrice": 49,
+        "discountPercent": 15.0,
+        "finalPrice": 41.65,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 45,
+        "variants": [
+            {
+                "id": 352,
+                "name": "Whipped Cream",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 353,
+                "name": "Chocolate Sauce",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 354,
+                "name": "Extra Ice Cream",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 119,
+        "name": "Chocolate Milkshake",
+        "description": "Creamy milkshake blended with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/chocolate,milkshake",
+        "originalPrice": 56,
+        "discountPercent": 20.0,
+        "finalPrice": 44.8,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 45,
+        "variants": [
+            {
+                "id": 355,
+                "name": "Whipped Cream",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 356,
+                "name": "Chocolate Sauce",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 357,
+                "name": "Extra Ice Cream",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 120,
+        "name": "Strawberry Milkshake",
+        "description": "Creamy milkshake blended with fresh ingredients",
+        "imageUrl": "https://loremflickr.com/600/600/strawberry,milkshake",
+        "originalPrice": 63,
+        "discountPercent": 0.0,
+        "finalPrice": 63.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 45,
+        "variants": [
+            {
+                "id": 358,
+                "name": "Whipped Cream",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 359,
+                "name": "Chocolate Sauce",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 360,
+                "name": "Extra Ice Cream",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 121,
+        "name": "Red Wine",
+        "description": "A carefully selected wine served chilled or at room temperature",
+        "imageUrl": "https://loremflickr.com/600/600/red,wine",
+        "originalPrice": 70,
+        "discountPercent": 10.0,
+        "finalPrice": 63.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 46,
+        "variants": [
+            {
+                "id": 361,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 362,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 363,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 122,
+        "name": "White Wine",
+        "description": "A carefully selected wine served chilled or at room temperature",
+        "imageUrl": "https://loremflickr.com/600/600/white,wine",
+        "originalPrice": 77,
+        "discountPercent": 15.0,
+        "finalPrice": 65.45,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 46,
+        "variants": [
+            {
+                "id": 364,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 365,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 366,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 123,
+        "name": "Rosé Wine",
+        "description": "A carefully selected wine served chilled or at room temperature",
+        "imageUrl": "https://loremflickr.com/600/600/ros,wine",
+        "originalPrice": 84,
+        "discountPercent": 20.0,
+        "finalPrice": 67.2,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 46,
+        "variants": [
+            {
+                "id": 367,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 368,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 369,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 124,
+        "name": "Classic Piña Colada",
+        "description": "Refreshing tropical pineapple and coconut drink",
+        "imageUrl": "https://loremflickr.com/600/600/classic,pi,a,colada",
+        "originalPrice": 91,
+        "discountPercent": 0.0,
+        "finalPrice": 91.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 47,
+        "variants": [
+            {
+                "id": 370,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 371,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 372,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 125,
+        "name": "Mango Piña Colada",
+        "description": "Refreshing tropical pineapple and coconut drink",
+        "imageUrl": "https://loremflickr.com/600/600/mango,pi,a,colada",
+        "originalPrice": 98,
+        "discountPercent": 10.0,
+        "finalPrice": 88.2,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 47,
+        "variants": [
+            {
+                "id": 373,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 374,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 375,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 126,
+        "name": "Strawberry Piña Colada",
+        "description": "Refreshing tropical pineapple and coconut drink",
+        "imageUrl": "https://loremflickr.com/600/600/strawberry,pi,a,colada",
+        "originalPrice": 105,
+        "discountPercent": 15.0,
+        "finalPrice": 89.25,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 47,
+        "variants": [
+            {
+                "id": 376,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 377,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 378,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 127,
+        "name": "Classic Mojito",
+        "description": "Refreshing drink with lime, mint and fruit flavors",
+        "imageUrl": "https://loremflickr.com/600/600/classic,mojito",
+        "originalPrice": 112,
+        "discountPercent": 20.0,
+        "finalPrice": 89.6,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 48,
+        "variants": [
+            {
+                "id": 379,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 380,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 381,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 128,
+        "name": "Strawberry Mojito",
+        "description": "Refreshing drink with lime, mint and fruit flavors",
+        "imageUrl": "https://loremflickr.com/600/600/strawberry,mojito",
+        "originalPrice": 119,
+        "discountPercent": 0.0,
+        "finalPrice": 119.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 48,
+        "variants": [
+            {
+                "id": 382,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 383,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 384,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 129,
+        "name": "Passion Fruit Mojito",
+        "description": "Refreshing drink with lime, mint and fruit flavors",
+        "imageUrl": "https://loremflickr.com/600/600/passion,fruit,mojito",
+        "originalPrice": 126,
+        "discountPercent": 10.0,
+        "finalPrice": 113.4,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 48,
+        "variants": [
+            {
+                "id": 385,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 386,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 387,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 130,
+        "name": "Golden Craft Beer",
+        "description": "Locally inspired craft beer with a rich flavor",
+        "imageUrl": "https://loremflickr.com/600/600/golden,craft,beer",
+        "originalPrice": 133,
+        "discountPercent": 15.0,
+        "finalPrice": 113.05,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 49,
+        "variants": [
+            {
+                "id": 388,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 389,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 390,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 131,
+        "name": "Amber Craft Beer",
+        "description": "Locally inspired craft beer with a rich flavor",
+        "imageUrl": "https://loremflickr.com/600/600/amber,craft,beer",
+        "originalPrice": 140,
+        "discountPercent": 20.0,
+        "finalPrice": 112.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 49,
+        "variants": [
+            {
+                "id": 391,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 392,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 393,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 132,
+        "name": "Dark Craft Beer",
+        "description": "Locally inspired craft beer with a rich flavor",
+        "imageUrl": "https://loremflickr.com/600/600/dark,craft,beer",
+        "originalPrice": 147,
+        "discountPercent": 0.0,
+        "finalPrice": 147.0,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 49,
+        "variants": [
+            {
+                "id": 394,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 395,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 396,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 133,
+        "name": "Lemon Ice Tea",
+        "description": "Refreshing chilled tea with natural fruit flavor",
+        "imageUrl": "https://loremflickr.com/600/600/lemon,ice,tea",
+        "originalPrice": 38,
+        "discountPercent": 10.0,
+        "finalPrice": 34.2,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 50,
+        "variants": [
+            {
+                "id": 397,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 398,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 399,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 134,
+        "name": "Peach Ice Tea",
+        "description": "Refreshing chilled tea with natural fruit flavor",
+        "imageUrl": "https://loremflickr.com/600/600/peach,ice,tea",
+        "originalPrice": 45,
+        "discountPercent": 15.0,
+        "finalPrice": 38.25,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 50,
+        "variants": [
+            {
+                "id": 400,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 401,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 402,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    },
+    {
+        "id": 135,
+        "name": "Berry Ice Tea",
+        "description": "Refreshing chilled tea with natural fruit flavor",
+        "imageUrl": "https://loremflickr.com/600/600/berry,ice,tea",
+        "originalPrice": 52,
+        "discountPercent": 20.0,
+        "finalPrice": 41.6,
+        "ratingAvg": 0.0,
+        "isAvailable": true,
+        "categoryId": 50,
+        "variants": [
+            {
+                "id": 403,
+                "name": "Extra Sauce",
+                "extraPrice": 1.25
+            },
+            {
+                "id": 404,
+                "name": "Extra Cheese",
+                "extraPrice": 2.5
+            },
+            {
+                "id": 405,
+                "name": "Fresh Herbs",
+                "extraPrice": 3.75
+            }
+        ]
+    }
+]
