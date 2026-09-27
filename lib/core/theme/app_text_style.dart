@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:yumquick/core/theme/app_colors.dart';
-import 'package:yumquick/core/theme/font_weight_helper.dart';
+
+import 'app_colors.dart';
+import 'font_weight_helper.dart';
 
 class AppTextStyle {
   static TextStyle font15OrangeBaseSemiBold = GoogleFonts.leagueSpartan(
@@ -16,6 +17,16 @@ class AppTextStyle {
   );
   static TextStyle font12OrangeBaseMedium = GoogleFonts.leagueSpartan(
     fontSize: 12,
+    fontWeight: FontWeightHelper.medium,
+    color: AppColors.orangeBase,
+  );
+  static TextStyle font12OrangeBaseSemiBold = GoogleFonts.leagueSpartan(
+    fontSize: 12,
+    fontWeight: FontWeightHelper.semiBold,
+    color: AppColors.orangeBase,
+  );
+  static TextStyle font13OrangeBaseMedium = GoogleFonts.leagueSpartan(
+    fontSize: 13,
     fontWeight: FontWeightHelper.medium,
     color: AppColors.orangeBase,
   );
@@ -34,14 +45,54 @@ class AppTextStyle {
     fontWeight: FontWeightHelper.light,
     color: Colors.black,
   );
+  static TextStyle font18BlackSemiBold = GoogleFonts.leagueSpartan(
+    fontSize: 18,
+    fontWeight: FontWeightHelper.semiBold,
+    color: Colors.black,
+  );
+  static TextStyle font15GreyLight = GoogleFonts.leagueSpartan(
+    fontSize: 15,
+    fontWeight: FontWeightHelper.light,
+    color: Colors.grey[600],
+  );
+  static TextStyle font12BlackRegular = GoogleFonts.leagueSpartan(
+    fontSize: 12,
+    fontWeight: FontWeightHelper.regular,
+    color: Colors.black,
+  );
+  static TextStyle font16BlackRegular = GoogleFonts.leagueSpartan(
+    fontSize: 16,
+    fontWeight: FontWeightHelper.regular,
+    color: Colors.black,
+  );
+  static TextStyle font16BlackLight = GoogleFonts.leagueSpartan(
+    fontSize: 16,
+    fontWeight: FontWeightHelper.light,
+    color: Colors.black,
+  );
   static TextStyle font24BlackSemiBold = GoogleFonts.leagueSpartan(
     fontSize: 24,
     fontWeight: FontWeightHelper.semiBold,
     color: Colors.black,
   );
+  static TextStyle font24YellowTwoMedium = GoogleFonts.leagueSpartan(
+    fontSize: 24,
+    fontWeight: FontWeightHelper.medium,
+    color: AppColors.yellowTwo,
+  );
   static TextStyle font24WhiteMedium = GoogleFonts.leagueSpartan(
     fontSize: 24,
     fontWeight: FontWeightHelper.medium,
+    color: Colors.white,
+  );
+  static TextStyle font12WhiteRegular = GoogleFonts.leagueSpartan(
+    fontSize: 12,
+    fontWeight: FontWeightHelper.regular,
+    color: Colors.white,
+  );
+  static TextStyle font30WhiteBold = GoogleFonts.leagueSpartan(
+    fontSize: 30,
+    fontWeight: FontWeightHelper.bold,
     color: Colors.white,
   );
   static TextStyle font14BlackMedium = GoogleFonts.leagueSpartan(
@@ -64,14 +115,39 @@ class AppTextStyle {
     fontWeight: FontWeightHelper.medium,
     color: Colors.white,
   );
+  static TextStyle font16WhiteRegular = GoogleFonts.leagueSpartan(
+    fontSize: 16,
+    fontWeight: FontWeightHelper.regular,
+    color: Colors.white,
+  );
+  static TextStyle font32WhiteBold = GoogleFonts.leagueSpartan(
+    fontSize: 32,
+    fontWeight: FontWeightHelper.bold,
+    color: Colors.white,
+  );
   static TextStyle font24OrangeBaseBlack = GoogleFonts.inter(
     fontSize: 24,
     fontWeight: FontWeightHelper.black,
+    color: AppColors.orangeBase,
+  );
+  static TextStyle font18OrangeBaseMedium = GoogleFonts.inter(
+    fontSize: 18,
+    fontWeight: FontWeightHelper.medium,
     color: AppColors.orangeBase,
   );
   static TextStyle font28WhiteBold = TextStyle(
     fontSize: 28,
     fontWeight: FontWeightHelper.bold,
     color: AppColors.fontTwo,
+  );
+  static TextStyle font16BlackSemiBold = GoogleFonts.leagueSpartan(
+    fontSize: 16,
+    fontWeight: FontWeightHelper.semiBold,
+    color: AppColors.font,
+  );
+  static TextStyle font12GreyLight = GoogleFonts.leagueSpartan(
+    fontSize: 12,
+    fontWeight: FontWeightHelper.light,
+    color: Colors.grey[500],
   );
 }

@@ -1,23 +1,32 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:yumquick/core/theme/app_colors.dart';
-import 'package:yumquick/core/theme/app_text_style.dart';
+
+import '../theme/app_colors.dart';
+import '../theme/app_text_style.dart';
 
 class CustomTextForm extends StatefulWidget {
   final TextEditingController controller;
   final String hint;
+  final TextStyle? hintStyle;
+  final EdgeInsets? contentPadding;
   final bool isObsecure;
-  String? Function(String?)? validator;
-  void Function(String?)? onSaved;
-  bool? autofocus;
-  CustomTextForm({
+  final String? Function(String?)? validator;
+  final void Function(String?)? onSaved;
+  final bool? autofocus;
+  final Color? fillColor;
+  final Widget? suffixIcon;
+  const CustomTextForm({
     required this.controller,
     super.key,
     required this.hint,
     required this.isObsecure,
     required this.validator,
+    this.hintStyle,
     this.onSaved,
+    this.suffixIcon,
     this.autofocus,
+    this.fillColor,
+    this.contentPadding,
   });
 
   @override
@@ -49,9 +58,9 @@ class _CustomTextFormState extends State<CustomTextForm> {
       obscureText: secure,
       controller: widget.controller,
       decoration: InputDecoration(
+        hintStyle: widget.hintStyle ?? AppTextStyle.font14BlackLight,
         hintText: widget.hint,
         isDense: true,
-        // constraints: BoxConstraints(minHeight: 45.h, maxHeight: 45.h),
         suffixIcon: widget.isObsecure
             ? IconButton(
                 onPressed: changeObscure,
@@ -65,10 +74,12 @@ class _CustomTextFormState extends State<CustomTextForm> {
                         color: AppColors.orangeBase,
                       ),
               )
-            : null,
-        // contentPadding: EdgeInsetsDirectional.only(
+            : widget.suffixIcon,
+        contentPadding:
+            widget.contentPadding ??
+            EdgeInsets.symmetric(horizontal: 16.w, vertical: 12.h),
         filled: true,
-        fillColor: AppColors.yellowTwo,
+        fillColor: widget.fillColor ?? AppColors.yellowTwo,
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(13.r),
           borderSide: BorderSide.none,

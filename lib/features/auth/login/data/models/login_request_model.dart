@@ -9,5 +9,8 @@ class LoginRequestModel {
 
   LoginRequestModel({required this.identifier, required this.password});
 
+  factory LoginRequestModel.fromJson(Map<String, dynamic> json) =>
+      _$LoginRequestModelFromJson(json);
+
   Map<String, dynamic> toJson() => _$LoginRequestModelToJson(this);
 }

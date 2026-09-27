@@ -8,5 +8,8 @@ class GoogleLoginRequestModel {
 
   GoogleLoginRequestModel({required this.providerToken});
 
+  factory GoogleLoginRequestModel.fromJson(Map<String, dynamic> json) =>
+      _$GoogleLoginRequestModelFromJson(json);
+
   Map<String, dynamic> toJson() => _$GoogleLoginRequestModelToJson(this);
 }

@@ -24,19 +24,25 @@ class DioFactory {
     }
   }
 
-  // static void addDioHeaders() async {
-  //   dio?.options.headers = {
-  //     'Accept': 'application/json',
-  //     'Authorization':
-  //         'Bearer ${await SharedPrefHelper.getSecuredString(SharedPrefKeys.userToken)}',
-  //   };
-  // }
-
-  // static void setTokenIntoHeaderAfterLogin(String token) {
-  //   dio?.options.headers = {'Authorization': 'Bearer $token'};
-  // }
-
   static void addDioInterceptor() {
+    dio?.interceptors.add(
+      InterceptorsWrapper(
+        onRequest: (options, handler) async {
+          final token = await SharedPrefHelper.getSecuredString(
+            SharedPrefKeys.userToken,
+          );
+          options.headers['Accept'] = 'application/json';
+          if (token.isNotEmpty) {
+            options.headers['Authorization'] = 'Bearer $token';
+          }
+          return handler.next(options);
+        },
+        onError: (error, handler) {
+          //! refresh token logic can be added here => enshallah
+          return handler.next(error);
+        },
+      ),
+    );
     dio?.interceptors.add(
       PrettyDioLogger(
         requestBody: true,

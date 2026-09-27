@@ -22,5 +22,8 @@ class SignupRequestModel {
     this.role = 'Customer',
   });
 
+  factory SignupRequestModel.fromJson(Map<String, dynamic> json) =>
+      _$SignupRequestModelFromJson(json);
+
   Map<String, dynamic> toJson() => _$SignupRequestModelToJson(this);
 }

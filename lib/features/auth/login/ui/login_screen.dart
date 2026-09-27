@@ -3,28 +3,26 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:yumquick/core/helper/spacer.dart';
-import 'package:yumquick/core/networking/api_result.dart';
-import 'package:yumquick/core/theme/app_colors.dart';
-import 'package:yumquick/core/theme/app_text_style.dart';
-import 'package:yumquick/core/widgets/custom_button.dart';
-import 'package:yumquick/features/auth/login/data/repo/login_repo.dart';
-import 'package:yumquick/features/auth/login/logic/login_cubit.dart';
-import 'package:yumquick/features/auth/login/logic/login_state.dart';
+
+import '../../../../core/helper/spacer.dart';
+import '../../../../core/theme/app_colors.dart';
+import '../../../../core/theme/app_text_style.dart';
+import '../../../../core/widgets/custom_button.dart';
+import '../logic/login_cubit.dart';
+import '../logic/login_state.dart';
 
 import '../../../../core/Routing/routes.dart';
 import '../../../../core/widgets/custom_textform.dart';
 
 class LoginScreen extends StatelessWidget {
-  LoginScreen({super.key});
+  const LoginScreen({super.key});
 
   void forgetPassword(BuildContext context) {
     Navigator.pushNamed(context, Routes.forgotPassword);
   }
 
   Future<void> signWithGoogle(BuildContext context) async {
-    final loginCubit = context.read<LoginCubit>();
-    await loginCubit.googleOauth();
+    await context.read<LoginCubit>().googleOauth();
   }
 
   void goToSignup(BuildContext context) {
@@ -35,9 +33,7 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.yellowBase,
-      body: Container(
-        height: double.infinity,
-        width: double.infinity,
+      body: SizedBox.expand(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
@@ -57,127 +53,134 @@ class LoginScreen extends StatelessWidget {
                       topRight: Radius.circular(30.r),
                     ),
                   ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text("Welcome", style: AppTextStyle.font24BlackSemiBold),
-                      verticalSpace(15),
-                      Text(
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit,\nsed do eiusmod tempor incididunt ut labore et dolore\nmagna aliqua. ",
-                        style: AppTextStyle.font14BlackLight,
-                      ),
-                      verticalSpace(40),
-                      Text(
-                        "Email or Mobile Number",
-                        style: AppTextStyle.font20BlackMedium,
-                      ),
-                      verticalSpace(10),
-                      CustomTextForm(
-                        validator: (val) {
-                          if (val == null || val.isEmpty) {
-                            return 'Please enter your email or mobile number';
-                          }
-                          final emailRegex = RegExp(
-                            r'^[\w.\-]+@([\w-]+\.)+[\w-]{2,4}$',
-                          );
-                          final phoneRegex = RegExp(r'^\+?[0-9]{10,15}$');
-                          if (!emailRegex.hasMatch(val) &&
-                              !phoneRegex.hasMatch(val)) {
-                            return 'Enter a valid email or mobile number';
-                          }
-                          return null;
-                        },
-                        controller: context
-                            .read<LoginCubit>()
-                            .userIdentifierController,
-                        hint: "example@example.com",
-                        isObsecure: false,
-                      ),
-                      verticalSpace(15),
-                      Text("Password", style: AppTextStyle.font20BlackMedium),
-                      verticalSpace(10),
-                      CustomTextForm(
-                        validator: (val) {
-                          if (val == null || val.isEmpty) {
-                            return 'Please enter your password';
-                          }
-                          if (val.length < 6) {
-                            return 'Password must be at least 6 characters';
-                          }
-                          return null;
-                        },
-                        controller: context
-                            .read<LoginCubit>()
-                            .passwordController,
-                        hint: "*************",
-                        isObsecure: true,
-                      ),
-                      verticalSpace(14),
-                      Align(
-                        alignment: AlignmentDirectional.centerEnd,
-                        child: TextButton(
-                          onPressed: () => forgetPassword(context),
-                          child: Text(
-                            textAlign: TextAlign.end,
-                            "forget password",
-                            style: AppTextStyle.font14OrangeBaseMedium,
+                  child: SingleChildScrollView(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          "Welcome",
+                          style: AppTextStyle.font24BlackSemiBold,
+                        ),
+                        verticalSpace(15),
+                        Text(
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit,\nsed do eiusmod tempor incididunt ut labore et dolore\nmagna aliqua. ",
+                          style: AppTextStyle.font14BlackLight,
+                        ),
+                        verticalSpace(40),
+                        Text(
+                          "Email or Mobile Number",
+                          style: AppTextStyle.font20BlackMedium,
+                        ),
+                        verticalSpace(10),
+                        CustomTextForm(
+                          validator: (val) {
+                            if (val == null || val.isEmpty) {
+                              return 'Please enter your email or mobile number';
+                            }
+                            final emailRegex = RegExp(
+                              r'^[\w.\-]+@([\w-]+\.)+[\w-]{2,4}$',
+                            );
+                            final phoneRegex = RegExp(r'^\+?[0-9]{10,15}$');
+                            if (!emailRegex.hasMatch(val) &&
+                                !phoneRegex.hasMatch(val)) {
+                              return 'Enter a valid email or mobile number';
+                            }
+                            return null;
+                          },
+                          controller: context
+                              .read<LoginCubit>()
+                              .userIdentifierController,
+                          hint: "example@example.com",
+                          isObsecure: false,
+                        ),
+                        verticalSpace(15),
+                        Text("Password", style: AppTextStyle.font20BlackMedium),
+                        verticalSpace(10),
+                        CustomTextForm(
+                          validator: (val) {
+                            if (val == null || val.isEmpty) {
+                              return 'Please enter your password';
+                            }
+                            if (val.length < 6) {
+                              return 'Password must be at least 6 characters';
+                            }
+                            return null;
+                          },
+                          controller: context
+                              .read<LoginCubit>()
+                              .passwordController,
+                          hint: "*************",
+                          isObsecure: true,
+                        ),
+                        verticalSpace(14),
+                        Align(
+                          alignment: AlignmentDirectional.centerEnd,
+                          child: TextButton(
+                            onPressed: () => forgetPassword(context),
+                            child: Text(
+                              textAlign: TextAlign.end,
+                              "forget password",
+                              style: AppTextStyle.font14OrangeBaseMedium,
+                            ),
                           ),
                         ),
-                      ),
-                      verticalSpace(20),
-                      Center(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          children: [
-                            LoginBlocConsumer(),
-                            verticalSpace(20),
-                            Text(
-                              "or sign up with",
-                              style: AppTextStyle.font14BlackLight,
-                            ),
-                            verticalSpace(10),
-                            GestureDetector(
-                              onTap: () async => await signWithGoogle(context),
-                              child: Container(
-                                padding: EdgeInsets.all(7.w),
-                                decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(13.r),
-                                  color: AppColors.orangeTwo,
-                                ),
-                                child: SvgPicture.asset(
-                                  'assets/icons/Gmail.svg',
+                        verticalSpace(20),
+                        Center(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              LoginBlocConsumer(),
+                              verticalSpace(20),
+                              Text(
+                                "or sign up with",
+                                style: AppTextStyle.font14BlackLight,
+                              ),
+                              verticalSpace(10),
+                              GestureDetector(
+                                onTap: () async =>
+                                    await signWithGoogle(context),
+                                child: Container(
+                                  padding: EdgeInsets.all(7.w),
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(13.r),
+                                    color: AppColors.orangeTwo,
+                                  ),
+                                  child: SvgPicture.asset(
+                                    'assets/icons/Gmail.svg',
+                                  ),
                                 ),
                               ),
-                            ),
-                            verticalSpace(5),
-                            Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
-                                Text(
-                                  'Don’t have an account?',
-                                  style: AppTextStyle.font14BlackLight,
-                                ),
-                                TextButton(
-                                  style: TextButton.styleFrom(
-                                    padding: EdgeInsetsDirectional.only(
-                                      start: 2.w,
+                              verticalSpace(5),
+                              Wrap(
+                                alignment: WrapAlignment.center,
+                                crossAxisAlignment: WrapCrossAlignment.center,
+                                children: [
+                                  Text(
+                                    'Don’t have an account?',
+                                    style: AppTextStyle.font14BlackLight,
+                                  ),
+                                  TextButton(
+                                    style: TextButton.styleFrom(
+                                      padding: EdgeInsetsDirectional.only(
+                                        start: 2.w,
+                                      ),
+                                      minimumSize: Size.zero,
+                                      tapTargetSize:
+                                          MaterialTapTargetSize.shrinkWrap,
                                     ),
-                                    minimumSize: Size.zero,
-                                    tapTargetSize:
-                                        MaterialTapTargetSize.shrinkWrap,
+                                    onPressed: () => goToSignup(context),
+                                    child: Text(
+                                      'Sign Up',
+                                      style: AppTextStyle.font14OrangeBaseLight,
+                                    ),
                                   ),
-                                  onPressed: () => goToSignup(context),
-                                  child: Text(
-                                    'Sign Up',
-                                    style: AppTextStyle.font14OrangeBaseLight,
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ],
+                                ],
+                              ),
+                            ],
+                          ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                 ),
               ),

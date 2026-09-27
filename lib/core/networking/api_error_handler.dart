@@ -180,8 +180,6 @@ ApiErrorModel _handleError(DioException error) {
       return DataSource.defaultError.getFailure();
     case DioExceptionType.badCertificate:
       return DataSource.defaultError.getFailure();
-    default:
-      return DataSource.defaultError.getFailure();
   }
 }
 

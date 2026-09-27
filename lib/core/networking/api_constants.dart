@@ -1,9 +1,17 @@
 class ApiConstants {
-  static const String apiBaseUrl = "https://yumquick.tryasp.net/";
+  static const String apiBaseUrl = "https://yumquick.tryasp.net/api/";
 
-  static const String login = "api/Auth/login";
-  static const String signup = "api/Auth/register";
-  static const String googleLogin = "api/Auth/google-login";
+  //auth
+  static const String login = "Auth/login";
+  static const String signup = "Auth/register";
+  static const String googleLogin = "Auth/google-login";
+  //home
+  static const String banners = "Banners";
+  static const String categories = "Categories";
+  static const String recommended = "Products/recommended";
+  static const String productsByCategory = "Products";
+  static const String addToCart = "Cart/add";
+  static const String toggleFavorite = "Favorites/toggle/";
 }
 
 class ApiErrors {

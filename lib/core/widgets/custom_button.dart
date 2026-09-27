@@ -1,16 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:yumquick/core/theme/app_colors.dart';
-import 'package:yumquick/core/theme/app_text_style.dart';
+
+import '../helper/spacer.dart';
+import '../theme/app_colors.dart';
+import '../theme/app_text_style.dart';
 
 class CustomButton extends StatelessWidget {
   final double? width;
   final double? height;
   final double? radius;
   final TextStyle? textStyle;
-  void Function()? onPressed;
+  final void Function()? onPressed;
   final String text;
-  CustomButton({
+  final IconData? icon;
+  final Color? iconColor;
+  const CustomButton({
     super.key,
     required this.onPressed,
     required this.text,
@@ -18,6 +22,8 @@ class CustomButton extends StatelessWidget {
     this.width,
     this.radius,
     this.textStyle,
+    this.icon,
+    this.iconColor,
   });
 
   @override
@@ -35,7 +41,16 @@ class CustomButton extends StatelessWidget {
         ),
       ),
       onPressed: onPressed,
-      child: Text(text, style: textStyle ?? AppTextStyle.font17WhiteMedium),
+      child: icon == null
+          ? Text(text, style: textStyle ?? AppTextStyle.font17WhiteMedium)
+          : Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Icon(icon, color: iconColor ?? Colors.white, size: 19.w),
+                horizontalSpace(8),
+                Text(text, style: textStyle ?? AppTextStyle.font17WhiteMedium),
+              ],
+            ),
     );
   }
 }
