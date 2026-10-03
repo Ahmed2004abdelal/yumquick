@@ -10,7 +10,9 @@ import 'package:yumquick/core/theme/app_colors.dart';
 import 'package:yumquick/core/theme/app_text_style.dart';
 import 'package:yumquick/core/widgets/custom_button.dart';
 import 'package:yumquick/core/widgets/custom_dot.dart';
+import 'package:yumquick/core/widgets/favorite_icon.dart';
 import 'package:yumquick/core/widgets/rating_badge.dart';
+import 'package:yumquick/core/widgets/selection_dot.dart';
 import 'package:yumquick/features/home/data/models/products_model.dart';
 import 'package:yumquick/features/home/data/models/toppings_model.dart';
 import 'package:yumquick/features/home/logic/product%20details/product_details_cubit.dart';
@@ -266,16 +268,11 @@ class _ProductHeader extends StatelessWidget {
             ),
             GestureDetector(
               onTap: onToggleFavorite,
-              child: CircleAvatar(
-                radius: 12.r,
+              child: FavoriteIcon(
                 backgroundColor: isFavorite
                     ? Colors.white
                     : AppColors.orangeBase,
-                child: Icon(
-                  Icons.favorite,
-                  color: isFavorite ? AppColors.orangeBase : Colors.white,
-                  size: 16.w,
-                ),
+                iconColor: isFavorite ? AppColors.orangeBase : Colors.white,
               ),
             ),
           ],
@@ -439,51 +436,12 @@ class _ToppingsList extends StatelessWidget {
               horizontalSpace(18),
               GestureDetector(
                 onTap: () => onToggle(topping.id),
-                child: _SelectionDot(isSelected: isSelected),
+                child: SelectionDot(isSelected: isSelected),
               ),
             ],
           ),
         );
       }),
-    );
-  }
-}
-
-class _SelectionDot extends StatelessWidget {
-  final bool isSelected;
-  const _SelectionDot({required this.isSelected});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      height: 20.h,
-      width: 20.w,
-      decoration: BoxDecoration(
-        shape: BoxShape.circle,
-        border: Border.all(color: AppColors.orangeBase, width: 1.2),
-      ),
-      alignment: Alignment.center,
-      child: Container(
-        height: 13.h,
-        width: 13.w,
-        decoration: BoxDecoration(
-          shape: BoxShape.circle,
-          // color: AppColors.orangeBase,
-          border: Border.all(color: AppColors.orangeBase, width: 1.2),
-        ),
-        child: AnimatedScale(
-          scale: isSelected ? 1 : 0,
-          duration: const Duration(milliseconds: 150),
-          child: Container(
-            height: 13.h,
-            width: 13.w,
-            decoration: const BoxDecoration(
-              color: AppColors.orangeBase,
-              shape: BoxShape.circle,
-            ),
-          ),
-        ),
-      ),
     );
   }
 }

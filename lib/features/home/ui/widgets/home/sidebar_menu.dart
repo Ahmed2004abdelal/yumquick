@@ -4,6 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:yumquick/core/helper/extensions.dart';
 import 'package:yumquick/core/helper/spacer.dart';
+import 'package:yumquick/core/utils/models/side_menu_model.dart';
 import 'package:yumquick/features/home/logic/home/home_cubit.dart';
 
 import '../../../../../core/Routing/routes.dart';
@@ -37,6 +38,12 @@ class SidebarMenu extends StatelessWidget {
         padding: EdgeInsets.symmetric(horizontal: 33.w, vertical: 71.h),
         child: Column(
           children: [
+            Column(
+              children: List.generate(sideMenuItems.length, (index) {
+                return SideMenuItems(sideMenuModel: sideMenuItems[index]);
+              }),
+            ),
+            verticalSpace(48),
             GestureDetector(
               onTap: () => logOut(context),
               child: Row(
@@ -58,6 +65,48 @@ class SidebarMenu extends StatelessWidget {
           ],
         ),
       ),
+    );
+  }
+}
+
+class SideMenuItems extends StatelessWidget {
+  final SideMenuModel sideMenuModel;
+  const SideMenuItems({super.key, required this.sideMenuModel});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        verticalSpace(16),
+        GestureDetector(
+          onTap: () => sideMenuModel.onTap?.call(context),
+          child: Row(
+            children: [
+              Container(
+                padding: EdgeInsets.all(6.r),
+                height: 40.3.h,
+                width: 40.3.w,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(15.r),
+                ),
+                child: SvgPicture.asset(
+                  sideMenuModel.icon,
+                  width: 20.61.w,
+                  height: 20.65.h,
+                ),
+              ),
+              horizontalSpace(32),
+              Text(
+                sideMenuModel.title,
+                style: AppTextStyle.font24YellowTwoMedium,
+              ),
+            ],
+          ),
+        ),
+        verticalSpace(17.7),
+        Divider(color: Colors.white, thickness: .8.h),
+      ],
     );
   }
 }

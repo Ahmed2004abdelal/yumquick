@@ -6,4 +6,8 @@ class Routes {
   static const String bottomNavBar = 'bottomNavBar';
   static const String home = 'home';
   static const String productDetails = 'productDetails';
+  static const String cart = 'cart';
+  static const String addressScreen = 'addressScreen';
+  static const String paymentMethodsScreen = 'paymentMethodsScreen';
+  static const String addNewAddressScreen = 'addNewAddressScreen';
 }

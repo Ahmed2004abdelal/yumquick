@@ -15,12 +15,14 @@ class CustomTextForm extends StatefulWidget {
   final bool? autofocus;
   final Color? fillColor;
   final Widget? suffixIcon;
+  final int? maxLines;
   const CustomTextForm({
     required this.controller,
     super.key,
     required this.hint,
     required this.isObsecure,
     required this.validator,
+    this.maxLines,
     this.hintStyle,
     this.onSaved,
     this.suffixIcon,
@@ -57,6 +59,7 @@ class _CustomTextFormState extends State<CustomTextForm> {
       validator: widget.validator,
       obscureText: secure,
       controller: widget.controller,
+      maxLines: widget.maxLines ?? 1,
       decoration: InputDecoration(
         hintStyle: widget.hintStyle ?? AppTextStyle.font14BlackLight,
         hintText: widget.hint,

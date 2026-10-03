@@ -6,6 +6,8 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:yumquick/core/di/dependency_injection.dart';
 import 'package:yumquick/core/theme/app_colors.dart';
 import 'package:yumquick/core/utils/bottom_nav_bar_model.dart';
+import 'package:yumquick/features/favorites/data/repos/favorites_repo.dart';
+import 'package:yumquick/features/favorites/logic/favorites_cubit.dart';
 import 'package:yumquick/features/favorites/ui/favorites_screen.dart';
 import 'package:yumquick/features/help/ui/helper_screen.dart';
 import 'package:yumquick/features/home/data/repos/home_repo.dart';
@@ -30,8 +32,11 @@ class _BottomNavBarState extends State<BottomNavBar> {
       create: (context) => HomeCubit(getIt<HomeRepo>()),
       child: HomeScreen(),
     ),
-    FavoritesScreen(),
-    MyOredersScreen(),
+    BlocProvider<FavoritesCubit>(
+      create: (context) => FavoritesCubit(getIt<FavoritesRepo>()),
+      child: FavoritesScreen(),
+    ),
+    MyOrdersScreen(),
     HelperScreen(),
   ];
 

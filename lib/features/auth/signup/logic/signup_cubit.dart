@@ -20,6 +20,16 @@ class SignupCubit extends Cubit<SignupState> {
   final TextEditingController mobileController = TextEditingController();
   final GlobalKey<FormState> formKey = GlobalKey();
 
+  @override
+  Future<void> close() {
+    nameController.dispose();
+    passwordController.dispose();
+    confirmPasswordController.dispose();
+    emailController.dispose();
+    mobileController.dispose();
+    return super.close();
+  }
+
   Future<void> signup() async {
     emit(const SignupState.signLoading());
     final response = await _authRepos.signup(

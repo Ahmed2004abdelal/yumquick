@@ -1,8 +1,15 @@
 import 'package:dio/dio.dart';
+import 'package:flutter_stripe/flutter_stripe.dart';
 import 'package:retrofit/retrofit.dart';
+import 'package:yumquick/core/utils/models/deafult_response.dart';
+import 'package:yumquick/features/cart/data/models/get_cart_model.dart';
+import 'package:yumquick/features/cart/data/models/cart_action_models.dart';
 import 'package:yumquick/features/home/data/models/add_to_cart_model.dart';
 import 'package:yumquick/features/home/data/models/banners_model.dart';
 import 'package:yumquick/features/home/data/models/product_favorite_model.dart';
+import 'package:yumquick/features/side%20menu%20screens/data/models/address%20models/add_address_request.dart';
+import 'package:yumquick/features/side%20menu%20screens/data/models/address%20models/add_address_response.dart';
+import 'package:yumquick/features/side%20menu%20screens/data/models/address%20models/get_address_response.dart';
 
 import '../../features/home/data/models/categories_model.dart';
 import '../../features/home/data/models/products_model.dart';
@@ -15,7 +22,8 @@ import '../../features/auth/signup/data/models/signup_response_model.dart';
 
 part 'api_service.g.dart';
 
-@RestApi(baseUrl: ApiConstants.apiBaseUrl)
+// @RestApi(baseUrl: ApiConstants.apiBaseUrl)
+@RestApi()
 abstract class ApiService {
   factory ApiService(Dio dio, {String baseUrl}) = _ApiService;
 
@@ -59,9 +67,32 @@ abstract class ApiService {
     @Body() AddToCartRequest addToCartRequest,
   );
 
-  // @POST(ApiConstants.toggleFavorite)
-  // Future<ToggleFavoriteModel> toggleFavorite(@Path("productId") int productId);
+  @GET(ApiConstants.getCart)
+  Future<GetCartModel> getCart();
+
+  @DELETE('${ApiConstants.removeCartItem}/{id}')
+  Future<RemoveCartResponse> removeCartItem(@Path('id') int id);
+
+  // @POST(ApiConstants.checkout)
+  // Future<CheckoutResponse> checkout(@Body() CheckoutRequest checkoutRequest);
+
+  @DELETE(ApiConstants.clearCart)
+  Future<ClearCartResponse> clearCart();
 
   @POST('${ApiConstants.toggleFavorite}/{productId}')
   Future<ToggleFavoriteModel> toggleFavorite(@Path('productId') int productId);
+
+  @GET(ApiConstants.favorites)
+  Future<List<ProductsModel>> getFavorites();
+
+  @POST(ApiConstants.addAddress)
+  Future<AddAddressResponse> addAddress(
+    @Body() AddAddressRequest addressRequest,
+  );
+
+  @GET(ApiConstants.addAddress)
+  Future<List<GetAddressResponse>> getAddress();
+
+  @PUT('${ApiConstants.setDefaultAddress}/{addressId}')
+  Future<DefaultResponse> setDefaultAddress(@Path('addressId') int addressId);
 }
