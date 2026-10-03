@@ -1,5 +1,5 @@
 class ApiConstants {
-  static const String apiBaseUrl = "https://yumquick.tryasp.net/api/";
+  // static final String apiBaseUrl = Env.apiUrl;
 
   //auth
   static const String login = "Auth/login";
@@ -10,8 +10,19 @@ class ApiConstants {
   static const String categories = "Categories";
   static const String recommended = "Products/recommended";
   static const String productsByCategory = "Products";
-  static const String addToCart = "Cart/add";
   static const String toggleFavorite = "Favorites/toggle/";
+  //favorites
+  static const String favorites = "Favorites";
+  //cart
+  static const String addToCart = "Cart/add";
+  static const String getCart = "Cart";
+  static const String removeCartItem = "Cart/remove";
+  static const String clearCart = "Cart/clear";
+  //orders
+  static const String checkout = "Orders/checkout";
+  //address
+  static const String addAddress = "Addresses";
+  static const String setDefaultAddress = "Addresses/set-default/";
 }
 
 class ApiErrors {

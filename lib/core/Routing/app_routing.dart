@@ -1,13 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:yumquick/bottom_nav_bar.dart';
-import 'package:yumquick/features/home/data/repos/home_repo.dart';
+import 'package:yumquick/features/cart/data/repos/cart_repo.dart';
+import 'package:yumquick/features/cart/logic/cart_cubit.dart';
+import 'package:yumquick/features/cart/ui/cart_screen.dart';
 import 'package:yumquick/features/home/data/repos/product_repo.dart';
 import 'package:yumquick/features/home/logic/product%20details/product_details_cubit.dart';
 import 'package:yumquick/features/home/ui/product_details_screen.dart';
+import 'package:yumquick/features/side%20menu%20screens/data/repos/address_repo.dart';
+import 'package:yumquick/features/side%20menu%20screens/logic/address%20logic/address_cubit.dart';
+import 'package:yumquick/features/side%20menu%20screens/ui/screens/add_new_address_screen.dart';
+import 'package:yumquick/features/side%20menu%20screens/ui/screens/address_screen.dart';
+import 'package:yumquick/features/side%20menu%20screens/ui/screens/payment_methods_screen.dart';
 
 import '../../features/home/data/models/products_model.dart';
-import '../../features/home/logic/home/home_cubit.dart';
 import 'routes.dart';
 import '../di/dependency_injection.dart';
 import '../../features/auth/login/ui/forgot_password_screen.dart';
@@ -15,7 +21,6 @@ import '../../features/auth/login/ui/login_screen.dart';
 import '../../features/auth/repos/auth_repos.dart';
 import '../../features/auth/signup/logic/signup_cubit.dart';
 import '../../features/auth/signup/ui/signup_screen.dart';
-import '../../features/home/ui/home_screen.dart';
 import '../../features/onboarding/ui/onboarding_screen.dart';
 
 import '../../features/auth/login/logic/login_cubit.dart';
@@ -43,10 +48,23 @@ class AppRouting {
         return MaterialPageRoute(builder: (_) => ForgotPasswordScreen());
       case Routes.bottomNavBar:
         return MaterialPageRoute(builder: (_) => BottomNavBar());
-      // case Routes.home:
-      //   return MaterialPageRoute(
-      //     builder: (_) =>
-      //   );
+      case Routes.addressScreen:
+        return MaterialPageRoute(
+          builder: (_) => BlocProvider<AddressCubit>(
+            create: (context) => AddressCubit(getIt<AddressRepo>()),
+            child: AddressScreen(),
+          ),
+        );
+      case Routes.addNewAddressScreen:
+        final cubit = settings.arguments as AddressCubit;
+        return MaterialPageRoute(
+          builder: (_) => BlocProvider.value(
+            value: cubit,
+            child: const AddNewAddressScreen(),
+          ),
+        );
+      case Routes.paymentMethodsScreen:
+        return MaterialPageRoute(builder: (_) => PaymentMethodsScreen());
       case Routes.productDetails:
         final product = settings.arguments as ProductsModel;
         return MaterialPageRoute(
@@ -54,6 +72,13 @@ class AppRouting {
             create: (context) =>
                 ProductDetailsCubit(getIt<ProductRepo>(), product: product),
             child: ProductDetailsScreen(),
+          ),
+        );
+      case Routes.cart:
+        return MaterialPageRoute(
+          builder: (_) => BlocProvider<CartCubit>(
+            create: (context) => CartCubit(getIt<CartRepo>()),
+            child: const CartScreen(),
           ),
         );
       default:

@@ -13,11 +13,15 @@ class ProductsModel {
   final double discountPercent;
   final double finalPrice;
   final double ratingAvg;
+
   final bool isNew;
-  @JsonKey(name: 'variants')
+
+  @JsonKey(name: 'variants', defaultValue: [])
   final List<ToppingsModel> toppings;
+
   @JsonKey(name: 'categoryName')
   final String? categoryName;
+  final bool? isAvailable;
 
   ProductsModel({
     required this.id,
@@ -28,9 +32,10 @@ class ProductsModel {
     required this.discountPercent,
     required this.finalPrice,
     required this.ratingAvg,
-    required this.isNew,
-    required this.toppings,
+    this.isNew = false,
+    this.toppings = const [],
     this.categoryName,
+    this.isAvailable,
   });
 
   factory ProductsModel.fromJson(Map<String, dynamic> json) =>

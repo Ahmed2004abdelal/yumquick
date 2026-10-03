@@ -1,7 +1,12 @@
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
+import 'package:yumquick/features/cart/data/repos/cart_repo.dart';
+import 'package:yumquick/features/cart/logic/cart_cubit.dart';
+import 'package:yumquick/features/favorites/data/repos/favorites_repo.dart';
 import 'package:yumquick/features/home/data/repos/product_repo.dart';
 import 'package:yumquick/features/home/logic/home/home_cubit.dart';
+import 'package:yumquick/features/side%20menu%20screens/data/repos/address_repo.dart';
+import 'package:yumquick/features/side%20menu%20screens/logic/address%20logic/address_cubit.dart';
 
 import '../networking/api_service.dart';
 import '../networking/dio_factory.dart';
@@ -26,4 +31,15 @@ Future<void> setupGetIt() async {
   getIt.registerLazySingleton<HomeRepo>(() => HomeRepo(getIt()));
   getIt.registerFactory<HomeCubit>(() => HomeCubit(getIt()));
   getIt.registerLazySingleton<ProductRepo>(() => ProductRepo(getIt()));
+
+  //favorites
+  getIt.registerLazySingleton<FavoritesRepo>(() => FavoritesRepo(getIt()));
+
+  //cart
+  getIt.registerLazySingleton<CartRepo>(() => CartRepo(getIt()));
+  getIt.registerFactory<CartCubit>(() => CartCubit(getIt()));
+
+  //address
+  getIt.registerLazySingleton<AddressRepo>(() => AddressRepo(getIt()));
+  getIt.registerFactory<AddressCubit>(() => AddressCubit(getIt()));
 }

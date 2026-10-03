@@ -2,6 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 import 'package:yumquick/core/helper/constants.dart';
 import 'package:yumquick/core/helper/shared_pref_helper.dart';
+import 'package:yumquick/env.dart';
 
 class DioFactory {
   DioFactory._();
@@ -14,6 +15,7 @@ class DioFactory {
     if (dio == null) {
       dio = Dio();
       dio!
+        ..options.baseUrl = Env.apiUrl
         ..options.connectTimeout = timeOut
         ..options.receiveTimeout = timeOut;
       // addDioHeaders();

@@ -49,19 +49,22 @@ class _AppBarIcons extends StatelessWidget {
     return Row(
       spacing: 7.w,
       children: appbarIconsList.map((icon) {
-        return Container(
-          padding: EdgeInsets.all(2.w),
-          decoration: BoxDecoration(
-            color: Colors.white,
-            borderRadius: BorderRadius.circular(10.r),
-          ),
-          height: 26.h,
-          width: 26.w,
-          child: GestureDetector(
-            onTap: icon.onPressed != null
-                ? () => icon.onPressed!(context)
-                : null,
-            child: SvgPicture.asset(icon.icon, fit: BoxFit.scaleDown),
+        return GestureDetector(
+          onTap: icon.onPressed != null ? () => icon.onPressed!(context) : null,
+          child: Container(
+            padding: EdgeInsets.all(2.w),
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(10.r),
+            ),
+            height: 26.h,
+            width: 26.w,
+            child: GestureDetector(
+              onTap: icon.onPressed != null
+                  ? () => icon.onPressed!(context)
+                  : null,
+              child: SvgPicture.asset(icon.icon, fit: BoxFit.scaleDown),
+            ),
           ),
         );
       }).toList(),

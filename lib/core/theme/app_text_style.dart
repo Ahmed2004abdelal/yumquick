@@ -30,6 +30,11 @@ class AppTextStyle {
     fontWeight: FontWeightHelper.medium,
     color: AppColors.orangeBase,
   );
+  static TextStyle font16BOrangeBaseMedium = GoogleFonts.leagueSpartan(
+    fontSize: 16,
+    fontWeight: FontWeightHelper.medium,
+    color: AppColors.orangeBase,
+  );
   static TextStyle font14OrangeBaseLight = GoogleFonts.leagueSpartan(
     fontSize: 14,
     fontWeight: FontWeightHelper.light,
@@ -129,6 +134,11 @@ class AppTextStyle {
     fontSize: 24,
     fontWeight: FontWeightHelper.black,
     color: AppColors.orangeBase,
+  );
+  static TextStyle font24RedBlack = GoogleFonts.inter(
+    fontSize: 24,
+    fontWeight: FontWeightHelper.black,
+    color: Colors.red,
   );
   static TextStyle font18OrangeBaseMedium = GoogleFonts.inter(
     fontSize: 18,

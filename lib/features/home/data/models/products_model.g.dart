@@ -16,11 +16,14 @@ ProductsModel _$ProductsModelFromJson(Map<String, dynamic> json) =>
       discountPercent: (json['discountPercent'] as num).toDouble(),
       finalPrice: (json['finalPrice'] as num).toDouble(),
       ratingAvg: (json['ratingAvg'] as num).toDouble(),
-      isNew: json['isNew'] as bool,
-      toppings: (json['variants'] as List<dynamic>)
-          .map((e) => ToppingsModel.fromJson(e as Map<String, dynamic>))
-          .toList(),
+      isNew: json['isNew'] as bool? ?? false,
+      toppings:
+          (json['variants'] as List<dynamic>?)
+              ?.map((e) => ToppingsModel.fromJson(e as Map<String, dynamic>))
+              .toList() ??
+          [],
       categoryName: json['categoryName'] as String?,
+      isAvailable: json['isAvailable'] as bool?,
     );
 
 Map<String, dynamic> _$ProductsModelToJson(ProductsModel instance) =>
@@ -36,4 +39,5 @@ Map<String, dynamic> _$ProductsModelToJson(ProductsModel instance) =>
       'isNew': instance.isNew,
       'variants': instance.toppings,
       'categoryName': instance.categoryName,
+      'isAvailable': instance.isAvailable,
     };
