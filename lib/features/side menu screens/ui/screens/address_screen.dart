@@ -52,6 +52,7 @@ class AddressScreen extends StatelessWidget {
                 );
               },
               text: 'Add New Address',
+              textStyle: AppTextStyle.font17WhiteRegular,
             ),
           ],
         ),
@@ -155,7 +156,10 @@ class AddressListShow extends StatelessWidget {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(address.name, style: AppTextStyle.font20BlackMedium),
+                      Text(
+                        address.name ?? 'Unnamed',
+                        style: AppTextStyle.font20BlackMedium,
+                      ),
                       Text(
                         address.address,
                         style: AppTextStyle.font14BlackLight,

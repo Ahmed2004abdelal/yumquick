@@ -8,6 +8,7 @@ abstract class CartState with _$CartState {
   const factory CartState({
     @Default(CartStatus.initial) CartStatus status,
     @Default('') String error,
+
     @Default([]) List<CartProduct> cartItems,
     @Default(0.0) double totalPrice,
     @Default(0) int itemCount,
@@ -17,5 +18,3 @@ abstract class CartState with _$CartState {
 }
 
 enum CartStatus { initial, loading, success, failure }
-
-// enum CartActionStatus { initial, loading, success, failure }

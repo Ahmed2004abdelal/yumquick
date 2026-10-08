@@ -6,14 +6,14 @@ part 'get_address_response.g.dart';
 class GetAddressResponse {
   final int id;
   @JsonKey(name: 'label')
-  final String name;
+  String? name;
   @JsonKey(name: 'fullAddress')
   final String address;
   final bool isDefault;
 
   GetAddressResponse({
     required this.id,
-    required this.name,
+    this.name,
     required this.address,
     required this.isDefault,
   });

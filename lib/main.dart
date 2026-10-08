@@ -2,7 +2,8 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:yumquick/bottom_nav_bar.dart';
+import 'package:flutter_stripe/flutter_stripe.dart';
+import 'package:yumquick/env.dart';
 
 import 'core/Routing/app_routing.dart';
 import 'core/Routing/routes.dart';
@@ -14,21 +15,13 @@ import 'package:google_sign_in/google_sign_in.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  // await Future.wait([
-  //   ScreenUtil.ensureScreenSize(),
-  //   setupGetIt(),
-  //   checkIfLoggedInUser(),
-  //   GoogleSignIn.instance.initialize(
-  //     serverClientId: "369381016247-m9lkem1iadfdpbkon1cde97md44a7c6i.apps.googleusercontent.com",
-  //   ),
-  // ]);
   await ScreenUtil.ensureScreenSize();
   await setupGetIt();
   await checkIfLoggedInUser();
+  Stripe.publishableKey = Env.stripePublishableKey;
+  await Stripe.instance.applySettings();
 
-  await GoogleSignIn.instance.initialize(
-    serverClientId: "369381016247-m9lkem1iadfdpbkon1cde97md44a7c6i.apps.googleusercontent.com",
-  );
+  await GoogleSignIn.instance.initialize(serverClientId: Env.serverClientId);
 
   runApp(const MyApp());
 }

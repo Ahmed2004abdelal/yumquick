@@ -23,6 +23,10 @@ class ApiConstants {
   //address
   static const String addAddress = "Addresses";
   static const String setDefaultAddress = "Addresses/set-default/";
+
+  //payment
+  static const String paymentMethods = "PaymentMethods";
+  static const String setDefault = "/set-default";
 }
 
 class ApiErrors {

@@ -97,9 +97,11 @@ class SideMenuItems extends StatelessWidget {
                 ),
               ),
               horizontalSpace(32),
-              Text(
-                sideMenuModel.title,
-                style: AppTextStyle.font24YellowTwoMedium,
+              Expanded(
+                child: Text(
+                  sideMenuModel.title,
+                  style: AppTextStyle.font24YellowTwoMedium,
+                ),
               ),
             ],
           ),

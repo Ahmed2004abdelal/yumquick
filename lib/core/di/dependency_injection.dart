@@ -1,12 +1,16 @@
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
+import 'package:yumquick/core/networking/stripe_payment_service.dart';
 import 'package:yumquick/features/cart/data/repos/cart_repo.dart';
 import 'package:yumquick/features/cart/logic/cart_cubit.dart';
+import 'package:yumquick/features/checkout/data/repos/checkout_repo.dart';
 import 'package:yumquick/features/favorites/data/repos/favorites_repo.dart';
 import 'package:yumquick/features/home/data/repos/product_repo.dart';
 import 'package:yumquick/features/home/logic/home/home_cubit.dart';
 import 'package:yumquick/features/side%20menu%20screens/data/repos/address_repo.dart';
+import 'package:yumquick/features/side%20menu%20screens/data/repos/payment_repo.dart';
 import 'package:yumquick/features/side%20menu%20screens/logic/address%20logic/address_cubit.dart';
+import 'package:yumquick/features/side%20menu%20screens/logic/payment%20logic/payment_cubit.dart';
 
 import '../networking/api_service.dart';
 import '../networking/dio_factory.dart';
@@ -21,6 +25,11 @@ Future<void> setupGetIt() async {
   // Dio & ApiService
   Dio dio = DioFactory.getDio();
   getIt.registerLazySingleton<ApiService>(() => ApiService(dio));
+
+  // Stripe
+  getIt.registerLazySingleton<StripePaymentService>(
+    () => StripePaymentService(),
+  );
 
   // auth
   getIt.registerLazySingleton<AuthRepos>(() => AuthRepos(getIt()));
@@ -39,7 +48,15 @@ Future<void> setupGetIt() async {
   getIt.registerLazySingleton<CartRepo>(() => CartRepo(getIt()));
   getIt.registerFactory<CartCubit>(() => CartCubit(getIt()));
 
+  //checkout
+  getIt.registerLazySingleton<CheckoutRepo>(() => CheckoutRepo(getIt()));
+  // getIt.registerFactory<CheckoutCubit>(() => CheckoutCubit(getIt(), getIt()));
+
   //address
   getIt.registerLazySingleton<AddressRepo>(() => AddressRepo(getIt()));
   getIt.registerFactory<AddressCubit>(() => AddressCubit(getIt()));
+
+  //payment
+  getIt.registerFactory<PaymentCubit>(() => PaymentCubit(getIt(), getIt()));
+  getIt.registerLazySingleton<PaymentRepo>(() => PaymentRepo(getIt()));
 }
