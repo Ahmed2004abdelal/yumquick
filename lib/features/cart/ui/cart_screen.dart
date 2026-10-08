@@ -11,6 +11,7 @@ import 'package:yumquick/core/widgets/custom_button.dart';
 import 'package:yumquick/features/cart/data/models/get_cart_model.dart';
 import 'package:yumquick/features/cart/logic/cart_cubit.dart';
 import 'package:yumquick/features/cart/logic/cart_state.dart';
+import 'package:yumquick/features/checkout/data/models/checkout%20models/checkout_screen_model.dart';
 
 class CartScreen extends StatelessWidget {
   const CartScreen({super.key});
@@ -105,7 +106,7 @@ class _CartAppBar extends StatelessWidget {
             ),
           ),
           horizontalSpace(12),
-          Text('My Cart', style: AppTextStyle.font24BlackSemiBold),
+          Text('My Cart', style: AppTextStyle.font28WhiteBold),
           const Spacer(),
           if (itemCount > 0)
             Container(
@@ -446,15 +447,21 @@ class _OrderSummary extends StatelessWidget {
 
   const _OrderSummary({required this.cartItems, required this.isLoading});
 
+  void _navigateToCheckout(BuildContext context) async {
+    await context.pushNamed(
+      'checkout',
+      arguments: CheckoutScreenModel(
+        products: cartItems,
+        totalPrice: context.read<CartCubit>().state.totalPrice,
+        itemCount: context.read<CartCubit>().state.itemCount,
+      ),
+    );
+    if (!context.mounted) return;
+    context.read<CartCubit>().getCart();
+  }
+
   @override
   Widget build(BuildContext context) {
-    // final subtotal = cartItems.fold<double>(
-    //   0.0,
-    //   (sum, item) => sum + item.totalItemPrice,
-    // );
-    // const deliveryFee = 2.0;
-    // final total = subtotal + deliveryFee;
-
     return Container(
       padding: EdgeInsetsDirectional.fromSTEB(33.w, 20.h, 33.w, 24.h),
       decoration: BoxDecoration(
@@ -505,15 +512,7 @@ class _OrderSummary extends StatelessWidget {
             width: double.infinity,
             height: 52.h,
             icon: Icons.arrow_forward_rounded,
-            onPressed: isLoading
-                ? null
-                : () {
-                    showSnack(
-                      context,
-                      'Checkout is not available yet',
-                      AppColors.font,
-                    );
-                  },
+            onPressed: isLoading ? null : () => _navigateToCheckout(context),
           ),
         ],
       ),

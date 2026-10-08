@@ -20,7 +20,9 @@ class CartCubit extends Cubit<CartState> {
   }
 
   Future<void> getCart() async {
-    emit(state.copyWith(status: CartStatus.loading));
+    if (state.cartItems.isEmpty) {
+      emit(state.copyWith(status: CartStatus.loading));
+    }
     final response = await _cartRepo.getCart();
     response.when(
       success: (cartData) {
@@ -46,42 +48,6 @@ class CartCubit extends Cubit<CartState> {
       },
     );
   }
-
-  // Future<void> removeItem(int cartItemId) async {
-  //   emit(state.copyWith(actionStatus: CartStatus.loading));
-  //   final response = await _cartRepo.removeItem(cartItemId);
-  //   response.when(
-  //     success: (_) {
-  //       final remainingItems = state.cartItems
-  //           .where((item) => item.id != cartItemId)
-  //           .toList();
-  //       final newTotal = remainingItems.fold<double>(
-  //         0.0,
-  //         (sum, item) => sum + item.totalItemPrice,
-  //       );
-  //       final newCount = remainingItems.fold<int>(
-  //         0,
-  //         (sum, item) => sum + item.quantity,
-  //       );
-  //       emit(
-  //         state.copyWith(
-  //           actionStatus: CartStatus.success,
-  //           cartItems: remainingItems,
-  //           totalPrice: newTotal,
-  //           itemCount: newCount,
-  //         ),
-  //       );
-  //     },
-  //     failure: (error) {
-  //       emit(
-  //         state.copyWith(
-  //           actionStatus: CartStatus.failure,
-  //           actionError: error.apiErrorModel.message ?? "Failed to remove item",
-  //         ),
-  //       );
-  //     },
-  //   );
-  // }
 
   Future<void> removeItem(int cartItemId) async {
     final previousItems = state.cartItems;

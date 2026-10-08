@@ -20,6 +20,11 @@ class AppTextStyle {
     fontWeight: FontWeightHelper.medium,
     color: AppColors.orangeBase,
   );
+  static TextStyle font12OrangeBaseRegular = GoogleFonts.leagueSpartan(
+    fontSize: 12,
+    fontWeight: FontWeightHelper.regular,
+    color: AppColors.orangeBase,
+  );
   static TextStyle font12OrangeBaseSemiBold = GoogleFonts.leagueSpartan(
     fontSize: 12,
     fontWeight: FontWeightHelper.semiBold,
@@ -28,6 +33,16 @@ class AppTextStyle {
   static TextStyle font13OrangeBaseMedium = GoogleFonts.leagueSpartan(
     fontSize: 13,
     fontWeight: FontWeightHelper.medium,
+    color: AppColors.orangeBase,
+  );
+  static TextStyle font20OrangeBaseMedium = GoogleFonts.leagueSpartan(
+    fontSize: 20,
+    fontWeight: FontWeightHelper.medium,
+    color: AppColors.orangeBase,
+  );
+  static TextStyle font15OrangeBaseRegular = GoogleFonts.leagueSpartan(
+    fontSize: 15,
+    fontWeight: FontWeightHelper.regular,
     color: AppColors.orangeBase,
   );
   static TextStyle font16BOrangeBaseMedium = GoogleFonts.leagueSpartan(
@@ -80,6 +95,11 @@ class AppTextStyle {
     fontWeight: FontWeightHelper.semiBold,
     color: Colors.black,
   );
+  static TextStyle font24BlackBold = GoogleFonts.leagueSpartan(
+    fontSize: 24,
+    fontWeight: FontWeightHelper.bold,
+    color: Colors.black,
+  );
   static TextStyle font24YellowTwoMedium = GoogleFonts.leagueSpartan(
     fontSize: 24,
     fontWeight: FontWeightHelper.medium,
@@ -88,6 +108,11 @@ class AppTextStyle {
   static TextStyle font24WhiteMedium = GoogleFonts.leagueSpartan(
     fontSize: 24,
     fontWeight: FontWeightHelper.medium,
+    color: Colors.white,
+  );
+  static TextStyle font24WhiteBold = GoogleFonts.leagueSpartan(
+    fontSize: 24,
+    fontWeight: FontWeightHelper.bold,
     color: Colors.white,
   );
   static TextStyle font12WhiteRegular = GoogleFonts.leagueSpartan(
@@ -110,6 +135,11 @@ class AppTextStyle {
     fontWeight: FontWeightHelper.medium,
     color: Colors.black,
   );
+  static TextStyle font20BlackRegular = GoogleFonts.leagueSpartan(
+    fontSize: 20,
+    fontWeight: FontWeightHelper.regular,
+    color: Colors.black,
+  );
   static TextStyle font15GreyRegular = GoogleFonts.leagueSpartan(
     fontSize: 15,
     fontWeight: FontWeightHelper.regular,
@@ -118,6 +148,11 @@ class AppTextStyle {
   static TextStyle font17WhiteMedium = GoogleFonts.leagueSpartan(
     fontSize: 17,
     fontWeight: FontWeightHelper.medium,
+    color: Colors.white,
+  );
+  static TextStyle font17WhiteRegular = GoogleFonts.leagueSpartan(
+    fontSize: 17,
+    fontWeight: FontWeightHelper.regular,
     color: Colors.white,
   );
   static TextStyle font16WhiteRegular = GoogleFonts.leagueSpartan(

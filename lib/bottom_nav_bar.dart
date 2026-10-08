@@ -16,29 +16,35 @@ import 'package:yumquick/features/home/ui/home_screen.dart';
 import 'package:yumquick/features/my-orders/ui/my_oreders_screen.dart';
 
 class BottomNavBar extends StatefulWidget {
-  const BottomNavBar({super.key});
+  final int initialIndex;
+  BottomNavBar({super.key, this.initialIndex = 0});
 
   @override
   State<BottomNavBar> createState() => _BottomNavBarState();
 }
 
 class _BottomNavBarState extends State<BottomNavBar> {
-  int _currentIndex = 0;
-
+  late int _currentIndex;
   bool _isNavBarVisible = true;
 
-  final List<Widget> _pages = [
-    BlocProvider<HomeCubit>(
-      create: (context) => HomeCubit(getIt<HomeRepo>()),
-      child: HomeScreen(),
-    ),
-    BlocProvider<FavoritesCubit>(
-      create: (context) => FavoritesCubit(getIt<FavoritesRepo>()),
-      child: FavoritesScreen(),
-    ),
-    MyOrdersScreen(),
-    HelperScreen(),
-  ];
+  late final List<Widget> _pages;
+  @override
+  void initState() {
+    super.initState();
+    _currentIndex = widget.initialIndex;
+    _pages = [
+      BlocProvider<HomeCubit>(
+        create: (context) => HomeCubit(getIt<HomeRepo>()),
+        child: HomeScreen(),
+      ),
+      BlocProvider<FavoritesCubit>(
+        create: (context) => FavoritesCubit(getIt<FavoritesRepo>()),
+        child: FavoritesScreen(),
+      ),
+      MyOrdersScreen(),
+      HelperScreen(),
+    ];
+  }
 
   void _onTap(int index) => setState(() => _currentIndex = index);
 

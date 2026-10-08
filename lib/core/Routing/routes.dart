@@ -7,7 +7,11 @@ class Routes {
   static const String home = 'home';
   static const String productDetails = 'productDetails';
   static const String cart = 'cart';
+  static const String checkout = 'checkout';
+  static const String orderPayment = 'orderPayment';
   static const String addressScreen = 'addressScreen';
   static const String paymentMethodsScreen = 'paymentMethodsScreen';
   static const String addNewAddressScreen = 'addNewAddressScreen';
+  static const String addCardScreen = 'addCardScreen';
+  static const String orderConfirmedScreen = 'orderConfirmedScreen';
 }

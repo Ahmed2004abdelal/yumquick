@@ -14,6 +14,7 @@ class CustomButton extends StatelessWidget {
   final String text;
   final IconData? icon;
   final Color? iconColor;
+  final Color? backgroundColor;
   const CustomButton({
     super.key,
     required this.onPressed,
@@ -24,13 +25,16 @@ class CustomButton extends StatelessWidget {
     this.textStyle,
     this.icon,
     this.iconColor,
+    this.backgroundColor,
   });
 
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ButtonStyle(
-        backgroundColor: WidgetStateProperty.all(AppColors.orangeBase),
+        backgroundColor: WidgetStateProperty.all(
+          backgroundColor ?? AppColors.orangeBase,
+        ),
         shape: WidgetStateProperty.all<RoundedRectangleBorder>(
           RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(radius ?? 100.r),

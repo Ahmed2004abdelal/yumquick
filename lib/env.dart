@@ -9,4 +9,7 @@ final class Env {
 
   @EnviedField(varName: 'StripePublishableKey', obfuscate: true)
   static String stripePublishableKey = _Env.stripePublishableKey;
+
+  @EnviedField(varName: 'serverClientId', obfuscate: true)
+  static String serverClientId = _Env.serverClientId;
 }

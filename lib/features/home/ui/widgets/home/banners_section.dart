@@ -41,7 +41,7 @@ class BannersShow extends StatelessWidget {
                 child: Container(
                   padding: EdgeInsetsDirectional.only(
                     start: 16.w,
-                    top: 30.h,
+                    top: 20.h,
                     end: 16.w,
                   ),
                   child: Column(
@@ -50,11 +50,19 @@ class BannersShow extends StatelessWidget {
                       Text(
                         textAlign: TextAlign.center,
                         getTitle(text),
+                        maxLines: 3,
                         style: AppTextStyle.font16WhiteRegular.copyWith(
                           height: 1.h,
+                          overflow: TextOverflow.ellipsis,
                         ),
                       ),
-                      Text(getOffer(text), style: AppTextStyle.font32WhiteBold),
+                      Text(
+                        getOffer(text),
+                        maxLines: 1,
+                        style: AppTextStyle.font24WhiteBold.copyWith(
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
                     ],
                   ),
                 ),

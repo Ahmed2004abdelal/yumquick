@@ -1,7 +1,8 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_stripe/flutter_stripe.dart';
 import 'package:retrofit/retrofit.dart';
 import 'package:yumquick/core/utils/models/deafult_response.dart';
+import 'package:yumquick/features/checkout/data/models/checkout%20models/checkout_request.dart';
+import 'package:yumquick/features/checkout/data/models/checkout%20models/checkout_response.dart';
 import 'package:yumquick/features/cart/data/models/get_cart_model.dart';
 import 'package:yumquick/features/cart/data/models/cart_action_models.dart';
 import 'package:yumquick/features/home/data/models/add_to_cart_model.dart';
@@ -10,6 +11,8 @@ import 'package:yumquick/features/home/data/models/product_favorite_model.dart';
 import 'package:yumquick/features/side%20menu%20screens/data/models/address%20models/add_address_request.dart';
 import 'package:yumquick/features/side%20menu%20screens/data/models/address%20models/add_address_response.dart';
 import 'package:yumquick/features/side%20menu%20screens/data/models/address%20models/get_address_response.dart';
+import 'package:yumquick/features/side%20menu%20screens/data/models/payment%20models/save_payment_method_request.dart';
+import 'package:yumquick/features/side%20menu%20screens/data/models/payment%20models/saved_card_model.dart';
 
 import '../../features/home/data/models/categories_model.dart';
 import '../../features/home/data/models/products_model.dart';
@@ -73,8 +76,8 @@ abstract class ApiService {
   @DELETE('${ApiConstants.removeCartItem}/{id}')
   Future<RemoveCartResponse> removeCartItem(@Path('id') int id);
 
-  // @POST(ApiConstants.checkout)
-  // Future<CheckoutResponse> checkout(@Body() CheckoutRequest checkoutRequest);
+  @POST(ApiConstants.checkout)
+  Future<CheckoutResponse> checkout(@Body() CheckoutRequest checkoutRequest);
 
   @DELETE(ApiConstants.clearCart)
   Future<ClearCartResponse> clearCart();
@@ -95,4 +98,16 @@ abstract class ApiService {
 
   @PUT('${ApiConstants.setDefaultAddress}/{addressId}')
   Future<DefaultResponse> setDefaultAddress(@Path('addressId') int addressId);
+
+  @POST(ApiConstants.checkout)
+  Future<CheckoutResponse> checkoutOrder(@Body() CheckoutRequest body);
+
+  @GET(ApiConstants.paymentMethods)
+  Future<List<SavedCardModel>> getPaymentMethods();
+
+  @POST(ApiConstants.paymentMethods)
+  Future<void> savePaymentMethod(@Body() SavePaymentMethodRequest body);
+
+  @PUT('${ApiConstants.paymentMethods}/{cardId}${ApiConstants.setDefault}')
+  Future<void> setDefaultPaymentMethod(@Path('cardId') int cardId);
 }

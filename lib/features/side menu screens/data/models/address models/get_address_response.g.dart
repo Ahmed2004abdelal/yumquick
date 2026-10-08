@@ -9,7 +9,7 @@ part of 'get_address_response.dart';
 GetAddressResponse _$GetAddressResponseFromJson(Map<String, dynamic> json) =>
     GetAddressResponse(
       id: (json['id'] as num).toInt(),
-      name: json['label'] as String,
+      name: json['label'] as String?,
       address: json['fullAddress'] as String,
       isDefault: json['isDefault'] as bool,
     );
