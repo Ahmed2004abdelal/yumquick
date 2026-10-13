@@ -5,8 +5,10 @@ import 'package:yumquick/features/cart/data/repos/cart_repo.dart';
 import 'package:yumquick/features/cart/logic/cart_cubit.dart';
 import 'package:yumquick/features/checkout/data/repos/checkout_repo.dart';
 import 'package:yumquick/features/favorites/data/repos/favorites_repo.dart';
+import 'package:yumquick/features/help/data/repos/help_repo.dart';
 import 'package:yumquick/features/home/data/repos/product_repo.dart';
 import 'package:yumquick/features/home/logic/home/home_cubit.dart';
+import 'package:yumquick/features/my-orders/data/repos/order_repo.dart';
 import 'package:yumquick/features/side%20menu%20screens/data/repos/address_repo.dart';
 import 'package:yumquick/features/side%20menu%20screens/data/repos/payment_repo.dart';
 import 'package:yumquick/features/side%20menu%20screens/logic/address%20logic/address_cubit.dart';
@@ -59,4 +61,10 @@ Future<void> setupGetIt() async {
   //payment
   getIt.registerFactory<PaymentCubit>(() => PaymentCubit(getIt(), getIt()));
   getIt.registerLazySingleton<PaymentRepo>(() => PaymentRepo(getIt()));
+
+  //orders
+  getIt.registerLazySingleton<OrderRepo>(() => OrderRepo(getIt()));
+
+  //help
+  getIt.registerLazySingleton<HelpRepo>(() => HelpRepo(getIt()));
 }

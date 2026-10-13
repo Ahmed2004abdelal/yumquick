@@ -40,10 +40,15 @@ class AppTextStyle {
     fontWeight: FontWeightHelper.medium,
     color: AppColors.orangeBase,
   );
-  static TextStyle font15OrangeBaseRegular = GoogleFonts.leagueSpartan(
-    fontSize: 15,
+  static TextStyle font13OrangeBaseRegular = GoogleFonts.leagueSpartan(
+    fontSize: 13,
     fontWeight: FontWeightHelper.regular,
     color: AppColors.orangeBase,
+  );
+  static TextStyle font15WhiteBaseRegular = GoogleFonts.leagueSpartan(
+    fontSize: 15,
+    fontWeight: FontWeightHelper.regular,
+    color: Colors.white,
   );
   static TextStyle font16BOrangeBaseMedium = GoogleFonts.leagueSpartan(
     fontSize: 16,

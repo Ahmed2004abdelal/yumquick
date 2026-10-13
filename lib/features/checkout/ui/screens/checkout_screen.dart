@@ -155,6 +155,32 @@ class CheckoutScreen extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
+                            'Delivery Fee',
+                            style: AppTextStyle.font20BlackMedium,
+                          ),
+                          Text(
+                            '\$15.00',
+                            style: AppTextStyle.font20OrangeBaseMedium,
+                          ),
+                        ],
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            'Tax Fee',
+                            style: AppTextStyle.font20BlackMedium,
+                          ),
+                          Text(
+                            '\$5.60',
+                            style: AppTextStyle.font20OrangeBaseMedium,
+                          ),
+                        ],
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
                             'Total Price',
                             style: AppTextStyle.font20BlackMedium,
                           ),

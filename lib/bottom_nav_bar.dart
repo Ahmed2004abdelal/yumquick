@@ -9,11 +9,13 @@ import 'package:yumquick/core/utils/bottom_nav_bar_model.dart';
 import 'package:yumquick/features/favorites/data/repos/favorites_repo.dart';
 import 'package:yumquick/features/favorites/logic/favorites_cubit.dart';
 import 'package:yumquick/features/favorites/ui/favorites_screen.dart';
-import 'package:yumquick/features/help/ui/helper_screen.dart';
+import 'package:yumquick/features/help/logic/help_cubit.dart';
+import 'package:yumquick/features/help/ui/screens/helper_screen.dart';
 import 'package:yumquick/features/home/data/repos/home_repo.dart';
 import 'package:yumquick/features/home/logic/home/home_cubit.dart';
 import 'package:yumquick/features/home/ui/home_screen.dart';
-import 'package:yumquick/features/my-orders/ui/my_oreders_screen.dart';
+import 'package:yumquick/features/my-orders/logic/orders_cubit.dart';
+import 'package:yumquick/features/my-orders/ui/screens/my_oreders_screen.dart';
 
 class BottomNavBar extends StatefulWidget {
   final int initialIndex;
@@ -41,8 +43,16 @@ class _BottomNavBarState extends State<BottomNavBar> {
         create: (context) => FavoritesCubit(getIt<FavoritesRepo>()),
         child: FavoritesScreen(),
       ),
-      MyOrdersScreen(),
-      HelperScreen(),
+      BlocProvider<OrdersCubit>(
+        create: (context) => OrdersCubit(getIt()),
+        child: MyOrdersScreen(),
+      ),
+      BlocProvider<HelpCubit>(
+        create: (context) => HelpCubit(getIt()),
+        child: HelperScreen(
+          // getIt()
+        ),
+      ),
     ];
   }
 
