@@ -14,4 +14,9 @@ class Routes {
   static const String addNewAddressScreen = 'addNewAddressScreen';
   static const String addCardScreen = 'addCardScreen';
   static const String orderConfirmedScreen = 'orderConfirmedScreen';
+  static const String cancelOrderScreen = 'cancelOrderScreen';
+  static const String addReviewScreen = 'addReviewScreen';
+  static const String helpCenterScreen = 'helpCenterScreen';
+  static const String supportScreen = 'supportScreen';
+  static const String issueChatScreen = 'issueChatScreen';
 }

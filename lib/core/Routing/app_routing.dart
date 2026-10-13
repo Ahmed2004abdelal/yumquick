@@ -18,10 +18,17 @@ import 'package:yumquick/features/checkout/logic/checkout_cubit.dart';
 import 'package:yumquick/features/checkout/ui/screens/checkout_screen.dart';
 import 'package:yumquick/features/checkout/ui/screens/order_confirmed_screen.dart';
 import 'package:yumquick/features/checkout/ui/screens/order_payment_screen.dart';
+import 'package:yumquick/features/help/logic/help_cubit.dart';
+import 'package:yumquick/features/help/ui/screens/help_center_screen.dart';
+import 'package:yumquick/features/help/ui/screens/issue_chat_screen.dart';
+import 'package:yumquick/features/help/ui/screens/support_screen.dart';
 import 'package:yumquick/features/home/data/models/products_model.dart';
 import 'package:yumquick/features/home/data/repos/product_repo.dart';
 import 'package:yumquick/features/home/logic/product%20details/product_details_cubit.dart';
 import 'package:yumquick/features/home/ui/product_details_screen.dart';
+import 'package:yumquick/features/my-orders/logic/orders_cubit.dart';
+import 'package:yumquick/features/my-orders/ui/screens/add_review_screen.dart';
+import 'package:yumquick/features/my-orders/ui/screens/cancel_order_screen.dart';
 import 'package:yumquick/features/onboarding/ui/onboarding_screen.dart';
 import 'package:yumquick/features/side%20menu%20screens/data/repos/address_repo.dart';
 import 'package:yumquick/features/side%20menu%20screens/data/repos/payment_repo.dart';
@@ -112,6 +119,30 @@ class AppRouting {
           ),
         );
 
+      case Routes.cancelOrderScreen:
+        final arguments = settings.arguments as Map<String, dynamic>?;
+        final cubit = arguments?['cubit'];
+        final orderId = arguments?['orderId'];
+        return _page(
+          settings,
+          BlocProvider<OrdersCubit>.value(
+            value: cubit,
+            child: CancelOrderScreen(orderId: orderId),
+          ),
+        );
+
+      case Routes.addReviewScreen:
+        final arguments = settings.arguments as Map<String, dynamic>?;
+        final cubit = arguments?['cubit'];
+        final orderId = arguments?['orderId'];
+        return _page(
+          settings,
+          BlocProvider<OrdersCubit>.value(
+            value: cubit,
+            child: AddReviewScreen(orderId: orderId),
+          ),
+        );
+
       case Routes.orderConfirmedScreen:
         return _page(settings, const OrderConfirmedScreen());
 
@@ -160,6 +191,39 @@ class AppRouting {
           BlocProvider<CheckoutCubit>.value(
             value: cubit,
             child: const OrderPaymentScreen(),
+          ),
+        );
+
+      case Routes.supportScreen:
+        final cubit = settings.arguments;
+        if (cubit is! HelpCubit) return _unknown(settings);
+        return _page(
+          settings,
+          BlocProvider<HelpCubit>.value(
+            value: cubit,
+            child: const SupportScreen(),
+          ),
+        );
+      case Routes.issueChatScreen:
+        final arguments = settings.arguments as Map<String, dynamic>?;
+        final cubit = arguments!['cubit'];
+        final issueTitle = arguments['issueTitle'] as String?;
+        if (cubit is! HelpCubit) return _unknown(settings);
+        return _page(
+          settings,
+          BlocProvider<HelpCubit>.value(
+            value: cubit,
+            child: IssueChatScreen(issueTitle: issueTitle ?? 'Support'),
+          ),
+        );
+      case Routes.helpCenterScreen:
+        final cubit = settings.arguments;
+        if (cubit is! HelpCubit) return _unknown(settings);
+        return _page(
+          settings,
+          BlocProvider<HelpCubit>.value(
+            value: cubit,
+            child: const HelpCenterScreen(),
           ),
         );
 

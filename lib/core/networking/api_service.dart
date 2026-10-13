@@ -1,13 +1,21 @@
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
-import 'package:yumquick/core/utils/models/deafult_response.dart';
+import 'package:yumquick/core/utils/models/default_response.dart';
+import 'package:yumquick/core/utils/models/default_request.dart';
 import 'package:yumquick/features/checkout/data/models/checkout%20models/checkout_request.dart';
 import 'package:yumquick/features/checkout/data/models/checkout%20models/checkout_response.dart';
 import 'package:yumquick/features/cart/data/models/get_cart_model.dart';
 import 'package:yumquick/features/cart/data/models/cart_action_models.dart';
+import 'package:yumquick/features/help/data/models/issue_messages_model.dart';
+import 'package:yumquick/features/help/data/models/support_issues_model.dart';
 import 'package:yumquick/features/home/data/models/add_to_cart_model.dart';
 import 'package:yumquick/features/home/data/models/banners_model.dart';
 import 'package:yumquick/features/home/data/models/product_favorite_model.dart';
+import 'package:yumquick/features/my-orders/data/models/complete_order_model.dart';
+import 'package:yumquick/features/my-orders/data/models/create_issue_model.dart';
+import 'package:yumquick/features/my-orders/data/models/create_issue_response_model.dart';
+import 'package:yumquick/features/my-orders/data/models/get_orders_model.dart';
+import 'package:yumquick/features/my-orders/data/models/review_request_model.dart';
 import 'package:yumquick/features/side%20menu%20screens/data/models/address%20models/add_address_request.dart';
 import 'package:yumquick/features/side%20menu%20screens/data/models/address%20models/add_address_response.dart';
 import 'package:yumquick/features/side%20menu%20screens/data/models/address%20models/get_address_response.dart';
@@ -110,4 +118,35 @@ abstract class ApiService {
 
   @PUT('${ApiConstants.paymentMethods}/{cardId}${ApiConstants.setDefault}')
   Future<void> setDefaultPaymentMethod(@Path('cardId') int cardId);
+
+  @GET(ApiConstants.myOrders)
+  Future<List<GetOrdersModel>> getMyOrders();
+
+  @PUT("${ApiConstants.myOrders}/{orderId}${ApiConstants.cancelOrders}")
+  Future<DefaultResponse> cancelOrder(
+    @Path("orderId") int orderId,
+    @Body() DefaultRequest reasonId,
+  );
+
+  @GET("${ApiConstants.myOrders}/{orderId}")
+  Future<CompleteOrderModel> getCompleteOrder(@Path("orderId") int orderId);
+
+  @POST(ApiConstants.addReview)
+  Future<DefaultResponse> addReview(@Body() ReviewRequestModel request);
+
+  //help
+  @GET(ApiConstants.issues)
+  Future<List<SupportIssuesModel>> getSupportIssues();
+
+  @GET("${ApiConstants.issues}/{issueId}")
+  Future<IssueMessagesModel> getIssueMessages(@Path("issueId") int issueId);
+
+  @POST("${ApiConstants.issues}/{issueId}/${ApiConstants.issueReply}")
+  Future<DefaultResponse> replyToIssue(
+    @Path("issueId") int issueId,
+    @Body() DefaultResponse body,
+  );
+
+  @POST(ApiConstants.issues)
+  Future<CreateIssueResponseModel> createIssue(@Body() CreateIssueModel body);
 }

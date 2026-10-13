@@ -1,6 +1,6 @@
 import 'package:json_annotation/json_annotation.dart';
 
-part 'deafult_response.g.dart';
+part 'default_response.g.dart';
 
 @JsonSerializable()
 class DefaultResponse {

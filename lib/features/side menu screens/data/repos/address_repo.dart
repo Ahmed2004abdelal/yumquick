@@ -1,7 +1,7 @@
 import 'package:yumquick/core/networking/api_error_handler.dart';
 import 'package:yumquick/core/networking/api_result.dart';
 import 'package:yumquick/core/networking/api_service.dart';
-import 'package:yumquick/core/utils/models/deafult_response.dart';
+import 'package:yumquick/core/utils/models/default_response.dart';
 import 'package:yumquick/features/side%20menu%20screens/data/models/address%20models/add_address_request.dart';
 import 'package:yumquick/features/side%20menu%20screens/data/models/address%20models/add_address_response.dart';
 import 'package:yumquick/features/side%20menu%20screens/data/models/address%20models/get_address_response.dart';

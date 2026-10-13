@@ -54,3 +54,20 @@ void showSnack(BuildContext context, String message, Color color) {
       ),
     );
 }
+
+String getRatingLabel(double rating) {
+  switch (rating.toInt()) {
+    case 1:
+      return 'Poor';
+    case 2:
+      return 'Fair';
+    case 3:
+      return 'Good';
+    case 4:
+      return 'Very Good';
+    case 5:
+      return 'Excellent';
+    default:
+      return '';
+  }
+}

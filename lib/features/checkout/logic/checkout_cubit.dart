@@ -19,12 +19,18 @@ class CheckoutCubit extends Cubit<CheckoutState> {
   final CartRepo _cartRepo;
   final StripePaymentService _stripe;
   bool isSelected = true;
+  static const double _deliveryFee = 15.0;
+  static const double _taxRate = 0.14;
 
-  CheckoutCubit(this._checkoutRepo, this._cartRepo, this._stripe, CheckoutScreenModel model)
-    : super(
+  CheckoutCubit(
+    this._checkoutRepo,
+    this._cartRepo,
+    this._stripe,
+    CheckoutScreenModel model,
+  ) : super(
         CheckoutState(
           products: List.of(model.products),
-          totalPrice: model.totalPrice,
+          totalPrice: _calcTotal(model.products),
         ),
       ) {
     selectedAddress();
@@ -56,8 +62,12 @@ class CheckoutCubit extends Cubit<CheckoutState> {
     );
   }
 
-  double _calcTotal(Iterable<dynamic> items) =>
-      items.fold<double>(0, (sum, i) => sum + i.totalItemPrice);
+  static double _calcTotal(Iterable<dynamic> items) {
+    final subtotal = items.fold<double>(0, (s, i) => s + i.totalItemPrice);
+    if (subtotal == 0) return 0;
+    final total = subtotal + _deliveryFee + subtotal * _taxRate;
+    return double.parse(total.toStringAsFixed(2));
+  }
 
   Future<void> cancelItem(int cartItemId) async {
     final index = state.products.indexWhere((i) => i.id == cartItemId);
@@ -108,67 +118,73 @@ class CheckoutCubit extends Cubit<CheckoutState> {
     emit(state.copyWith(cashPaymentSelected: !state.cashPaymentSelected));
   }
 
-Future<void> payment() async {
-  if (state.checkoutStatus == CheckoutStatus.loading) return; 
-  final address = state.address;
-  if (address == null || address.id == 0) {
-    emit(state.copyWith(
-      checkoutStatus: CheckoutStatus.failure,
-      checkoutError: 'Please select an address',
-    ));
-    emit(state.copyWith(checkoutStatus: CheckoutStatus.initial));
-    return;
+  Future<void> payment() async {
+    if (state.checkoutStatus == CheckoutStatus.loading) return;
+    final address = state.address;
+    if (address == null || address.id == 0) {
+      emit(
+        state.copyWith(
+          checkoutStatus: CheckoutStatus.failure,
+          checkoutError: 'Please select an address',
+        ),
+      );
+      emit(state.copyWith(checkoutStatus: CheckoutStatus.initial));
+      return;
+    }
+
+    final hasSavedCard =
+        state.selectedCard != null && state.selectedCard!.id != 0;
+
+    emit(state.copyWith(checkoutStatus: CheckoutStatus.loading));
+
+    final response = await _checkoutRepo.checkout(
+      CheckoutRequest(
+        addressId: address.id,
+        paymentMethod: hasSavedCard ? 'SavedCard' : 'Card',
+        savedCardId: hasSavedCard ? state.selectedCard!.id : 0,
+      ),
+    );
+    if (isClosed) return;
+
+    await response.when(
+      success: (data) async {
+        final secret = data.clientSecret;
+        if (secret == null || secret.isEmpty) {
+          _emitPaymentFailure('Missing payment secret');
+          return;
+        }
+
+        final result = hasSavedCard
+            ? await _stripe.confirmWithClientSecret(secret)
+            : await _stripe.payWithPaymentSheet(secret);
+        if (isClosed) return;
+
+        if (result.isSuccess) {
+          emit(
+            state.copyWith(
+              checkoutStatus: CheckoutStatus.success,
+              checkoutSuccessResponse: data,
+            ),
+          );
+        } else if (result.outcome == StripeOutcome.canceled) {
+          emit(state.copyWith(checkoutStatus: CheckoutStatus.initial));
+        } else {
+          _emitPaymentFailure(result.message ?? 'Payment failed');
+        }
+      },
+      failure: (error) async {
+        _emitPaymentFailure(error.apiErrorModel.message ?? 'Checkout failed');
+      },
+    );
   }
 
-  final hasSavedCard =
-      state.selectedCard != null && state.selectedCard!.id != 0;
-
-  emit(state.copyWith(checkoutStatus: CheckoutStatus.loading));
-
-  final response = await _checkoutRepo.checkout(
-    CheckoutRequest(
-      addressId: address.id,
-      paymentMethod: hasSavedCard ? 'SavedCard' : 'Card',
-      savedCardId: hasSavedCard ? state.selectedCard!.id : 0,
-    ),
-  );
-  if (isClosed) return;
-
-  await response.when(
-    success: (data) async {
-      final secret = data.clientSecret;
-      if (secret == null || secret.isEmpty) {
-        _emitPaymentFailure('Missing payment secret');
-        return;
-      }
-
-      final result = hasSavedCard
-          ? await _stripe.confirmWithClientSecret(secret)
-          : await _stripe.payWithPaymentSheet(secret);
-      if (isClosed) return;
-
-      if (result.isSuccess) {
-        emit(state.copyWith(
-          checkoutStatus: CheckoutStatus.success,
-          checkoutSuccessResponse: data,
-        ));
-      } else if (result.outcome == StripeOutcome.canceled) {
-        emit(state.copyWith(checkoutStatus: CheckoutStatus.initial));
-      } else {
-        _emitPaymentFailure(result.message ?? 'Payment failed');
-      }
-    },
-    failure: (error) async {
-      _emitPaymentFailure(error.apiErrorModel.message ?? 'Checkout failed');
-    },
-  );
-}
-
-void _emitPaymentFailure(String message) {
-  emit(state.copyWith(
-    checkoutStatus: CheckoutStatus.failure,
-    checkoutError: message,
-  ));
-  emit(state.copyWith(checkoutStatus: CheckoutStatus.initial));
-}
+  void _emitPaymentFailure(String message) {
+    emit(
+      state.copyWith(
+        checkoutStatus: CheckoutStatus.failure,
+        checkoutError: message,
+      ),
+    );
+    emit(state.copyWith(checkoutStatus: CheckoutStatus.initial));
+  }
 }
