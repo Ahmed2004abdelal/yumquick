@@ -17,6 +17,16 @@ pluginManagement {
     }
 }
 
+buildscript {
+    configurations.classpath {
+           resolutionStrategy.eachDependency {
+       if (requested.group == "org.jetbrains.kotlin") {
+           useVersion("2.4.10")
+       }
+   }
+    }
+}
+
 plugins {
     id("dev.flutter.flutter-plugin-loader") version "1.0.0"
     id("com.android.application") version "9.1.0" apply false
