@@ -6,6 +6,8 @@ import 'package:yumquick/features/checkout/data/models/checkout%20models/checkou
 import 'package:yumquick/features/checkout/data/models/checkout%20models/checkout_response.dart';
 import 'package:yumquick/features/cart/data/models/get_cart_model.dart';
 import 'package:yumquick/features/cart/data/models/cart_action_models.dart';
+import 'package:yumquick/features/help/data/models/contact_us_model.dart';
+import 'package:yumquick/features/help/data/models/faq_model.dart';
 import 'package:yumquick/features/help/data/models/issue_messages_model.dart';
 import 'package:yumquick/features/help/data/models/support_issues_model.dart';
 import 'package:yumquick/features/home/data/models/add_to_cart_model.dart';
@@ -149,4 +151,10 @@ abstract class ApiService {
 
   @POST(ApiConstants.issues)
   Future<CreateIssueResponseModel> createIssue(@Body() CreateIssueModel body);
+
+  @GET(ApiConstants.contactInfo)
+  Future<List<ContactUsModel>> getContactInfo();
+
+  @GET(ApiConstants.faqs)
+  Future<List<FaqModel>> getFaqs();
 }

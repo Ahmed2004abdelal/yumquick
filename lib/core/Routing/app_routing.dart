@@ -223,7 +223,7 @@ class AppRouting {
           settings,
           BlocProvider<HelpCubit>.value(
             value: cubit,
-            child: const HelpCenterScreen(),
+            child: HelpCenterScreen(),
           ),
         );
 

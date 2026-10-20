@@ -42,6 +42,8 @@ class ApiConstants {
   static const String issues = 'Tickets';
   static const String issueReply = 'reply';
   static const String issueClose = 'close';
+  static const String contactInfo = 'Settings/contact-info';
+  static const String faqs = 'Settings/faqs';
 }
 
 class ApiErrors {

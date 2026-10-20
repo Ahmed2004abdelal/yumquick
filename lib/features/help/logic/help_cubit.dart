@@ -100,4 +100,53 @@ class HelpCubit extends Cubit<HelpState> {
       },
     );
   }
+
+  void changeSelectedTabIndex(int index) {
+    emit(state.copyWith(selectedTabIndex: index));
+  }
+
+  Future<void> getFaq() async {
+    emit(state.copyWith(faqStatus: HelpStatus.loading));
+    final response = await _helpRepo.getFAQ();
+    response.when(
+      success: (data) {
+        emit(
+          state.copyWith(faqStatus: HelpStatus.success, faqSuccessList: data),
+        );
+      },
+      failure: (message) {
+        emit(
+          state.copyWith(
+            faqStatus: HelpStatus.failure,
+            errorMessage:
+                message.apiErrorModel.message ?? 'Something went wrong',
+          ),
+        );
+      },
+    );
+  }
+
+  Future<void> getContactUs() async {
+    emit(state.copyWith(contactUsStatus: HelpStatus.loading));
+    final response = await _helpRepo.getContactInfo();
+    response.when(
+      success: (data) {
+        emit(
+          state.copyWith(
+            contactUsStatus: HelpStatus.success,
+            contactUsSuccessList: data,
+          ),
+        );
+      },
+      failure: (message) {
+        emit(
+          state.copyWith(
+            contactUsStatus: HelpStatus.failure,
+            errorMessage:
+                message.apiErrorModel.message ?? 'Something went wrong',
+          ),
+        );
+      },
+    );
+  }
 }
