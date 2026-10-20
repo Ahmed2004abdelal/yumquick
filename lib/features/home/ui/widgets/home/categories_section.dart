@@ -122,3 +122,8 @@ class BlocBuilderCategories extends StatelessWidget {
     );
   }
 }
+
+
+
+
+
