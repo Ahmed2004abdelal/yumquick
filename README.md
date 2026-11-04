@@ -19,19 +19,20 @@
 ## Screenshots
 
 <p align="center">
-  <img src="screens/Screenshot_1793714399-portrait.png" width="18%" alt="login" />
-  <img src="screens/Screenshot_1793714127-portrait.png" width="18%" alt="home" />
-  <img src="screens/Screenshot_1793714684-portrait.png" width="18%" alt="product details" />
-  <img src="screens/Screenshot_1793714698-portrait.png" width="18%" alt="cart" />
-  <img src="screens/Screenshot_1793714702-portrait.png" width="18%" alt="checkout" />
+  <img src="screens/Screenshot_1793714399-portrait.png" width="15%" alt="Login" />
+  <img src="screens/Screenshot_1793714127-portrait.png" width="15%" alt="Home" />
+  <img src="screens/Screenshot_1793714684-portrait.png" width="15%" alt="Product details" />
+  <img src="screens/Screenshot_1793714698-portrait.png" width="15%" alt="Cart" />
+  <img src="screens/Screenshot_1793714702-portrait.png" width="15%" alt="Checkout" />
+  <img src="screens/Screenshot_1793714705-portrait.png" width="15%" alt="Payment" />
 </p>
 
 <p align="center">
-  <img src="screens/Screenshot_1793714705-portrait.png" width="18%" alt="payment" />
-  <img src="screens/Screenshot_1793714453-portrait.png" width="18%" alt="my orders" />
-  <img src="screens/Screenshot_1793714450-portrait.png" width="18%" alt="favorites" />
-  <img src="screens/Screenshot_1793714506-portrait.png" width="18%" alt="help center" />
-  <img src="screens/Screenshot_1793714570-portrait.png" width="18%" alt="side menu" />
+  <img src="screens/Screenshot_1793714453-portrait.png" width="15%" alt="My orders" />
+  <img src="screens/Screenshot_1793714450-portrait.png" width="15%" alt="Favorites" />
+  <img src="screens/Screenshot_1793714506-portrait.png" width="15%" alt="Help center" />
+  <img src="screens/Screenshot_1793714551-portrait.png" width="15%" alt="Support chat" />
+  <img src="screens/Screenshot_1793714570-portrait.png" width="15%" alt="Side menu" />
 </p>
 
 ## Tech stack
