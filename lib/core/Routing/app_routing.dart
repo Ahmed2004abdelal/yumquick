@@ -71,7 +71,6 @@ class AppRouting {
         return _page(settings, ForgotPasswordScreen());
 
       case Routes.bottomNavBar:
-        // arguments اختيارية: لو مفيش أو مش int يفتح على أول تاب (Home)
         final args = settings.arguments;
         final index = args is int ? args : 0;
         return _page(settings, BottomNavBar(initialIndex: index));

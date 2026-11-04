@@ -41,7 +41,11 @@ class CategoriesShow extends StatelessWidget {
                     vertical: 12.h,
                   ),
                   decoration: BoxDecoration(
-                    color: AppColors.yellowTwo,
+                    color:
+                        context.read<HomeCubit>().state.categoryId ==
+                            categories[index].id
+                        ? AppColors.orangeBase
+                        : AppColors.yellowTwo,
                     borderRadius: BorderRadius.circular(30.r),
                   ),
                   child: Column(
@@ -49,6 +53,11 @@ class CategoriesShow extends StatelessWidget {
                       (categories.isNotEmpty)
                           ? Image.network(
                               categories[index].iconUrl,
+                              color:
+                                  context.read<HomeCubit>().state.categoryId ==
+                                      categories[index].id
+                                  ? AppColors.yellowTwo
+                                  : AppColors.orangeBase,
                               width: 32.81.w,
                               height: 37.h,
                               loadingBuilder:
@@ -122,8 +131,3 @@ class BlocBuilderCategories extends StatelessWidget {
     );
   }
 }
-
-
-
-
-
